@@ -8,6 +8,12 @@ body
     font-size: 70px;
     text-align:center;
 }
+#headline
+{
+    color:orange;
+    text-align:center;
+    font-size:100px;
+}
 /*
 #hh1
 {
@@ -32,6 +38,12 @@ body
     font-size: 60px;
     text-align:center;
 }
+#headline
+{
+    color:orange;
+    text-align:center;
+    font-size:90px;
+}
 }
 /* Medium Devices, Desktops 中型设备、台式机 */
 @media only screen and (min-width : 992px) {
@@ -41,6 +53,12 @@ body
     font-size: 40px;
     text-align:center;
 }
+#headline
+{
+    color:orange;
+    text-align:center;
+    font-size:70px;
+}
 }
 /* Large Devices, Wide Screens 大设备，宽屏幕 */
 @media only screen and (min-width : 1200px) {body
@@ -48,5 +66,11 @@ body
     background-color:#eafed0;
     font-size: 30px;
     text-align:center;
+}
+#headline
+{
+    color:orange;
+    text-align:center;
+    font-size:60px;
 }
 }
