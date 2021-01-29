@@ -1,0 +1,52 @@
+/* Custom, iPhone Retina 自定义，iPhone视网膜 */  
+@media only screen and (min-width : 320px) { 
+body
+{
+    /*background-image: url(img/bg6.jpg);
+    background-size: cover;*/
+    background-color:#eafed0;
+    font-size: 70px;
+    text-align:center;
+}
+/*
+#hh1
+{
+    color:orange;
+    text-align:center;
+    font-size:80px;
+}
+#text1
+{
+    color:black;
+    text-align:center;
+    font-size:40px;
+}*/
+}
+/* Extra Small Devices, Phones 超小型设备、电话 */
+/*@media only screen and (min-width : 25px) {}*/
+/* Small Devices, Tablets 小型设备、平板电脑 */
+@media only screen and (min-width : 768px) {
+body
+{
+    background-color:#eafed0;
+    font-size: 60px;
+    text-align:center;
+}
+}
+/* Medium Devices, Desktops 中型设备、台式机 */
+@media only screen and (min-width : 992px) {
+body
+{
+    background-color:#eafed0;
+    font-size: 40px;
+    text-align:center;
+}
+}
+/* Large Devices, Wide Screens 大设备，宽屏幕 */
+@media only screen and (min-width : 1200px) {body
+{
+    background-color:#eafed0;
+    font-size: 30px;
+    text-align:center;
+}
+}
