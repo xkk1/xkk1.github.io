@@ -27,6 +27,33 @@
             font-size:12px;
             text-align:center;
         }
+    #box{
+        width: 850px;
+        margin: 30px auto;
+    }
+    #input{
+        font-size: 30px;
+        width: 700px;
+        border: 1px solid #e2e2e2;
+        height: 60px;
+        float: left;
+        /*background-image: url(images/search.jpg);
+        background-repeat: no-repeat;
+        background-size: 25px;
+        background-position:5px center;*/
+        padding:0 0 0 40px;
+    }
+    #search{
+        font-size: 30px;
+        width: 150px;
+        height: 60px;
+        float: right;
+        background: black;
+        color: white;
+        text-align: center;
+        line-height: 32px;
+        cursor: pointer;
+    }
     </style>
 </head>
 <body>
@@ -34,6 +61,12 @@
     <p id="text1">欢迎来到小喾苦的网站
 <a href="https://github.com/xkk1/xkk1.github.io/" target=_blank>网站源码</a>
     </p>
+<form action="https://quark.sm.cn/s" method="get">
+    <div id="box">
+        <input id="input" type="search" name="q" placeholder="请输入关键字">
+        <button id="search">夸克搜索</button>
+    </div>
+</form>
     <p id="text1"><a href="http://xiaokuku.ys168.com/" target=_blank>小喾苦的网盘</a></p>
     <p id="text1"><a href="/program/">程序</a></p>
     <p id="text1"><a href="/other/">其他</a></p>
