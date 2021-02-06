@@ -1,4 +1,5 @@
 ### [返回主页](https://xkk1.github.io)　[返回其他](https://xkk1.github.io/other/)
+
 ---
 ## 网站分享-目录
 + [主页](#主页)
@@ -8,9 +9,11 @@
 + [编程](#编程)
 + [其他](#其他)
 ---
+
 ### <span id="主页">主页</span>
 <https://a.maorx.cn/> 青柠起始页  
 <http://wujiesou.com/> 无解搜  
+
 ### <span id="搜索引擎">搜索引擎</span>
 [https://www.baidu.com/s?ie=utf-8&word=](https://www.baidu.com/) 百度  
 [https://cn.bing.com/search?q=](https://cn.bing.com/) 必应  
@@ -28,6 +31,7 @@
 - **文档搜索引擎**  
 <https://www.jiumodiary.com/> 鸠摩搜索  
 <https://ebook.blinkol.com/> 熊猫搜书  
+
 ### <span id="网盘">网盘</span>
 <https://pan.baidu.com/> 百度网盘 1T 限制速度  
 <https://www.lanzou.com/> 蓝奏云 限制单个大小、类型  
@@ -37,6 +41,7 @@
 <https://www.laogoupan.com/> 老狗盘  
 <https://www.90pan.com/> 90网盘  
 <https://quqi.com/> 曲奇云盘 2T  
+
 ### <span id="工具">工具</span>
 <https://tinify.cn/> 图片压缩  
 <https://bigjpg.com/> AI人工智能图片放大  
@@ -59,10 +64,12 @@
 <https://note.youdao.com/> 有道云笔记  
 <https://wn.run/> 万能命令wn.run/后接任意网址  
 <https://member.bilibili.com/studio/bs-editor> bilibili云剪辑 
+
 ### <span id="编程">编程</span>
 <https://github.com/> GitHub  
 <https://www.csdn.net/> 中国专业IT社区  
 <https://www.runoob.com/> 菜鸟教程  
+
 ### <span id="其他">其他</span>
 <https://hiccears.com/> HicceArs  
 <https://github.com/nyahentai>  
