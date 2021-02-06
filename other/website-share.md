@@ -46,7 +46,7 @@
 <https://tinify.cn/> 图片压缩  
 <https://bigjpg.com/> AI人工智能图片放大  
 <https://docs.wps.cn/> 金山文档 Office在线办公  
-<https://note.youdo.com/> 有道云笔记  
+<https://note.youdao.com/> 有道云笔记  
 <https://www.gaoding.com> 稿定设计 设计聚合 [在线PS工具https://ps.gaoding.com/#/](https://ps.gaoding.com/#/)  
 <https://www.toolnb.com/> 爱资料在线工具  
 <https://jingzhunyun.com/> 精准云工具  
