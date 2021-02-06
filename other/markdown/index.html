@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Markdown</title>
+</head>
+<body>
+<!--这里面写内容(Markdown)-->
+<div id="markdown">
+## [返回主页](https://xkk1.github.io)　[返回其他](https://xkk1.github.io/other/)
+# Markdown
+你看到的的这个页面就是由Markdown写的
+## [有道云笔记Markdown编辑器](./youdao-markdown/)
+## 小喾苦Markdown解析端口：
+### 解析文件：
+#### https://xkk1.github.io/other/markdown/md.html?md=你的Markdown地址
+#### [例子](./md.html?md=index.md)
+### 放在网页里
+#### 查看本页源代码
+## marked Markdown解析：
+### 解析文件：
+#### [例子](./marked.html?md=index.md)
+### 放在网页里
+#### [例子](./marked-example.html)
+</div>
+<!--代码高亮支持-->
+<link rel="stylesheet" href="./default.min.css">
+<script src="./highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!--marked解析markdown-->
+<script src="./marked.min.js"></script>
+<!--调用-->
+<script>
+    let markdown = document.getElementById('markdown');
+    markdown.innerHTML = marked(markdown.innerHTML);
+</script>
+</body>
+</html>
