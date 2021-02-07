@@ -5,7 +5,7 @@ body
     /*background-image: url(img/bg6.jpg);
     background-size: cover;*/
     background-color:#eafed0;
-    font-size: 70px;
+    font-size: 50px;
     text-align:center;
 }
 #headline
@@ -35,7 +35,7 @@ body
 body
 {
     background-color:#eafed0;
-    font-size: 60px;
+    font-size: 45px;
     text-align:center;
 }
 #headline
@@ -64,7 +64,7 @@ body
 @media only screen and (min-width : 1200px) {body
 {
     background-color:#eafed0;
-    font-size: 30px;
+    font-size: 35px;
     text-align:center;
 }
 #headline
