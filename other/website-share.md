@@ -1,7 +1,7 @@
-### [返回主页](https://xkk1.github.io)　[返回其他](https://xkk1.github.io/other/)
+### <span id="begin">[返回主页](https://xkk1.github.io)　[返回其他](https://xkk1.github.io/other/)</span>
 
 ---
-## 网站分享-目录
+## <span id="content">网站分享-目录</span>
 + [主页](#主页)
 + [搜索引擎](#搜索引擎)
 + [网盘](#网盘)
@@ -74,3 +74,5 @@
 <https://hiccears.com/> HicceArs  
 <https://github.com/nyahentai>  
 <https://github.com/baoyutv1/baoyu/wiki/baoyu>  
+
+#### [返回顶部](#begin) [回到目录](#content)  
