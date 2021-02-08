@@ -68,7 +68,10 @@
 <https://www.ffkuaidu.com/> 在线文字转语音，讯飞快读  
 <https://note.youdao.com/> 有道云笔记  
 <https://wn.run/> 万能命令wn.run/后接任意网址  
-<https://member.bilibili.com/studio/bs-editor> bilibili云剪辑 
+<https://member.bilibili.com/studio/bs-editor> bilibili云剪辑  
+<https://www.zybuluo.com/mdeditor> Cmd Markdown 编辑阅读器  
+<http://up.ly93.cc/> 文件直链平台  
+<https://pic.gimhoy.com/> Gimhoy图床  
 
 ### <span id="编程">编程</span>
 <https://github.com/> GitHub  
