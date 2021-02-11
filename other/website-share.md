@@ -22,7 +22,8 @@
 [https://www.baidu.com/s?ie=utf-8&word=](https://www.baidu.com/) 百度  
 [https://cn.bing.com/search?q=](https://cn.bing.com/) 必应  
 ~~[https://www.google.com/search?q=](https://www.google.com/) 谷歌~~  
-<http://www.google.cn.ua/> 谷歌镜像  
+<http://www.google.cn.ua/>  谷歌镜像1  
+<http://g.caduo.ml>谷歌镜像2  
 [https://www.dogedoge.com/results?q=](https://www.dogedoge.com/) 多吉搜索  
 [https://magi.com/search?q=](https://note.youdao.com/) Magi  
 [https://lookao.com/search?q=](https://lookao.com/) LooKao  
@@ -72,10 +73,11 @@
 <https://www.zybuluo.com/mdeditor> Cmd Markdown 编辑阅读器  
 <http://up.ly93.cc/> 文件直链平台  
 <https://pic.gimhoy.com/> Gimhoy图床  
+<https://imgchr.com/> 路过图床  
 
 ### <span id="编程">编程</span>
 <https://github.com/> GitHub  
-<https://www.csdn.net/> 中国专业IT社区  
+<https://www.csdn.net/> CSDN中国专业IT社区  
 <https://www.runoob.com/> 菜鸟教程  
 
 ### <span id="其他">其他</span>
@@ -84,4 +86,4 @@
 <https://github.com/baoyutv1/baoyu/wiki/baoyu>  
 
 #### [返回顶部](#begin) [回到目录](#content)  
-<span id="end">更新时间：2021-2-8 20:13:44  QQ:3434623263<span>  
+<span id="end">更新时间：2021-2-11 14:02:46&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>  
