@@ -34,11 +34,11 @@ window.onload = function () {
     var titleTime;
     document.addEventListener('visibilitychange', function () {
         if (document.hidden) {
-            document.title = 'ヽ(≧□≦)ノ快回来，网页崩溃啦！' + OriginTitile;
+            document.title = '快回来，网页崩溃啦！ヽ(≧□≦)ノ' + OriginTitile;
             clearTimeout(titleTime);
         }
         else {
-            document.title = '<(￣︶￣)>咦！又好了！' + OriginTitile;
+            document.title = '咦！又好了！<(￣︶￣)>' + OriginTitile;
             titleTime = setTimeout(function () {
                 document.title = OriginTitile;
             }, 2000);
