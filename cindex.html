@@ -28,6 +28,24 @@
             text-align:center;
         }
     </style>
+    <script>
+window.onload = function () {
+    var OriginTitile = document.title;
+    var titleTime;
+    document.addEventListener('visibilitychange', function () {
+        if (document.hidden) {
+            document.title = 'ヽ(≧□≦)ノ快回来，网页崩溃啦！' + OriginTitile;
+            clearTimeout(titleTime);
+        }
+        else {
+            document.title = '<(￣︶￣)>咦！又好了！' + OriginTitile;
+            titleTime = setTimeout(function () {
+                document.title = OriginTitile;
+            }, 2000);
+        }
+    });
+}
+    </script>
 </head>
 <body>
     <h1 id="hh1">小喾苦的网站</h1>
