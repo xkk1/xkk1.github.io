@@ -3,16 +3,21 @@
 body
 {
     /*background-image: url(img/bg6.jpg);
-    background-size: cover;*/
-    background-color:#eafed0;
+    background-size: cover;
     font-size: 50px;
-    text-align:center;
+    text-align:center;*/
+    background-color:#eafed0;
 }
 #headline
 {
     color:orange;
     text-align:center;
     font-size:100px;
+}
+#text
+{
+    text-align:center;
+    font-size:50px;
 }
 /*
 #hh1
@@ -35,8 +40,6 @@ body
 body
 {
     background-color:#eafed0;
-    font-size: 45px;
-    text-align:center;
 }
 #headline
 {
@@ -44,14 +47,17 @@ body
     text-align:center;
     font-size:90px;
 }
+#text
+{
+    text-align:center;
+    font-size:45px;
+}
 }
 /* Medium Devices, Desktops 中型设备、台式机 */
 @media only screen and (min-width : 992px) {
 body
 {
     background-color:#eafed0;
-    font-size: 40px;
-    text-align:center;
 }
 #headline
 {
@@ -59,18 +65,26 @@ body
     text-align:center;
     font-size:70px;
 }
+#text
+{
+    text-align:center;
+    font-size:40px;
+}
 }
 /* Large Devices, Wide Screens 大设备，宽屏幕 */
 @media only screen and (min-width : 1200px) {body
 {
     background-color:#eafed0;
-    font-size: 35px;
-    text-align:center;
 }
 #headline
 {
     color:orange;
     text-align:center;
     font-size:60px;
+}
+#text
+{
+    text-align:center;
+    font-size:35px;
 }
 }
