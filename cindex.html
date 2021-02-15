@@ -34,11 +34,11 @@ window.onload = function () {
     var titleTime;
     document.addEventListener('visibilitychange', function () {
         if (document.hidden) {
-            document.title = '快回来，网页崩溃啦！ヽ(≧□≦)ノ' + OriginTitile;
+            document.title = '快回来，网页崩溃啦！' + OriginTitile;
             clearTimeout(titleTime);
         }
         else {
-            document.title = '咦！又好了！<(￣︶￣)>' + OriginTitile;
+            document.title = '咦！又好了！' + OriginTitile;
             titleTime = setTimeout(function () {
                 document.title = OriginTitile;
             }, 2000);
@@ -55,6 +55,7 @@ window.onload = function () {
     <p id="text1"><a href="http://xiaokuku.ys168.com/" target=_blank>小喾苦的网盘</a></p>
     <p id="text1"><a href="/program/">程序</a></p>
     <p id="text1"><a href="/other/">其他</a></p>
-<p id="text1"><a href="./mindex.html">您正在访问电脑版，点击访问手机版</a></p>
+    <p id="text1"><a href="/messang.html">留言板-测试</a></p>
+<p id="text1"><a href="./mindex.html">访问手机版</a></p>
 </body>
 </html>
