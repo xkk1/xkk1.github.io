@@ -1,6 +1,6 @@
 # 网站分享
 
-### <span id="begin">[返回主页](https://xkk1.github.io)　[返回其他](https://xkk1.github.io/other/)</span>
+### <span id="begin">[返回主页](https://xkk1.github.io)&nbsp;&nbsp;&nbsp;[返回其他](https://xkk1.github.io/other/)</span>
 
 ---
 
@@ -61,8 +61,11 @@
 <https://52online.vip/> 吾爱分享VIP影视  
 <http://www.ciding.fun/> 磁钉VIP音乐解析  
 <https://daga.cc/yue/> 全民音乐解析，付费歌曲免费下载  
+<http://tool.bitefu.net/music/> 音乐搜索器  
+<https://xkk1.github.io/other/markdown/md.html?md=../vip-video-resolution-address.md> VIP视频解析端口  
 <http://vipjx.info/> VIP视频在线解析  
 <http://www.freeget.org/> freegetVIP视频在线解析  
+<http://tool.bitefu.net/video/> VIP视频解析接口  
 <https://bilicover.magecorn.com/> bilibili封面提取  
 <https://u.nu/> 短网址生成  
 <https://www.wjx.cn/> 问卷星  
@@ -74,6 +77,7 @@
 <http://up.ly93.cc/> 文件直链平台  
 <https://pic.gimhoy.com/> Gimhoy图床  
 <https://imgchr.com/> 路过图床  
+<https://caiyunapp.com/weather/> 彩云天气  
 
 ### <span id="编程">编程</span>
 <https://github.com/> GitHub  
@@ -86,4 +90,4 @@
 <https://github.com/baoyutv1/baoyu/wiki/baoyu>  
 
 #### [返回顶部](#begin) [回到目录](#content)  
-<span id="end">更新时间：2021-2-11 14:02:46&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>  
+<span id="end">更新时间：2021-2-19 15:43:45&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>  
