@@ -23,14 +23,14 @@
 [https://cn.bing.com/search?q=](https://cn.bing.com/) 必应  
 ~~[https://www.google.com/search?q=](https://www.google.com/) 谷歌~~  
 <http://www.google.cn.ua/>  谷歌镜像1  
-<http://g.caduo.ml>谷歌镜像2  
+<http://g.caduo.ml> 谷歌镜像2  
 [https://www.dogedoge.com/results?q=](https://www.dogedoge.com/) 多吉搜索  
-[https://magi.com/search?q=](https://note.youdao.com/) Magi  
+[https://magi.com/search?q=](https://magi.com/) Magi  
 [https://lookao.com/search?q=](https://lookao.com/) LooKao  
 ~~[https://duckduckgo.com/?q=](https://duckduckgo.com/) DuckDuckGo~~  
 [https://mijisou.com/?q=](https://mijisou.com/) 秘迹搜索  
 [https://www.sogou.com/web?query=](https://www.sogou.com/) 搜狗搜索  
-[https://www.so.com/s?q=](https://www.so.com/)360搜索  
+[https://www.so.com/s?q=](https://www.so.com/) 360搜索  
 [https://quark.sm.cn/s?q=](https://quark.sm.cn/) 夸克搜索  
 [https://so.m.sm.cn/s?q=](https://so.m.sm.cn/) 神马搜索  
 
@@ -82,7 +82,8 @@
 ### <span id="编程">编程</span>
 <https://github.com/> GitHub  
 <https://www.csdn.net/> CSDN中国专业IT社区  
-<https://www.runoob.com/> 菜鸟教程  
+<https://www.runoob.com/> 菜鸟教程 
+<https://www.dooccn.com/python3/> Python3在线编程  
 
 ### <span id="其他">其他</span>
 <https://hiccears.com/> HicceArs  
@@ -90,4 +91,4 @@
 <https://github.com/baoyutv1/baoyu/wiki/baoyu>  
 
 #### [返回顶部](#begin) [回到目录](#content)  
-<span id="end">更新时间：2021-2-19 15:43:45&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>  
+<span id="end">更新时间：2021-2-26 20:42:42&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>  
