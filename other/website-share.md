@@ -78,6 +78,7 @@
 <https://pic.gimhoy.com/> Gimhoy图床  
 <https://imgchr.com/> 路过图床  
 <https://caiyunapp.com/weather/> 彩云天气  
+<https://his.sh/> 在网址前加上his.sh来查看其快照  
 
 ### <span id="编程">编程</span>
 <https://github.com/> GitHub  
@@ -89,6 +90,7 @@
 <https://hiccears.com/> HicceArs  
 <https://github.com/nyahentai>  
 <https://github.com/baoyutv1/baoyu/wiki/baoyu>  
+<https://18comic1.one/> <http://jmcomic.xyz>  
 
 #### [返回顶部](#begin) [回到目录](#content)  
-<span id="end">更新时间：2021-2-26 20:42:42&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>  
+<span id="end">更新时间：2021-3-9 22:01:23&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>  
