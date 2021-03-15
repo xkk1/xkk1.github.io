@@ -28,6 +28,10 @@ var $_GET = (function(){
         return {};
     }
 })();
+    try{
+        document.title = decodeURI($_GET['title']);
+    }
+    catch (e){};
     var mdfile= decodeURI($_GET['md']);
 
     function httpGet(theUrl)
