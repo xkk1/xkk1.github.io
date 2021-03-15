@@ -29,7 +29,8 @@ var $_GET = (function(){
     }
 })();
     var title = decodeURI($_GET['title']);
-    if (title != undefined)
+    if (typeof(title) != "undefined")
+    {
         document.title = title;
     }
     catch (e){};
