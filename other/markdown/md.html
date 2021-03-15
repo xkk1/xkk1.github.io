@@ -29,7 +29,7 @@ var $_GET = (function(){
     }
 })();
     var title = decodeURI($_GET['title']);
-    if (typeof(title) != "undefined")
+    if (title != undefined)
     {
         document.title = title;
     }
