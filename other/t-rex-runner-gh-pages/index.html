@@ -12,7 +12,7 @@
 
 <body id="t" class="offline">
     <div id="messageBox" class="sendmessage">
-         <h1 style="text-align: center;font-family: 'Open Sans', sans-serif;"><br><br><br><br><br><br><br><br>Press Space to start 按空格键开始</h1>
+         <h1 style="text-align: center;font-family: 'Open Sans', sans-serif;">Press Space to start 按空格键开始</h1>
          <div class="niokbutton" onclick="okbuttonsend()"></div>
     </div>
     <div id="main-frame-error" class="interstitial-wrapper">
@@ -29,10 +29,14 @@
             </template>
         </div>
     </div>
-<a href="https://xkk1.github.io" target="_blank">go to xkk1 website</a>
 </body>
-
 <script>
+try{
+    if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+        var box = document.getElementById("messageBox");
+        box.style.visibility="hidden";
+    }
+}catch(e){}
     document.onkeydown = function(evt) {
     evt = evt || window.event;
     if (evt.keyCode == 32) {
