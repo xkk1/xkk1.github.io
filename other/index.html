@@ -6,6 +6,11 @@
 <link rel="stylesheet" type="text/css" href="../main.css" />
 </head>
 <body>
+<h1 id="headline" onclick="javascript:display('secret');">程序</h1>
+<div id="secret" style="display:none">
+    <input type="password" id="password" name="password" placeholder="请输入密码" value="" />
+    <input type="submit" id="submit" value="确认" onclick="return toopen();">
+</div>
     <p id="text">
 <a href="/">返回主页</a>
 <br><br>
@@ -16,12 +21,50 @@
 <br><br>
 <a href="http://note.youdao.com/s/85hywnSU" target="_blank">软件收藏</a>
 <br><br>
-<a href="./markdown/md.html?title=VIP%E8%A7%86%E9%A2%91%E8%A7%A3%E6%9E%90%E7%AB%AF%E5%8F%A3&md=../vip-video-resolution-address.md#title" target="_blank">vip视频解析端口</a>:
-<a href="https://github.com/xkk1/xkk1.github.io/blob/master/other/vip-video-resolution-address.md#title" target="_blank">github</a>
-<br><br>
 <a href="./t-rex-runner-gh-pages/" target="_blank">谷歌小恐龙</a>
 <br><br>
 <a href="./markdown/">Markdown</a>
     </p>
+<div id="secret_information" style="display:none">
+    <p id="text">
+    <a href="./markdown/md.html?title=VIP%E8%A7%86%E9%A2%91%E8%A7%A3%E6%9E%90%E7%AB%AF%E5%8F%A3&md=../vip-video-resolution-address.md#title" target="_blank">vip视频解析端口</a>:
+    <a href="https://github.com/xkk1/xkk1.github.io/blob/master/other/vip-video-resolution-address.md#title" target="_blank">github</a>
+    <br><br>
+    </p>
+</div>
+<script type="text/javascript">
+var verification=false
+function toopen(){
+    if(document.getElementById("password").value=="13579"){
+        document.getElementById("secret_information").style.display="";
+        document.getElementById("secret").style.display="none";
+       //var traget=document.getElementById("secret_information");
+       //traget.style.display="";
+       //document.forms[0].action="try.html";
+       verification=true
+       return true;
+    }else{
+    alert("密码不正确！")
+    return false;
+    }
+}
+function display(id){  
+    if (verification){
+        var traget=document.getElementById("secret_information");  
+        if (traget.style.display=="none"){
+            traget.style.display="";  
+        }else{
+            traget.style.display="none";  
+        }
+    }else{
+        var traget=document.getElementById(id);  
+        if(traget.style.display=="none"){  
+            traget.style.display="";  
+        }else{  
+            traget.style.display="none";  
+        }  
+    }
+}  
+</script>
 </body>
 </html>
