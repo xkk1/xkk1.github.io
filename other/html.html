@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>小喾苦HTML</title>
+</head>
+<body>
+<div id="html"></div>
+<script>
+var $_GET = (function(){
+    var url = window.document.location.href.toString(); //获取的完整url
+    var u = url.split("?");
+    if(typeof(u[1]) == "string"){
+        u = u[1].split("&");
+        var get = {};
+        for(var i in u){
+            var j = u[i].split("=");
+            get[j[0]] = j[1];
+        }
+        return get;
+    } else {
+        return {};
+    }
+})();
+    var title = decodeURI($_GET['title']);
+    if (title != "undefined")
+    {
+        document.title = title;
+    }
+    var mdfile = decodeURI($_GET['md']);
+
+    function httpGet(theUrl)
+    {
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+    xmlHttp.send( null );
+    return xmlHttp.responseText;
+}
+document.getElementById('html').innerHTML = httpGet(mdfile);
+</script>
+</body>
+</html>
