@@ -27,7 +27,7 @@ var $_GET = (function(){
     {
         document.title = title;
     }
-    var mdfile = decodeURI($_GET['md']);
+    var htmlfile = decodeURI($_GET['html']);
 
     function httpGet(theUrl)
     {
@@ -36,7 +36,7 @@ var $_GET = (function(){
     xmlHttp.send( null );
     return xmlHttp.responseText;
 }
-document.getElementById('html').innerHTML = httpGet(mdfile);
+document.getElementById('html').innerHTML = httpGet(htmlfile);
 </script>
 </body>
 </html>
