@@ -32,16 +32,17 @@ var $_GET = (function(){
     {
         document.title = title;
     }
-    var htmlfile = decodeURI($_GET['html']);
-
-    function httpGet(theUrl)
-    {
+    
+var htmlfile = decodeURI($_GET['html']);
+if (htmlfile != "undefined"){
+function httpGet(theUrl){
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
     xmlHttp.send( null );
     return xmlHttp.responseText;
+    }
+    document.getElementById('html').innerHTML = httpGet(htmlfile);
 }
-document.getElementById('html').innerHTML = httpGet(htmlfile);
 </script>
 </body>
 </html>
