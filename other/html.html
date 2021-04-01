@@ -1,11 +1,16 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="utf-8"/>
-    <title>小喾苦HTML</title>
+    <meta charset="utf-8">
 </head>
 <body>
-<div id="html"></div>
+<div id="html">
+<h1>html代码效果展示接口</h1>
+get请求：
+ https://xkk1.github.io/other/html.html?html=文件地址&title=标题
+注意事项：
+ 其实是把代码放到了body里
+</div>
 <script>
 var $_GET = (function(){
     var url = window.document.location.href.toString(); //获取的完整url
