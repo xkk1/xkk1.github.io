@@ -19,7 +19,7 @@
 <http://wujiesou.com/> 无解搜  
 
 ### <span id="搜索引擎">搜索引擎</span>
-[https://www.baidu.com/s?ie=utf-8&word=](https://www.baidu.com/) 百度  
+[https://www.baidu.com/s?ie=utf-8&word=](https://www.baidu.com/) 百度 [精简版](https://m.baidu.com/?pu=sz@1321_480) [极简](https://m.baidu.com/?pu=sz@1330_640) [简易百度贴吧](https://tieba.baidu.com/mo/q---64659F94BB1F8A1C07A4FA3FFF91F6A0:FG=1-,sz@176_208-1-1-0--2/m) [简易百度图片](https://image.baidu.com/search/wisemidresult?word=%E7%99%BE%E5%BA%A6&tn=wisemidresult)  
 [https://cn.bing.com/search?q=](https://cn.bing.com/) 必应  
 ~~[https://www.google.com/search?q=](https://www.google.com/) 谷歌~~  
 <http://www.google.cn.ua/>  谷歌镜像1  
@@ -79,6 +79,7 @@
 <https://imgchr.com/> 路过图床  
 <https://caiyunapp.com/weather/> 彩云天气  
 <https://his.sh/> 在网址前加上his.sh来查看其快照  
+<https://www.geogebra.org/download> GeoGebra数学工具在线使用下载  
 
 ### <span id="编程">编程</span>
 <https://github.com/> GitHub  
@@ -93,4 +94,4 @@
 <https://18comic1.one/> <http://jmcomic.xyz>  
 
 #### [返回顶部](#begin) [回到目录](#content)  
-<span id="end">更新时间：2021-3-9 22:01:23&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>  
+<span id="end">更新时间：2021年4月3日 22:15&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
