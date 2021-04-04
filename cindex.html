@@ -28,24 +28,6 @@
             text-align:center;
         }
     </style>
-    <script>
-window.onload = function () {
-    var OriginTitile = document.title;
-    var titleTime;
-    document.addEventListener('visibilitychange', function () {
-        if (document.hidden) {
-            document.title = '快回来，网页崩溃啦！' + OriginTitile;
-            clearTimeout(titleTime);
-        }
-        else {
-            document.title = '咦！又好了！' + OriginTitile;
-            titleTime = setTimeout(function () {
-                document.title = OriginTitile;
-            }, 2000);
-        }
-    });
-}
-    </script>
 </head>
 <body>
     <h1 id="hh1">小喾苦的网站</h1>
@@ -60,5 +42,20 @@ window.onload = function () {
         <a href="/message.html">留言板-测试</a><br><br>
         <a href="./mindex.html">访问手机版</a><br><br>
     </p>
+<script>
+//随机标题
+var OriginTitle = document.title;
+var Titles = [
+"人生皆苦",
+"珍惜你现在所拥有的东西",
+"己所不欲勿施于人",
+"人生如路，必须得从最荒凉的旅途中才能走出最繁华的风景",
+"人生如过隙，弹指一挥间",
+"人外有人，天外有天",
+"活到老，学到老"
+];
+var ChooseTitle =  Titles[Math.floor(Math.random() * Titles.length)];
+document.title = OriginTitle + ' ' + ChooseTitle;
+</script>
 </body>
 </html>
