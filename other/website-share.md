@@ -1,4 +1,4 @@
-# 网站分享
+# <span id="title">网站分享</span>
 
 ### <span id="begin">[返回主页](https://xkk1.github.io)&nbsp;&nbsp;&nbsp;[返回其他](https://xkk1.github.io/other/)</span>
 
@@ -59,13 +59,6 @@
 <http://tools.bugscaner.com/> 在线工具  
 <http://tool.114la.com/> 114啦工具箱  
 <https://52online.vip/> 吾爱分享VIP影视  
-<http://www.ciding.fun/> 磁钉VIP音乐解析  
-<https://daga.cc/yue/> 全民音乐解析，付费歌曲免费下载  
-<http://tool.bitefu.net/music/> 音乐搜索器  
-<https://xkk1.github.io/other/markdown/md.html?md=../vip-video-resolution-address.md> VIP视频解析端口  
-<http://vipjx.info/> VIP视频在线解析  
-<http://www.freeget.org/> freegetVIP视频在线解析  
-<http://tool.bitefu.net/video/> VIP视频解析接口  
 <https://bilicover.magecorn.com/> bilibili封面提取  
 <https://u.nu/> 短网址生成  
 <https://www.wjx.cn/> 问卷星  
@@ -88,10 +81,7 @@
 <https://www.dooccn.com/python3/> Python3在线编程  
 
 ### <span id="其他">其他</span>
-<https://hiccears.com/> HicceArs  
-<https://github.com/nyahentai>  
-<https://github.com/baoyutv1/baoyu/wiki/baoyu>  
-<https://18comic1.one/> <http://jmcomic.xyz>  
+无  
 
 #### [返回顶部](#begin) [回到目录](#content)  
 <span id="end">更新时间：2021年4月3日 22:15&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
