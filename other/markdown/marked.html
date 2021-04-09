@@ -5,7 +5,13 @@
     <title>markdown - Marked</title>
 </head>
 <body>
-<div id="markdown"></div>
+<div id="markdown">
+<h1>正在加载网页内容 . . .</h1>
+<h2>Marked解析markdown</h2>
+<p>get请求：<br>
+https://xkk1.github.io/other/markdown/marked.html?title=标题&md=Markdown文件地址<br>
+</p>
+</div>
 <!--marked解析markdown-->
 <script src="./marked.min.js"></script>
 <script>
@@ -31,6 +37,25 @@ var $_GET = (function(){
     }
     var mdfile = decodeURI($_GET['md']);
 
+function innerMarkdown(md) {
+    document.getElementById('markdown').innerHTML = marked(md);
+}
+
+function httpGetAsync(theUrl, callback)
+{
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function() { 
+        //callback(xmlHttp.responseText);
+        if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+            callback(xmlHttp.responseText); // 这里获得返回数据。如有需要，结合实际情况进行解析处理。
+        else{callback("<h1>加载失败！可能是Markdown原文件已失效。</h1>")}
+    }
+    xmlHttp.open("GET", theUrl, true); // true 为异步
+    xmlHttp.send(null);
+}
+
+httpGetAsync(mdfile, innerMarkdown);
+/*
     var httpRequest = new XMLHttpRequest();//第一步：建立所需的对象
     httpRequest.open('GET', mdfile, true);//第二步：打开连接 将请求参数写在url中 ps:"./Ptest.php?name=test&nameone=testone"
     httpRequest.send();//第三步：发送请求  将请求参数写在URL中
@@ -41,8 +66,8 @@ var $_GET = (function(){
         //if (httpRequest.readyState == 4 && httpRequest.status == 200) {
         //    var json = httpRequest.responseText;//获取到json字符串，还需解析
         //    console.log(json);
-        };
-
+        }
+*/
 /*
     function httpGet(theUrl)
     {
