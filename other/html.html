@@ -32,7 +32,26 @@ var $_GET = (function(){
     {
         document.title = title;
     }
-    
+
+function innerHtml(html) {
+    document.getElementById('markdown').innerHTML = html;
+}
+
+function httpGetAsync(theUrl, callback)
+{
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function() { 
+        //callback(xmlHttp.responseText);
+        if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+            callback(xmlHttp.responseText); // 这里获得返回数据。如有需要，结合实际情况进行解析处理。
+        else{callback("<h1>加载失败！</h1>")}
+    }
+    xmlHttp.open("GET", theUrl, true); // true 为异步
+    xmlHttp.send(null);
+}
+
+httpGetAsync(htmlfile, innerHtml);
+/*
 var htmlfile = decodeURI($_GET['html']);
 if (htmlfile != "undefined"){
 function httpGet(theUrl){
@@ -42,7 +61,7 @@ function httpGet(theUrl){
     return xmlHttp.responseText;
     }
     document.getElementById('html').innerHTML = httpGet(htmlfile);
-}
+}*/
 </script>
 </body>
 </html>
