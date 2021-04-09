@@ -35,7 +35,7 @@ var $_GET = (function(){
 var htmlfile = decodeURI($_GET['html']);
 
 function innerHtml(html) {
-    document.getElementById('markdown').innerHTML = html;
+    document.getElementById('html').innerHTML = html;
 }
 
 function httpGetAsync(theUrl, callback)
