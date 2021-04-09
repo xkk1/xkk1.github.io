@@ -1,18 +1,13 @@
 <!doctype html>
 <html>
 <head>
-  <meta charset="utf-8"/>
-  <title>marked Markdown解析</title>
+    <meta charset="utf-8"/>
+    <title>markdown - Marked</title>
 </head>
 <body>
 <div id="markdown"></div>
-<!--代码高亮支持-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/default.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
 <!--marked解析markdown-->
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-<!--调用-->
+<script src="./marked.min.js"></script>
 <script>
 var $_GET = (function(){
     var url = window.document.location.href.toString(); //获取的完整url
@@ -29,8 +24,26 @@ var $_GET = (function(){
         return {};
     }
 })();
-    var mdfile= decodeURI($_GET['md']);
+    var title = decodeURI($_GET['title']);
+    if (title != "undefined")
+    {
+        document.title = title;
+    }
+    var mdfile = decodeURI($_GET['md']);
 
+    var httpRequest = new XMLHttpRequest();//第一步：建立所需的对象
+    httpRequest.open('GET', mdfile, true);//第二步：打开连接 将请求参数写在url中 ps:"./Ptest.php?name=test&nameone=testone"
+    httpRequest.send();//第三步：发送请求  将请求参数写在URL中
+    
+    httpRequest.onreadystatechange = function () {
+        var html = httpRequest.responseText;
+        document.getElementById('markdown').innerHTML = marked(html);
+        //if (httpRequest.readyState == 4 && httpRequest.status == 200) {
+        //    var json = httpRequest.responseText;//获取到json字符串，还需解析
+        //    console.log(json);
+        };
+
+/*
     function httpGet(theUrl)
     {
     var xmlHttp = new XMLHttpRequest();
@@ -38,7 +51,7 @@ var $_GET = (function(){
     xmlHttp.send( null );
     return xmlHttp.responseText;
 }
-document.getElementById('markdown').innerHTML = marked(httpGet(mdfile));
+document.getElementById('markdown').innerHTML = marked(httpGet(mdfile));*/
 </script>
 </body>
 </html>
