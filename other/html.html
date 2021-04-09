@@ -32,6 +32,7 @@ var $_GET = (function(){
     {
         document.title = title;
     }
+var htmlfile = decodeURI($_GET['html']);
 
 function innerHtml(html) {
     document.getElementById('markdown').innerHTML = html;
@@ -49,10 +50,9 @@ function httpGetAsync(theUrl, callback)
     xmlHttp.open("GET", theUrl, true); // true 为异步
     xmlHttp.send(null);
 }
+if (htmlfile != "undefined"){httpGetAsync(htmlfile, innerHtml);}
 
-httpGetAsync(htmlfile, innerHtml);
 /*
-var htmlfile = decodeURI($_GET['html']);
 if (htmlfile != "undefined"){
 function httpGet(theUrl){
     var xmlHttp = new XMLHttpRequest();
