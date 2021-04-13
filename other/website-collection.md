@@ -15,15 +15,27 @@
 ---
 
 ### <span id="主页">主页</span>
-<https://a.maorx.cn/> 青柠起始页  
+<https://limestart.cn/> 青柠起始页<!--<https://a.maorx.cn/>-->  
 <http://wujiesou.com/> 无解搜  
 
 ### <span id="搜索引擎">搜索引擎</span>
 [https://www.baidu.com/s?ie=utf-8&word=](https://www.baidu.com/) 百度 [精简版](https://m.baidu.com/?pu=sz@1321_480) [极简](https://m.baidu.com/?pu=sz@1330_640) [简易百度贴吧](https://tieba.baidu.com/mo/q---64659F94BB1F8A1C07A4FA3FFF91F6A0:FG=1-,sz@176_208-1-1-0--2/m) [简易百度图片](https://image.baidu.com/search/wisemidresult?word=%E7%99%BE%E5%BA%A6&tn=wisemidresult)  
 [https://cn.bing.com/search?q=](https://cn.bing.com/) 必应  
 ~~[https://www.google.com/search?q=](https://www.google.com/) 谷歌~~  
-<http://www.google.cn.ua/>  谷歌镜像1  
-<http://g.caduo.ml> 谷歌镜像2  
+
+<details>
+<summary>
+<a href="http://scholar.hedasudi.com/" target="_blank">http://scholar.hedasudi.com/</a> 谷歌镜像站收集
+</summary>
+&emsp;&emsp;<a href="https://search.ahau.cf/" target="_blank">https://search.ahau.cf/</a> 谷歌镜像站1
+<br>
+&emsp;&emsp;<a href="http://so.baqkft.top/" target="_blank">http://so.baqkft.top/</a> 谷歌镜像站2
+<br>
+&emsp;&emsp;<a href="https://search.library.edu.eu.org/" target="_blank">https://search.library.edu.eu.org/</a> 谷歌镜像站3
+<br>
+</details>
+
+ 
 [https://www.dogedoge.com/results?q=](https://www.dogedoge.com/) 多吉搜索  
 [https://magi.com/search?q=](https://magi.com/) Magi  
 [https://lookao.com/search?q=](https://lookao.com/) LooKao  
@@ -46,6 +58,7 @@
 <https://www.yunzhongzhuan.com/> 云中转 个人网盘  
 <https://www.laogoupan.com/> 老狗盘  
 <https://www.90pan.com/> 90网盘  
+<https://shandianpan.com/> 闪电盘  
 <https://quqi.com/> 曲奇云盘 2T  
 
 ### <span id="工具">工具</span>
@@ -73,6 +86,7 @@
 <https://caiyunapp.com/weather/> 彩云天气  
 <https://his.sh/> 在网址前加上his.sh来查看其快照  
 <https://www.geogebra.org/download> GeoGebra数学工具在线使用下载  
+<https://mail.qq.com/> QQ邮箱  
 
 ### <span id="编程">编程</span>
 <https://github.com/> GitHub  
