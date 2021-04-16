@@ -48,7 +48,7 @@ function httpGetAsync(theUrl, callback)
         //callback(xmlHttp.responseText);
         if (xmlHttp.readyState == 4 && xmlHttp.status == 200){
             callback(xmlHttp.responseText);} // 这里获得返回数据。如有需要，结合实际情况进行解析处理。
-        else{callback("<h1>加载失败！可能是Markdown原文件已失效。</h1>")}
+        else{callback("<h1>加载失败！可能是Markdown原文件已失效。</h1><h2>也可能是正在加载，显示我只是个bug</h2>")}
     }
     xmlHttp.open("GET", theUrl, true); // true 为异步
     xmlHttp.send(null);
