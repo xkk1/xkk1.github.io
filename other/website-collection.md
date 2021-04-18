@@ -8,9 +8,9 @@
 + [主页](#主页)
 + [搜索引擎](#搜索引擎)
 + [网盘](#网盘)
-+ [工具](#工具)
-+ [编程](#编程)
-+ [其他](#其他)
++ [工具](#tool)
++ [编程](#program)
++ [其他](#other)
 
 ---
 
@@ -61,7 +61,7 @@
 <https://shandianpan.com/> 闪电盘  
 <https://quqi.com/> 曲奇云盘 2T  
 
-### <span id="工具">工具</span>
+### <span id="tool">工具</span>
 <https://tinify.cn/> 图片压缩  
 <https://bigjpg.com/> AI人工智能图片放大  
 <https://docs.wps.cn/> 金山文档 Office在线办公  
@@ -83,20 +83,22 @@
 <http://up.ly93.cc/> 文件直链平台  
 <https://pic.gimhoy.com/> Gimhoy图床  
 <https://imgchr.com/> 路过图床  
+<https://pic.baixiongz.com/> 白熊图床  
 <https://caiyunapp.com/weather/> 彩云天气  
 <https://his.sh/> 在网址前加上his.sh来查看其快照  
 <https://www.geogebra.org/download> GeoGebra数学工具在线使用下载  
 <https://mail.qq.com/> QQ邮箱  
 
-### <span id="编程">编程</span>
+### <span id="program">编程</span>
 <https://github.com/> GitHub  
 <https://www.csdn.net/> CSDN中国专业IT社区  
 <https://www.runoob.com/> 菜鸟教程  
 <https://www.dooccn.com/python3/> Python3在线编程  
 <https://www.youzack.com/> YouZack-英语听力精听、背单词  
+<https://cloud.tencent.com/developer/devdocs> 开发者手册  
 
-### <span id="其他">其他</span>
+### <span id="other">其他</span>
 无  
 
 #### [返回顶部](#begin) [回到目录](#content)  
-<span id="end">更新时间：2021年4月16日 21:53&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
+<span id="end">更新时间：2021年4月17日 13:26&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
