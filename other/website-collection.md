@@ -33,6 +33,12 @@
 <br>
 &emsp;&emsp;<a href="https://search.library.edu.eu.org/" target="_blank">https://search.library.edu.eu.org/</a> 谷歌镜像站3
 <br>
+&emsp;&emsp;<a href="https://v.icmy.cc/" target="_blank">https://v.icmy.cc/</a> 谷歌镜像站4
+<br>
+&emsp;&emsp;<a href="https://www.google-fix.com/" target="_blank">https://www.google-fix.com/</a> 谷歌镜像站5
+<br>
+&emsp;&emsp;<a href="https://txt.guoqiangti.ga/" target="_blank">https://txt.guoqiangti.ga/</a> 谷歌镜像站6
+<br>
 </details>
 
  
@@ -101,4 +107,4 @@
 无  
 
 #### [返回顶部](#begin) [回到目录](#content)  
-<span id="end">更新时间：2021年4月17日 13:26&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
+<span id="end">更新时间：2021-4-18 22:06:01&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
