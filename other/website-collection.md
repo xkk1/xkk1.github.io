@@ -90,7 +90,7 @@
 <http://up.ly93.cc/> 文件直链平台  
 <https://www.ffsup.com/> 趣味云  
 <http://www.zlian.ga/> 牛牛直链上传  
-<https://url.sunweihu.com/> 墨涩网外链系统 
+<https://url.sunweihu.com/> 墨涩网外链系统  
 <http://shudong.gm88888888.com/> 树洞外链  
 <http://zuoye.free.fr/> 豆子外链  
 <https://tntfiles.com/> tntfiles文件外链  
