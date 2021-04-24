@@ -10,7 +10,7 @@
 </audio>
 
 <br>
-<img src="https://pic.baixiongz.com/uploads/2021/04/23/b9358fa1aaabe.png">
+<img id="image" src="https://pic.baixiongz.com/uploads/2021/04/23/b9358fa1aaabe.png">
 
 <!--<pre style="word-wrap: break-word; white-space: pre-wrap; font-size: 50px;">-->
 <pre class="lyric">
@@ -69,7 +69,7 @@
 </pre>
 <br>
 
-<img src="https://pic.baixiongz.com/uploads/2021/04/23/2e1f704d592da.png">
+<img id="image" src="https://pic.baixiongz.com/uploads/2021/04/23/2e1f704d592da.png">
 
 <style type="text/css">
 body
@@ -80,18 +80,40 @@ body
     /*background-color:#eafed0;*/
 }
 
+#image
+{
+    width: 100%;
+}
+
 .infoWin {
     position: fixed;
     right: 0px;
     bottom: 0px;
     width: 100%;
-    height: 120px;
+    height: 30px;
 }
+@media only screen and (min-width : 100px) {
 .lyric {
     word-wrap: break-word;
     white-space: pre-wrap;
-    font-size: 40px;
+    font-size: 28px;
+    columns:auto 1;
+}
+}
+@media only screen and (min-width : 900px) {
+.lyric {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    font-size: 30px;
+    columns:auto 2;
+}
+}
+@media only screen and (min-width : 1300px) {
+.lyric {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    font-size: 34px;
     columns:auto 3;
-
+}
 }
 </body>
