@@ -1,0 +1,28 @@
+body
+{
+    /*background-image: url(img/bg6.jpg);
+    background-size: cover;*/
+    background-color:#eafed0;
+}
+#xkk_h1
+{
+    color:orange;
+    text-align:center;
+    font-size:100px;
+}
+#xkk_p
+{
+    color:black;
+    text-align:center;
+    font-size:53px;
+}
+#hitokoto
+{
+    display:none;
+    font-size:53px;
+}
+#hitokoto_link
+{
+    text-decoration:none;
+    color:black;
+}
