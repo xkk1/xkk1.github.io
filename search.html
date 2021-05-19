@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小喾苦搜索聚合</title>
+</head>
+<body>
+    <div>
+        <select class="select" id="select">
+            <option value="https://www.baidu.com/s?ie=utf-8&word=">百度</option>
+            <option value="https://m.baidu.com/pu=sz@1321_1001/s?word=">百度精简版</option>
+            <option value="https://cn.bing.com/search?q=">必应</option>
+            <option value="https://www.so.com/s?q=">360搜索</option>
+            <option value="https://quark.sm.cn/s?q=">夸克搜索</option>
+            <option value="https://so.m.sm.cn/s?q=">神马搜索</option>
+            <option value="https://m.baidu.com/pu=sz@1321_1001/s?word=site%3Abaike.baidu.com+">百度百科</option>
+            <option value="https://search.yahoo.com/search?p=">雅虎</option>
+            <option value="https://www.google.com/search?q=">谷歌</option>
+            <option value="https://minerva.shuu.cf/extdomains/www.google.com.hk/search?q=">谷歌镜像1</option>
+            <option value="https://v.icmy.cc/search?q=">谷歌镜像2</option>
+            <option value="http://so.baqkft.top/search?q=">谷歌镜像3</option>
+            <option value="https://search.bilibili.com/all?keyword=">哔哩哔哩</option>
+        </select>
+        <input class="keyword" type="search" id="keyword" value="" onkeydown="entersearch();" placeholder="请输入您要查找的东西">
+        <input class="search" type="submit" id="search" value="查找" onclick="go_search();">
+    </div>
+    <p style="text-align: right;color: rgba(0, 0, 0, 0.5);">by 小喾苦 2021-5-18</p>
+    <script>
+
+        function go_search(){
+            var select=document.getElementById('select');
+            var selected_index= select.selectedIndex; //序号，取当前选中选项的序号
+            var selected_value = select.options[selected_index].value; //取当前选中选项的值
+            //var selected_text = select.options[selected_index].text; //取当前选中选项的文本
+
+            var utext = document.getElementById("keyword");
+            var keyword = utext.value;
+
+            //window.location.href="https://m.baidu.com/pu=sz@1321_1001/s?word=site%3Abaike.baidu.com+" + keyword;
+            //url = "https://m.baidu.com/pu=sz@1321_1001/s?word=site%3Abaike.baidu.com+" + keyword;
+            url = selected_value + keyword;
+            window.open(url, '_blank');
+        }
+        function  entersearch(){
+            var event = window.event || arguments.callee.caller.arguments[0];
+            if (event.keyCode == 13)
+            {
+                go_search();
+            }
+            }
+    </script>
+    <style>
+        body
+        {
+            text-align:center
+        }
+        .select
+        {
+            width: 10%;
+
+            height: 40px;
+        }
+        .keyword
+        {
+            width: 75%;
+            height: 40px;
+            border: 1px solid #ccc; 
+            /*padding: 7px 7px;
+            padding-left:5px; */
+        }
+        .search
+        {
+            width: 10%;
+            height: 40px;
+            border: 1px solid #ccc; 
+            /*padding: 7px 7px;
+            padding-left:5px; */
+        }
+    </style>
+</body>
+</html>
