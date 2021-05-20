@@ -9,6 +9,7 @@
 <body>
     <div class="SearchBox">
         <select class="select" id="select">
+            <!--<option value=""></option>-->
             <option value="https://www.baidu.com/s?ie=utf-8&word=">百度</option>
             <option value="https://m.baidu.com/pu=sz@1321_1001/s?word=">百度精简版</option>
             <option value="https://cn.bing.com/search?q=">必应</option>
@@ -16,17 +17,22 @@
             <option value="https://quark.sm.cn/s?q=">夸克搜索</option>
             <option value="https://so.m.sm.cn/s?q=">神马搜索</option>
             <option value="https://m.baidu.com/pu=sz@1321_1001/s?word=site%3Abaike.baidu.com+">百度百科</option>
+            <option value="https://fanyi.baidu.com/#auto/zh/">百度翻译</option>
+            <option value="https://translate.google.cn/?sl=auto&tl=zh-CN&op=translate&text=">谷歌翻译</option>
+            <!--<option value="https://fanyi.baidu.com/#zh/en/">汉译英</option>-->
+            <option value="https://search.bilibili.com/all?keyword=">哔哩哔哩</option>
+            <option value="https://search.gitee.com/?skin=rec&type=repository&q=">码云</option>
+            <option value="https://github.com/search?q=">GitHub</option>
             <option value="https://search.yahoo.com/search?p=">雅虎</option>
             <option value="https://www.google.com/search?q=">谷歌</option>
             <option value="https://minerva.shuu.cf/extdomains/www.google.com.hk/search?q=">谷歌镜像1</option>
             <option value="https://v.icmy.cc/search?q=">谷歌镜像2</option>
             <option value="http://so.baqkft.top/search?q=">谷歌镜像3</option>
-            <option value="https://search.bilibili.com/all?keyword=">哔哩哔哩</option>
         </select>
         <input class="keyword" type="search" id="keyword" value="" onkeydown="entersearch();" placeholder="输入关键字">
         <input class="search" type="submit" id="search" value="搜索" onclick="go_search();">
     </div>
-    <p style="text-align: right;"><a style="text-decoration:none;color: rgba(0, 0, 0, 0.5);" href="/"> 小喾苦 2021-5-19</a></p>
+    <p style="text-align: right;"><a style="text-decoration:none;color: rgba(0, 0, 0, 0.5);" href="/"> 小喾苦 2021-5-20</a></p>
     <script>
 
         function go_search(){
