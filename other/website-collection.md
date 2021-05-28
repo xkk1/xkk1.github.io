@@ -56,6 +56,10 @@
 - **文档搜索引擎**  
 <https://www.jiumodiary.com/> 鸠摩搜索  
 <https://ebook.blinkol.com/> 熊猫搜书  
+<http://shuxiangjia.cn/> 书享家  
+
+- **其他搜索引擎**
+[https://www.kolsou.com/search?q=](https://www.kolsou.com/) 酷搜(百度网盘资源搜索)  
 
 ### <span id="网盘">网盘</span>
 <https://pan.baidu.com/> 百度网盘 1T 限制速度  
@@ -119,4 +123,4 @@
 无  
 
 #### [返回顶部](#begin) [回到目录](#content)  
-<span id="end">更新时间：2021年4月23日 12:41&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
+<span id="end">更新时间：2021年5月28日 12:13&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
