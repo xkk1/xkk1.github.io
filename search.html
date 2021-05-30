@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>小喾苦搜索聚合</title>
 </head>
 <body>
-    <div class="SearchBox">
+    <div class="search_box" id="search_box">
         <select class="select" id="select">
 <!--<option value=""></option>-->
 <option value="https://www.baidu.com/s?ie=utf-8&word=">百度搜索</option>
@@ -64,7 +64,12 @@
         <input class="keyword" type="search" id="keyword" value="" onkeydown="entersearch();" placeholder="输入关键字">
         <input class="search" type="submit" id="search" value="搜索" onclick="go_search();">
     </div>
-    <p style="text-align: right;"><a style="text-decoration:none;color: rgba(0, 0, 0, 0.5);" href="/">by 小喾苦 2021-5-25</a></p>
+
+    <div id="bot_box">
+		<ul id="oul"></ul>
+	</div>
+
+    <p style="text-align: right;"><a style="text-decoration:none;color: rgba(0, 0, 0, 0.5);" href="/">by 小喾苦 2021-5-31</a></p>
     <script>
 function go_search(){
     var select=document.getElementById('select');
@@ -86,15 +91,132 @@ function  entersearch(){
     {
         go_search();
     }
-    }
+}
+// 搜索联想
+function $(id) {
+	return document.getElementById(id);
+}
+
+var ipt = $("keyword");
+var ser = $("search_box");
+var bot = $("bot_box");
+var oul = $("oul");
+
+
+ipt.oninput = function() {
+	var ss = ipt.value;
+	var url = "http://suggestion.baidu.com/su?cb=queryList&wd=" + ss;
+	addScript(url);
+}
+
+ipt.onfocus = function() {
+	var ss = ipt.value;
+	var url = "http://suggestion.baidu.com/su?cb=queryList&wd=" + ss;
+	addScript(url);
+
+}
+
+function queryList(data) {
+	ss=document.getElementsByTagName("script")[0];
+	document.body.removeChild(ss)
+	
+	var arr = data.s;
+	oul.innerHTML = "";
+	if(arr.length == 0) {
+		bot.style.display = "none";
+	} else {
+		bot.style.display = "block";
+	}
+
+	for(var i = 0; i < arr.length; i++) {
+		li = document.createElement("li");
+		li.innerHTML = arr[i];
+		li.onclick = function() {
+			oul.innerHTML = "";
+			ipt.value = this.innerHTML;
+			bot.style.display = "none";
+		}
+		oul.appendChild(li);
+	}
+}
+
+function addScript(url) {
+	var s = document.createElement("script");
+	s.src = url;
+	s.type = "text/javascript";
+	document.body.appendChild(s);
+}
+
+/*取li*/
+
+lis = document.getElementsByTagName("li");
+
+/*按键*/
+var i = 0;
+
+document.onkeydown = function(ev) {
+
+	if(bot.style.display == "block") {
+		
+
+		if(ev.keyCode == 40) {
+			for(var j = 0; j < lis.length; j++) {
+				if(lis[j].className == "sel") {
+					lis[j].className = "";
+				}
+			}
+
+			if(i < lis.length) {
+				lis[i].className = "sel";
+				i++;
+				if(i == lis.length) {
+					i = 0;
+				}
+			}
+		}
+
+		if(ev.keyCode == 38) {
+			m = 0
+			for(; m < lis.length; m++) {
+				if(lis[m].className == "sel") {
+					lis[m].className = "";
+					break;
+				}
+			}
+			i = m;
+			if(m > 0) {
+				lis[m - 1].className = "sel";
+			} else {
+				lis[lis.length - 1].className = "sel";
+			}
+		}
+
+		
+		
+		
+		if(ev.keyCode == 13) {
+			for(var n = 0; n < lis.length; n++) {
+				if(lis[n].className == "sel") {
+					ipt.value = lis[n].innerHTML;
+                    //
+                    go_search();
+                    //
+				}
+			}
+			bot.style.display = "none";
+		}
+	} else {
+		i = 0;
+		m = 0;
+	}
+}
     </script>
     <style>
 body
 {
     text-align:center
-    text-
 }
-.SearchBox
+.search_box
 {
     display: flex;
     font-size:80px;
@@ -122,6 +244,23 @@ body
     font-size: 19px;
     border: 1px solid #ccc;
 }
+
+#bot_box{
+	width:100%;
+	border: 1px solid #ccc;
+	border-top: none;
+	display: none;
+    text-align:left;
+	}
+	
+#bot_box ul li{
+		list-style: none;
+		line-height: 25px;
+		padding-left: 10px;
+		}
+#bot_box ul li:hover{
+		background: #aea;
+		}		
     </style>
 </body>
 </html>
