@@ -61,153 +61,115 @@
 <option value="https://txt.guoqiangti.ga/search?q=">谷歌镜像4</option>
 <option value="https://www.google.ryancray.com/search?q=">谷歌镜像5</option>
         </select>
-        <input class="keyword" type="search" id="keyword" value="" onkeydown="entersearch();" placeholder="输入关键字">
-        <input class="search" type="submit" id="search" value="搜索" onclick="go_search();">
+        <input class="keyword" type="search" id="keyword" value="" onkeydown="enter_search();" placeholder="输入关键字">
+        <input class="search" type="submit" id="search" value="搜索" onclick="onclick_search();">
     </div>
 
-    <div id="bot_box">
-		<ul id="oul"></ul>
+    <div id="list_div">
+		<ul id="list"></ul>
 	</div>
 
     <p style="text-align: right;"><a style="text-decoration:none;color: rgba(0, 0, 0, 0.5);" href="/">by 小喾苦 2021-5-31</a></p>
     <script>
-function go_search(){
+function search(keyword){
     var select=document.getElementById('select');
     var selected_index= select.selectedIndex; //序号，取当前选中选项的序号
     var selected_value = select.options[selected_index].value; //取当前选中选项的值
     //var selected_text = select.options[selected_index].text; //取当前选中选项的文本
 
-    var utext = document.getElementById("keyword");
-    var keyword = utext.value;
+    //var utext = document.getElementById("keyword");
+    //var keyword = utext.value;
 
     //window.location.href="https://m.baidu.com/pu=sz@1321_1001/s?word=site%3Abaike.baidu.com+" + keyword;
     //url = "https://m.baidu.com/pu=sz@1321_1001/s?word=site%3Abaike.baidu.com+" + keyword;
     url = selected_value + keyword;
     window.open(url, '_blank');
 }
-function  entersearch(){
+
+function onclick_search(){
+    var utext = document.getElementById("keyword");
+    var keyword = utext.value;
+	search(keyword);
+}
+function  enter_search(){
     var event = window.event || arguments.callee.caller.arguments[0];
     if (event.keyCode == 13)
     {
-        go_search();
+        onclick_search();
     }
 }
+
+
+
 // 搜索联想
-function $(id) {
-	return document.getElementById(id);
+
+
+var oList = document.getElementById('list');
+
+function list_search(keyword){
+	var input = document.getElementById('keyword');
+	input.value = keyword;
+
+	oList.innerHTML = '';
+	list_div.style.display = 'none';
+	oList.style.display = 'none';
+
+	search(keyword);
 }
 
-var ipt = $("keyword");
-var ser = $("search_box");
-var bot = $("bot_box");
-var oul = $("oul");
+var input = document.getElementById('keyword');
+//var oUl = document.getElementById('ul');
 
-
-ipt.oninput = function() {
-	var ss = ipt.value;
-	var url = "https://suggestion.baidu.com/su?cb=queryList&wd=" + ss;
-	addScript(url);
+var list_div = document.getElementById('list_div');
+input.onkeyup = function () {
+	var value = this.value;
+	var oScript = document.createElement('script');
+	//oScript.src = 'https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=' + value + '&cb=aa';
+	oScript.src = 'https://www.baidu.com/sugrec?json=1&prod=pc&wd=' + value + '&cb=doJson';
+	// 核心在这里，
+	// 1.实时获取参数 value
+	// 2.cb=返回值的处理函数（aa）
+	document.body.appendChild(oScript);
+	document.body.removeChild(oScript);  //注意回调之后删除生成的script
 }
-
-ipt.onfocus = function() {
-	var ss = ipt.value;
-	var url = "https://suggestion.baidu.com/su?cb=queryList&wd=" + ss;
-	addScript(url);
-
-}
-
-function queryList(data) {
-	ss=document.getElementsByTagName("script")[0];
-	document.body.removeChild(ss)
-	
-	var arr = data.s;
-	oul.innerHTML = "";
-	if(arr.length == 0) {
-		bot.style.display = "none";
+/*
+function aa(data) {
+	oUl.style.display = 'block';
+	var list = data.s;
+	var str = '';
+	if (list.length > 0) {
+		list.forEach(function (ele, index) {
+			str += '<li><a href ="https://www.baidu.com/s?wd=' + ele + '">' + ele + '</li>';
+		})
+		oUl.innerHTML = str;
 	} else {
-		bot.style.display = "block";
+		oUl.style.display = 'none';
 	}
+}*/
 
-	for(var i = 0; i < arr.length; i++) {
-		li = document.createElement("li");
-		li.innerHTML = arr[i];
-		li.onclick = function() {
-			oul.innerHTML = "";
-			ipt.value = this.innerHTML;
-			bot.style.display = "none";
+// 字符串拼接形式
+function doJson(data) {
+	var dataArr = data.g;
+	oList.innerHTML = '';
+	str = '';
+	try{
+		if (dataArr.length > 0) {
+			dataArr.forEach(function (ele, index) {
+				//if (index > 3) return;
+				//str += '<li><a href="https://www.baidu.com/s?wd=' + ele.q + ' " target = "_blank">' + ele
+				//	.q + '</a></li>';
+				str += '<li onclick="list_search(\'' + ele.q + '\')">' + ele.q + '</li>';
+			});
+			oList.innerHTML = str;
+			list_div.style.display = 'block';
+			oList.style.display = 'block';
+		} else {
+			list_div.style.display = 'none';
+			oList.style.display = 'none';
 		}
-		oul.appendChild(li);
-	}
-}
-
-function addScript(url) {
-	var s = document.createElement("script");
-	s.src = url;
-	s.type = "text/javascript";
-	document.body.appendChild(s);
-}
-
-/*取li*/
-
-lis = document.getElementsByTagName("li");
-
-/*按键*/
-var i = 0;
-
-document.onkeydown = function(ev) {
-
-	if(bot.style.display == "block") {
-		
-
-		if(ev.keyCode == 40) {
-			for(var j = 0; j < lis.length; j++) {
-				if(lis[j].className == "sel") {
-					lis[j].className = "";
-				}
-			}
-
-			if(i < lis.length) {
-				lis[i].className = "sel";
-				i++;
-				if(i == lis.length) {
-					i = 0;
-				}
-			}
-		}
-
-		if(ev.keyCode == 38) {
-			m = 0
-			for(; m < lis.length; m++) {
-				if(lis[m].className == "sel") {
-					lis[m].className = "";
-					break;
-				}
-			}
-			i = m;
-			if(m > 0) {
-				lis[m - 1].className = "sel";
-			} else {
-				lis[lis.length - 1].className = "sel";
-			}
-		}
-
-		
-		
-		
-		if(ev.keyCode == 13) {
-			for(var n = 0; n < lis.length; n++) {
-				if(lis[n].className == "sel") {
-					ipt.value = lis[n].innerHTML;
-                    //
-                    go_search();
-                    //
-				}
-			}
-			bot.style.display = "none";
-		}
-	} else {
-		i = 0;
-		m = 0;
+	}catch(e){
+		list_div.style.display = 'none';
+		oList.style.display = 'none';
 	}
 }
     </script>
@@ -245,7 +207,7 @@ body
     border: 1px solid #ccc;
 }
 
-#bot_box{
+#list_div{
 	width:100%;
 	border: 1px solid #ccc;
 	border-top: none;
@@ -253,12 +215,12 @@ body
     text-align:left;
 	}
 	
-#bot_box ul li{
+#list_div ul li{
 		list-style: none;
 		line-height: 25px;
 		padding-left: 10px;
 		}
-#bot_box ul li:hover{
+#list_div ul li:hover{
 		background: #aea;
 		}		
     </style>
