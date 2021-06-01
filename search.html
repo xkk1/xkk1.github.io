@@ -7,96 +7,157 @@
     <title>小喾苦搜索聚合</title>
 </head>
 <body>
-    <div class="search_box" id="search_box">
-        <select class="select" id="select">
-<!--<option value=""></option>-->
-<option value="https://www.baidu.com/s?ie=utf-8&word=">百度搜索</option>
-<option value="https://m.baidu.com/pu=sz@1321_1001/s?word=">百度精简版</option>
-<option value="https://cn.bing.com/search?q=">必应搜索</option>
-<option value="https://cn.bing.com/search?ensearch=1&q=">Bing 国际版</option>
-<option value="https://www.so.com/s?q=">360搜索</option>
-<option value="https://quark.sm.cn/s?q=">夸克搜索</option>
-<option value="https://so.m.sm.cn/s?q=">神马搜索</option>
-<option value="https://www.sogou.com/web?query=">搜狗搜索</option>
-<option value="https://m.toutiao.com/search?keyword=">头条搜索</option>
-<option value="https://mijisou.com/?q=">秘迹搜索</option>
+    <div id="floating_window">
+		<div id="search_div">
+			<div class="search_box" id="search_box">
+				<div style="display: inline;">
+					<button type="button" onclick="hide();">←</button>
+					<br />
+					<button id="show_hide_set_up_button" type="button" onclick="show_hide_set_up();">↓</button>
+				</div>
+				<select class="select" id="select"  onchange="select_search();">
+	<!--<option value=""></option>-->
+	<option value="https://www.baidu.com/s?ie=utf-8&word=">百度搜索</option>
+	<option value="https://m.baidu.com/pu=sz@1321_1001/s?word=">百度精简版</option>
+	<option value="https://cn.bing.com/search?q=">必应搜索</option>
+	<option value="https://cn.bing.com/search?ensearch=1&q=">Bing 国际版</option>
+	<option value="https://www.so.com/s?q=">360搜索</option>
+	<option value="https://quark.sm.cn/s?q=">夸克搜索</option>
+	<option value="https://so.m.sm.cn/s?q=">神马搜索</option>
+	<option value="https://www.sogou.com/web?query=">搜狗搜索</option>
+	<option value="https://m.toutiao.com/search?keyword=">头条搜索</option>
+	<option value="https://mijisou.com/?q=">秘迹搜索</option>
+	
+	<option value="https://m.baidu.com/pu=sz@1321_1001/s?word=site%3Abaike.baidu.com+">百度百科</option>
+	<option value="https://wenku.baidu.com/search?word=">百度文库</option>
+	<option value="https://fanyi.baidu.com/#auto/zh/">百度翻译</option>
+	<option value="https://translate.google.cn/?sl=auto&tl=zh-CN&op=translate&text=">谷歌翻译</option>
+	<option value="https://dict.youdao.com/search?q=">有道翻译</option>
+	<option value="https://www.iciba.com/word?w=">金山词霸</option>
+	<!--<option value="https://fanyi.baidu.com/#zh/en/">汉译英</option>-->
+	<option value="https://www.zhihu.com/search?type=content&q=">知乎</option>
+	
+	<option value="https://www.qidian.com/search?kw=">起点中文网</option>
+	<option value="http://search.zongheng.com/s?keyword=">纵横中文网</option>
+	<option value="https://search.douban.com/book/subject_search?search_text=">豆瓣读书</option>
+	<option value="https://www.lrts.me/search/book/">懒人畅听(听书)</option>
+	
+	<option value="https://music.163.com/#/search/m/?s=">网易云音乐</option>
+	<option value="https://www.kugou.com/yy/html/search.html#searchType=song&searchKeyWord=">酷狗音乐</option>
+	<option value="https://www.kuwo.cn/search/list?key=">酷我音乐</option>
+	<option value="https://music.taihe.com/search?word=">千千音乐</option>
+	<option value="https://y.qq.com/n/ryqq/search?t=song&w=">QQ音乐</option>
+	<option value="https://www.ximalaya.com/search/">喜马拉雅</option>
+	<option value="https://www.qingting.fm/search/all/">蜻蜓FM</option>
+	
+	<option value="https://search.bilibili.com/all?keyword=">哔哩哔哩</option>
+	<option value="https://so.iqiyi.com/so/q_">爱奇艺搜索</option>
+	<option value="https://so.youku.com/search_video/q_">优酷视频</option>
+	<option value="https://v.qq.com/x/search/?q=">腾讯视频</option>
+	
+	<option value="https://goobe.io/search.aspx?k=">Goobe</option>
+	<option value="https://so.csdn.net/so/search?q=">CSDN</option>
+	<option value="https://search.gitee.com/?skin=rec&type=repository&q=">码云</option>
+	<option value="https://github.com/search?q=">GitHub</option>
+	
+	<option value="https://search.yahoo.com/search?p=">雅虎</option>
+	<option value="https://www.google.com/search?q=">谷歌搜索</option>
+	<option value="https://minerva.shuu.cf/extdomains/www.google.com.hk/search?q=">谷歌镜像1</option>
+	<option value="https://v.icmy.cc/search?q=">谷歌镜像2</option>
+	<option value="http://so.baqkft.top/search?q=">谷歌镜像3</option>
+	<option value="https://txt.guoqiangti.ga/search?q=">谷歌镜像4</option>
+	<option value="https://www.google.ryancray.com/search?q=">谷歌镜像5</option>
+				</select>
+				<input class="keyword" type="search" id="keyword" value="" onkeydown="enter_search();" placeholder="输入关键字">
+				<input class="search" type="submit" id="search" value="搜索" onclick="onclick_search();">
+			</div>
+			<div id="list_div">
+				<ul id="list"></ul>
+			</div>
+			<div id="set_up" style="display: none;">
+				<input id="new_page_open" name="new_page_open" type="checkbox" value="" />在新页面打开&emsp;
+			</div>
+		</div>
 
-<option value="https://m.baidu.com/pu=sz@1321_1001/s?word=site%3Abaike.baidu.com+">百度百科</option>
-<option value="https://wenku.baidu.com/search?word=">百度文库</option>
-<option value="https://fanyi.baidu.com/#auto/zh/">百度翻译</option>
-<option value="https://translate.google.cn/?sl=auto&tl=zh-CN&op=translate&text=">谷歌翻译</option>
-<option value="https://dict.youdao.com/search?q=">有道翻译</option>
-<option value="https://www.iciba.com/word?w=">金山词霸</option>
-<!--<option value="https://fanyi.baidu.com/#zh/en/">汉译英</option>-->
-<option value="https://www.zhihu.com/search?type=content&q=">知乎</option>
+		<div id="show" style="display: none;">
+			<button type="button" onclick="show();">→</button>
+		</div>
 
-<option value="https://www.qidian.com/search?kw=">起点中文网</option>
-<option value="http://search.zongheng.com/s?keyword=">纵横中文网</option>
-<option value="https://search.douban.com/book/subject_search?search_text=">豆瓣读书</option>
-<option value="https://www.lrts.me/search/book/">懒人畅听(听书)</option>
 
-<option value="https://music.163.com/#/search/m/?s=">网易云音乐</option>
-<option value="https://www.kugou.com/yy/html/search.html#searchType=song&searchKeyWord=">酷狗音乐</option>
-<option value="https://www.kuwo.cn/search/list?key=">酷我音乐</option>
-<option value="https://music.taihe.com/search?word=">千千音乐</option>
-<option value="https://y.qq.com/n/ryqq/search?t=song&w=">QQ音乐</option>
-<option value="https://www.ximalaya.com/search/">喜马拉雅</option>
-<option value="https://www.qingting.fm/search/all/">蜻蜓FM</option>
-
-<option value="https://search.bilibili.com/all?keyword=">哔哩哔哩</option>
-<option value="https://so.iqiyi.com/so/q_">爱奇艺搜索</option>
-<option value="https://so.youku.com/search_video/q_">优酷视频</option>
-<option value="https://v.qq.com/x/search/?q=">腾讯视频</option>
-
-<option value="https://goobe.io/search.aspx?k=">Goobe</option>
-<option value="https://so.csdn.net/so/search?q=">CSDN</option>
-<option value="https://search.gitee.com/?skin=rec&type=repository&q=">码云</option>
-<option value="https://github.com/search?q=">GitHub</option>
-
-<option value="https://search.yahoo.com/search?p=">雅虎</option>
-<option value="https://www.google.com/search?q=">谷歌搜索</option>
-<option value="https://minerva.shuu.cf/extdomains/www.google.com.hk/search?q=">谷歌镜像1</option>
-<option value="https://v.icmy.cc/search?q=">谷歌镜像2</option>
-<option value="http://so.baqkft.top/search?q=">谷歌镜像3</option>
-<option value="https://txt.guoqiangti.ga/search?q=">谷歌镜像4</option>
-<option value="https://www.google.ryancray.com/search?q=">谷歌镜像5</option>
-        </select>
-        <input class="keyword" type="search" id="keyword" value="" onkeydown="enter_search();" placeholder="输入关键字">
-        <input class="search" type="submit" id="search" value="搜索" onclick="onclick_search();">
     </div>
 
-    <div id="list_div">
-		<ul id="list"></ul>
+    <iframe id="search_page" frameborder="0" style="display: none;">
+        您的浏览器不支持iframe，推荐使用Chrome浏览器
+    </iframe>
+
+	<div id="information">
+		<br />
+		<p style="text-align: right;"><a style="text-decoration:none;color: rgba(0, 0, 0, 0.5);" href="/">by 小喾苦 2021-6-1</a></p>
 	</div>
 
-    <p style="text-align: right;"><a style="text-decoration:none;color: rgba(0, 0, 0, 0.5);" href="/">by 小喾苦 2021-5-31</a></p>
     <script>
+var search_page = document.getElementById('search_page');
+var show_div = document.getElementById('show');
+var search_div = document.getElementById('search_div');
+var set_up_div = document.getElementById('set_up');
+var show_hide_set_up_button = document.getElementById('show_hide_set_up_button');
+var new_page_open = document.getElementById('new_page_open');
+var select=document.getElementById('select');
+var information_div=document.getElementById('information');
+
+function show(){show_div.style.display="none";search_div.style.display="";}
+function hide(){show_div.style.display="";search_div.style.display="none";}
+function show_hide_set_up(){
+	if(set_up_div.style.display=="none"){set_up_div.style.display="";show_hide_set_up_button.innerText="↑";}
+	else{set_up_div.style.display="none";show_hide_set_up_button.innerText="↓";}
+	//alert(new_page_open.value);
+	//console.log(ready("input[name='new_page_open']:checked").val());
+	console.log(new_page_open.checked==true)
+}
+
+
+//search_page.src="https://xkk2.gitee.io";
+
 function search(keyword){
-    var select=document.getElementById('select');
-    var selected_index= select.selectedIndex; //序号，取当前选中选项的序号
-    var selected_value = select.options[selected_index].value; //取当前选中选项的值
-    //var selected_text = select.options[selected_index].text; //取当前选中选项的文本
+	information_div.style.display="none";
+	search_page.style.display="";
 
-    //var utext = document.getElementById("keyword");
-    //var keyword = utext.value;
+	var select=document.getElementById('select');
+	var selected_index= select.selectedIndex; //序号，取当前选中选项的序号
+	var selected_value = select.options[selected_index].value; //取当前选中选项的值
+	//var selected_text = select.options[selected_index].text; //取当前选中选项的文本
 
-    //window.location.href="https://m.baidu.com/pu=sz@1321_1001/s?word=site%3Abaike.baidu.com+" + keyword;
-    //url = "https://m.baidu.com/pu=sz@1321_1001/s?word=site%3Abaike.baidu.com+" + keyword;
-    url = selected_value + keyword;
-    window.open(url, '_blank');
+	//var utext = document.getElementById("keyword");
+	//var keyword = utext.value;
+
+	//window.location.href="https://m.baidu.com/pu=sz@1321_1001/s?word=site%3Abaike.baidu.com+" + keyword;
+	//url = "https://m.baidu.com/pu=sz@1321_1001/s?word=site%3Abaike.baidu.com+" + keyword;
+	url = selected_value + keyword;
+	if(new_page_open.checked==true){
+		window.open(url, '_blank');
+	}else{
+		search_page.src=url;
+	}
+	
+}
+
+function select_search(){
+	if(new_page_open.checked==false){
+		onclick_search()
+	}
 }
 
 function onclick_search(){
-    var utext = document.getElementById("keyword");
-    var keyword = utext.value;
+	var utext = document.getElementById("keyword");
+	var keyword = utext.value;
 	search(keyword);
 }
 function  enter_search(){
-    var event = window.event || arguments.callee.caller.arguments[0];
-    if (event.keyCode == 13)
-    {
-        onclick_search();
-    }
+	var event = window.event || arguments.callee.caller.arguments[0];
+	if (event.keyCode == 13)
+	{
+		onclick_search();
+	}
 }
 
 
@@ -172,16 +233,24 @@ function doJson(data) {
 		oList.style.display = 'none';
 	}
 }
-    </script>
+	</script>
     <style>
-body
-{
-    text-align:center
+*{margin: 0;padding: 0;}
+html{height: 100%;}
+body{height: 100%;}
+#floating_window{
+    position: fixed;
+    right: 0px;
+    width: 100%;
+	top: 0px;
+}
+#search_page{
+	height: 100%;
+	width: 100%;
 }
 .search_box
 {
     display: flex;
-    font-size:80px;
 }
 .select
 {
@@ -222,7 +291,7 @@ body
 		}
 #list_div ul li:hover{
 		background: #aea;
-		}		
+		}	
     </style>
 </body>
 </html>
