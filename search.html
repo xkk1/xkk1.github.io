@@ -11,8 +11,8 @@
 		<div id="search_div">
 			<div class="search_box" id="search_box">
 				
-				<button type="button" onclick="hide();" height="30px" style="display: inline;">←</button>
-				<button id="show_hide_set_up_button" type="button" onclick="show_hide_set_up();" height="30px" style="display: inline;">↓</button>
+				<button class="change_button" type="button" onclick="hide();">←</button>
+				<button class="change_button" id="show_hide_set_up_button" type="button" onclick="show_hide_set_up();">↓</button>
 				<select class="select" id="select"  onchange="select_search();">
 	<!--<option value=""></option>-->
 	<option value="https://www.baidu.com/s?ie=utf-8&word=">百度搜索</option>
@@ -90,7 +90,7 @@
 
 	<div id="information">
 		<p>
-			<br /><br /><br /><br />有些网站不支持其他页面调用，请启用“在新页面打开”
+			<br /><br /><br /><br />有些网页(如百度翻译、谷歌翻译、知乎、起点中文网、纵横中文网、酷我音乐、蜻蜓FM、优酷视频、GitHub等)不支持其他页面调用，请启用“在新页面打开”
 		</p>
 		<p style="text-align: right;"><a style="text-decoration:none;color: rgba(0, 0, 0, 0.5);" href="/">by 小喾苦 2021-6-2</a></p>
 	</div>
@@ -104,6 +104,9 @@ var show_hide_set_up_button = document.getElementById('show_hide_set_up_button')
 var new_page_open = document.getElementById('new_page_open');
 var select=document.getElementById('select');
 var information_div=document.getElementById('information');
+var input_keyword = document.getElementById('keyword');
+
+var original_title=document.title;
 
 function show(){show_div.style.display="none";search_div.style.display="";}
 function hide(){show_div.style.display="";search_div.style.display="none";}
@@ -115,7 +118,58 @@ function show_hide_set_up(){
 	console.log(new_page_open.checked==true)
 }
 
+// 更改URL不跳转
 
+/*
+* changeURLStatic 修改地址栏URL参数 不跳转
+*   @param name 参数名
+*   @param value 参数值
+*
+* */
+function changeURLStatic(name, value) {
+    var url = location.href;
+    var reg = eval('/([\?|&]'+name+'=)[^&]*/gi');
+    value = value.toString().replace(/(^\s*)|(\s*$)/g,"");  //移除首尾空格
+    if(!value){
+        var url2 = url.replace(reg , '');  //正则替换
+    }else{
+        if(url.match(reg)){
+            var url2 = url.replace(reg , '$1' + value);  //正则替换
+        }else{
+            var url2 = url + (url.indexOf('?') > -1 ? '&' : '?') + name + '=' +value;  //没有参数添加参数
+        }
+    }
+    history.replaceState(null,null, url2);  //替换地址栏
+}
+//当前页面地址
+//index.php?m=p&a=index&classify_id=225&search=i
+//执行修改
+//changeURLStatic('search', '99999');
+//修改后页面地址
+//index.php?m=p&a=index&classify_id=225&search=99999
+
+
+//获取get(url?)地址
+function getQueryVariable(variable)
+{
+       var query = window.location.search.substring(1);
+       var vars = query.split("&");
+       for (var i=0;i<vars.length;i++) {
+               var pair = vars[i].split("=");
+               if(pair[0] == variable){return pair[1];}
+       }
+       return(false);
+}
+/*
+使用实例
+url 实例：
+
+http://www.runoob.com/index.php?id=1&image=awesome.jpg
+调用 getQueryVariable("id") 返回 1。
+
+调用 getQueryVariable("image") 返回 "awesome.jpg"。
+*/
+console.log(getQueryVariable("search"))
 //search_page.src="https://xkk2.gitee.io";
 
 function search(keyword){
@@ -124,7 +178,10 @@ function search(keyword){
 
 	list_div.style.display="none";
 
-	var select=document.getElementById('select');
+
+	document.title = keyword + original_title;
+
+	//var select=document.getElementById('select');
 	var selected_index= select.selectedIndex; //序号，取当前选中选项的序号
 	var selected_value = select.options[selected_index].value; //取当前选中选项的值
 	//var selected_text = select.options[selected_index].text; //取当前选中选项的文本
@@ -134,7 +191,10 @@ function search(keyword){
 
 	//window.location.href="https://m.baidu.com/pu=sz@1321_1001/s?word=site%3Abaike.baidu.com+" + keyword;
 	//url = "https://m.baidu.com/pu=sz@1321_1001/s?word=site%3Abaike.baidu.com+" + keyword;
-	url = selected_value + keyword;
+	//encodeURIComponent(url); 转码
+	//unescape , decodeURI , decodeURIComponent  解码
+	url = selected_value + encodeURIComponent(keyword); 
+	changeURLStatic("q", encodeURIComponent(keyword))
 	if(new_page_open.checked==true){
 		window.open(url, '_blank');
 	}else{
@@ -144,6 +204,9 @@ function search(keyword){
 }
 
 function select_search(){
+	var selected_index= select.selectedIndex; //序号，取当前选中选项的序号
+	var selected_text = select.options[selected_index].text; //取当前选中选项的文本
+	changeURLStatic("s", encodeURIComponent(selected_text))
 	if(new_page_open.checked==false){
 		onclick_search()
 	}
@@ -236,6 +299,42 @@ function doJson(data) {
 		oList.style.display = 'none';
 	}
 }
+
+// 设置select中text="paraText"的第一个Item为选中
+function jsSelectItemByValue(objSelect, objItemText) {
+//判断是否存在
+var isExit = false;
+for (var i = 0; i < objSelect.options.length; i++) {
+if (objSelect.options[i].text == objItemText) {
+objSelect.options[i].selected = true;
+isExit = true;
+break;
+}
+}
+//Show出结果
+if (isExit) {
+console.log("成功选中" + objItemText);
+} else {
+console.log("该select中 不存在该项" + objItemText);
+}
+}
+
+//jsSelectItemByValue(select, "夸克搜索")
+
+window.onload = function(){
+	search_question = getQueryVariable("q")
+	//console.log(search_word)
+	search_engine = getQueryVariable("s")
+	if(search_engine != false){
+		jsSelectItemByValue(select, decodeURIComponent(search_engine))
+	}
+	if(search_question != false){
+		input_keyword.value = decodeURIComponent(search_question);
+		search(decodeURIComponent(search_question));
+
+	}
+}
+
 	</script>
     <style>
 *{margin: 0;padding: 0;}
@@ -279,7 +378,11 @@ body{height: 100%;}
     font-size: 19px;
     border: 1px solid #ccc;
 }
-
+.change_button{
+	width: 25px;
+	height: 30px;
+	display: inline;
+}
 #list_div{
 	width:100%;
 	border: 1px solid #ccc;
