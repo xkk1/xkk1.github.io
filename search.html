@@ -10,11 +10,9 @@
     <div id="floating_window">
 		<div id="search_div">
 			<div class="search_box" id="search_box">
-				<div style="display: inline;">
-					<button type="button" onclick="hide();">←</button>
-					<br />
-					<button id="show_hide_set_up_button" type="button" onclick="show_hide_set_up();">↓</button>
-				</div>
+				
+				<button type="button" onclick="hide();" height="30px" style="display: inline;">←</button>
+				<button id="show_hide_set_up_button" type="button" onclick="show_hide_set_up();" height="30px" style="display: inline;">↓</button>
 				<select class="select" id="select"  onchange="select_search();">
 	<!--<option value=""></option>-->
 	<option value="https://www.baidu.com/s?ie=utf-8&word=">百度搜索</option>
@@ -91,8 +89,10 @@
     </iframe>
 
 	<div id="information">
-		<br />
-		<p style="text-align: right;"><a style="text-decoration:none;color: rgba(0, 0, 0, 0.5);" href="/">by 小喾苦 2021-6-1</a></p>
+		<p>
+			<br /><br /><br /><br />有些网站不支持其他页面调用，请启用“在新页面打开”
+		</p>
+		<p style="text-align: right;"><a style="text-decoration:none;color: rgba(0, 0, 0, 0.5);" href="/">by 小喾苦 2021-6-2</a></p>
 	</div>
 
     <script>
@@ -121,6 +121,8 @@ function show_hide_set_up(){
 function search(keyword){
 	information_div.style.display="none";
 	search_page.style.display="";
+
+	list_div.style.display="none";
 
 	var select=document.getElementById('select');
 	var selected_index= select.selectedIndex; //序号，取当前选中选项的序号
@@ -221,6 +223,7 @@ function doJson(data) {
 				//	.q + '</a></li>';
 				str += '<li onclick="list_search(\'' + ele.q + '\')">' + ele.q + '</li>';
 			});
+			str += '<li onclick="javascript:list_div.style.display = \'none\';">关闭</li>';
 			oList.innerHTML = str;
 			list_div.style.display = 'block';
 			oList.style.display = 'block';
@@ -240,9 +243,10 @@ html{height: 100%;}
 body{height: 100%;}
 #floating_window{
     position: fixed;
-    right: 0px;
-    width: 100%;
+    left: 0px;
+    /*width: 100%;*/
 	top: 0px;
+	background-color:#fff;
 }
 #search_page{
 	height: 100%;
