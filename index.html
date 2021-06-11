@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-    <meta charset="utf-8">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>小喾苦的网站</title>
 </head>
 <body>
@@ -30,66 +32,37 @@
     </a>
     <a href="javascript:;" onclick="set_hitokoto()">换一换</a>
 </div>
+<style type="text/css">
+body
+{
+    /*background-image: url(img/bg6.jpg);
+    background-size: cover;*/
+    background-color:#eafed0;
+}
+#xkk_h1
+{
+    color:orange;
+    text-align:center;
+    font-size:40px;
+}
+#xkk_p
+{
+    color:black;
+    text-align:center;
+    font-size:20px;
+}
+#hitokoto
+{
+    display:none;
+    font-size:20px;
+}
+#hitokoto_link
+{
+    text-decoration:none;
+    color:black;
+}
+</style>
 <script>
-//动态加载css、js
-//动态加载 CSS 文件
-//dynamicLoading.css("test.css");
-//动态加载 JS 文件
-//dynamicLoading.js("test.js");
-var dynamicLoading = {
-css: function(path){
-if(!path || path.length === 0){
-throw new Error('argument "path" is required !');
-}
-var head = document.getElementsByTagName('head')[0];
-var link = document.createElement('link');
-link.href = path;
-link.rel = 'stylesheet';
-link.type = 'text/css';
-head.appendChild(link);
-},
-js: function(path){
-if(!path || path.length === 0){
-throw new Error('argument "path" is required !');
-}
-var head = document.getElementsByTagName('head')[0];
-var script = document.createElement('script');
-script.src = path;
-script.type = 'text/javascript';
-head.appendChild(script);
-}
-}
-// 判断是否为移动端运行环境
-if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){
-if(window.location.href.indexOf("?mobile")<0){
-try{
-if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){
-// 判断访问环境是 Android|webOS|iPhone|iPod|BlackBerry 则加载以下样式
-//setActiveStyleSheet("main_mobile_a.css");
-dynamicLoading.css("main_mobile.css");
-}
-else if(/iPad/i.test(navigator.userAgent)){
-// 判断访问环境是 iPad 则加载以下样式
-//setActiveStyleSheet("style_mobile_iPad.css");
-dynamicLoading.css("main_mobile.css");
-}
-else{
-// 判断访问环境是 其他移动设备 则加载以下样式
-//setActiveStyleSheet("style_mobile_other.css");
-dynamicLoading.css("main_computer.css");
-}
-}
-catch(e){}
-}
-}
-else{
-// 如果以上都不是，则加载以下样式 
-//setActiveStyleSheet("style_mobile_no.css"); 
-dynamicLoading.css("main_computer.css");
-}
-// 判断完毕后加载样式 
-//function setActiveStyleSheet(filename){document.write("＜link href="+filename+" rel=stylesheet＞");}
-
 var set_hitokoto = function(){
   //(一言)老式写法，兼容性最好; 支持 IE 
   var xhr = new XMLHttpRequest();
