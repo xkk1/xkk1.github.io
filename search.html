@@ -102,7 +102,7 @@
 		<p>
 			<br /><br /><br /><br />有些网页(如百度翻译、谷歌翻译、知乎、起点中文网、纵横中文网、酷我音乐、蜻蜓FM、优酷视频、GitHub等)不支持其他页面调用，请启用“在新页面打开”
 		</p>
-		<p style="text-align: right;"><a style="text-decoration:none;color: rgba(0, 0, 0, 0.5);" href="/">by 小喾苦 2021-6-11</a></p>
+		<p style="text-align: right;"><a style="text-decoration:none;color: rgba(0, 0, 0, 0.5);" href="/">by 小喾苦 2021-6-12</a></p>
 	</div>
 
     <script>
@@ -135,7 +135,7 @@ function more_set_up(){
 	else{more_set_up_div.style.display="none";more_set_up_buton.value = "更多设置";}
 }
 
-function open_this_page_in_a_new_page(){window.open(search_page.src, '_blank');}
+function open_this_page_in_a_new_page(){window.open(search_page.contentWindow.location.href, '_blank');}
 
 // 更改URL不跳转
 
