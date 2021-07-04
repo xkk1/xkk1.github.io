@@ -7,7 +7,7 @@
     <title>末地传送门坐标计算</title>
 </head>
 <body>
-    <h1>末地传送门坐标计算</h1>
+    <h1>末地传送门坐标计算v0.3</h1>
     <p>
     第一次扔的坐标：x<sub>1</sub>=<input id="x1" class="coordinate" type="text"> ,
     y<sub>1</sub>=<input id="y1" class="coordinate" type="text"><br>
@@ -39,8 +39,12 @@ function show_answer(answer_str){
 
 function add_answer(x, y){
     var answer_str = "";
-    answer_str += "末地门坐标： "+x+ "，" +y + "<br>";
-    answer_str += "指令： /tp " +x+ " " +y+ " ~<br>";
+    x = Math.round(x);
+    y = Math.round(y);
+    answer_str += "末地门坐标： x="+x+ "，y=" +y + "<br>";
+    //x = x.toFixed(0);
+    //y = y.toFixed(0);
+    answer_str += "指令： /tp " +x+ " ~ " +y+ "<br>";
     return answer_str;
 }
 
