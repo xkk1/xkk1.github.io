@@ -7,7 +7,7 @@
     <title>末地传送门坐标计算</title>
 </head>
 <body>
-    <h1>末地传送门坐标计算v0.3</h1>
+    <h1>末地传送门坐标计算v0.4</h1>
     <p>
     第一次扔的坐标：x<sub>1</sub>=<input id="x1" class="coordinate" type="text"> ,
     y<sub>1</sub>=<input id="y1" class="coordinate" type="text"><br>
@@ -64,7 +64,7 @@ function calculate(){
     var y3 = parseFloat(y3_input.value);
     var x4 = parseFloat(x4_input.value);
     var y4 = parseFloat(y4_input.value);
-    if(x1 == x2 && x3 == x4){answer_str += "错误！ 两次扔时，不能在同一直线上！<br>";}
+    if(x1 == x2 && x3 == x4){answer_str += "<font color='red'>错误！ 两次扔时，不能在同一直线上！</font><br>";}
     else if(x1 == x2){
         k2 = (y3 - y4) / (x3 - x4);
         b2 = y3 - k2 * x3;
@@ -78,7 +78,7 @@ function calculate(){
         y = k1 * x3 + b1;
         answer_str += add_answer(x, y); 
     }else if( (y1 - y2) / (x1 - x2) == (y3 - y4) / (x3 - x4) ){
-        answer_str += "错误！ 两次扔时，不能在同一直线上！<br>";
+        answer_str += "<font color='red'>错误！ 两次扔时，不能在同一直线上！</font><br>";
     }else{
         k1 = (y1 - y2) / (x1 - x2);
         b1 = y1 - k1 * x1;
