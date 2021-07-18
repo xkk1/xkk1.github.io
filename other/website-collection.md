@@ -16,6 +16,8 @@
 
 ### <span id="主页">主页</span>
 <https://limestart.cn/> 青柠起始页<!--<https://a.maorx.cn/>-->  
+<https://bius.top/> 布斯起始页  
+<https://h.simsoft.top/> SimTab  
 <http://wujiesou.com/> 无解搜  
 
 ### <span id="搜索引擎">搜索引擎</span>
@@ -77,7 +79,8 @@
 <https://bigjpg.com/> AI人工智能图片放大  
 <https://docs.wps.cn/> 金山文档 Office在线办公  
 <https://note.youdao.com/> 有道云笔记  
-<https://www.gaoding.com> 稿定设计 设计聚合 [在线PS工具https://ps.gaoding.com/#/](https://ps.gaoding.com/#/)  <https://www.toolnb.com/> 爱资料在线工具  
+<https://www.gaoding.com> 稿定设计 设计聚合 [在线PS工具https://ps.gaoding.com/#/](https://ps.gaoding.com/#/)  
+<https://www.toolnb.com/>爱资料在线工具  
 <https://jingzhunyun.com/> 精准云工具  
 <http://tools.bugscaner.com/> 在线工具  
 <http://tool.114la.com/> 114啦工具箱  
@@ -123,4 +126,4 @@
 无  
 
 #### [返回顶部](#begin) [回到目录](#content)  
-<span id="end">更新时间：2021年5月28日 12:13&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
+<span id="end">更新时间：2021年7月18日13:45:55&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
