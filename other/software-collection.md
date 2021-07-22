@@ -59,7 +59,7 @@ FastStone Capture(FSCapture) - 集截屏、滚动截图、屏幕录制、图片�
 <b>中文官网：</b><a href="http://www.faststonecapture.com/" target="_blank">http://www.faststonecapture.com/</a>(中国区正版授权)<br />
 <b>下载地址:</b><br />
 <a href="https://www.lanzoui.com/ivbQErotk7c" target="_blank">蓝奏云9.6破解</a>
-&nbsp;<a href="https://www.lanzoui.com/iZ40Iip9cuj" target="_blank">蓝奏云9.3破解</a>
+&nbsp;<a href="https://www.lanzoui.com/icrNDrpnaje" target="_blank">蓝奏云中国9.3破解</a>
 &nbsp;<a href="https://www.lanzoui.com/i1fsvip9hxc" target="_blank">蓝奏云7.3</a>
 </details>
 
