@@ -10,5 +10,5 @@
 比特加速器.apk [下载地址1](http://www.laogoupan.com/b16351) [下载地址2](https://t.yateam.club/d9bdn0v)  
 QuickVPN.apk [官网](https://quickvpn.lipisoft.com/) [官网下载地址](https://quickvpn.lipisoft.com/QuickVPN.1.16.apk) [老狗盘下载](https://www.laogoupan.com/b16535)    
 银河vpn.apk [Google Play](https://play.google.com/store/apps/details?id=com.galaxylab.ss&hl=zh&gl=US) [APKFab下载](https://apkfab.com/free-apk-download?q=com.galaxylab.ss) [老狗盘](https://www.laogoupan.com/b17579)  
-蚂蚁VPN.apk [官网](https://mayivpn.xyz/) [Google play](https://play.google.com/store/apps/details?id=com.mayi.xiaoyi&hl=zh&gl=US) [APKFab下载](https://apkfab.com/free-apk-download?q=com.mayi.xiaoyi)  
-老王VPN.apk [官网](https://www.wangvpn666.com/) [Google Play](https://play.google.com/store/apps/details?id=com.sticktoit) [APKFab下载](https://apkfab.com/free-apk-download?q=com.sticktoit)  
+蚂蚁VPN.apk [官网](https://mayivpn.xyz/) [Google play](https://play.google.com/store/apps/details?id=com.mayi.xiaoyi&hl=zh&gl=US) [APKFab下载](https://apkfab.com/free-apk-download?q=com.mayi.xiaoyi) [老狗盘](https://www.laogoupan.com/b17583)  
+老王VPN.apk [官网](https://www.wangvpn666.com/) [Google Play](https://play.google.com/store/apps/details?id=com.sticktoit) [APKFab下载](https://apkfab.com/free-apk-download?q=com.sticktoit) [老狗盘](https://www.laogoupan.com/b17582)  
