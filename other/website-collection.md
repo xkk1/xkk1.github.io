@@ -71,7 +71,7 @@
 <br>
 &emsp;&emsp;<a href="https://search.iwiki.uk/extdomains/www.google.com.hk/" target="_blank">https://search.iwiki.uk/extdomains/www.google.com.hk/search?q=</a> 谷歌镜像站14
 <br>
-&emsp;&emsp;<a href="https://g20.i-research.edu.eu.org/" target="_blank">https://g20.i-research.edu.eu.org/search?q=</a> 谷歌镜像站14
+&emsp;&emsp;<a href="https://g20.i-research.edu.eu.org/" target="_blank">https://g20.i-research.edu.eu.org/search?q=</a> 谷歌镜像站15
 <br>
 </details>
 
