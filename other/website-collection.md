@@ -9,6 +9,8 @@
 + [搜索引擎](#搜索引擎)
 + [网盘](#网盘)
 + [工具](#tool)
++ [图床](#图床)
++ [文件外链](#文件外链)
 + [编程](#program)
 + [其他](#other)
 
@@ -39,19 +41,37 @@
 ~~[https://www.google.com/search?q=](https://www.google.com/) 谷歌~~  
 <details>
 <summary>
-<a href="http://scholar.hedasudi.com/" target="_blank">http://scholar.hedasudi.com/</a> 谷歌镜像站收集
+<a href="https://www.library.ac.cn/" target="_blank">https://www.library.ac.cn/</a> 谷歌镜像站收集
 </summary>
-&emsp;&emsp;<a href="https://search.ahau.cf/" target="_blank">https://search.ahau.cf/</a> 谷歌镜像站1
+&emsp;&emsp;<a href="https://achelois.shuu.cf/" target="_blank">https://achelois.shuu.cf/search?q=</a> 谷歌镜像站1
 <br>
-&emsp;&emsp;<a href="http://so.baqkft.top/" target="_blank">http://so.baqkft.top/</a> 谷歌镜像站2
+&emsp;&emsp;<a href="https://go-xyz.xyz/" target="_blank">https://go-xyz.xyz/search?q=</a> 谷歌镜像站2
 <br>
-&emsp;&emsp;<a href="https://search.library.edu.eu.org/" target="_blank">https://search.library.edu.eu.org/</a> 谷歌镜像站3
+&emsp;&emsp;<a href="https://diana.shuu.cf/extdomains/www.google.com.hk/" target="_blank">https://diana.shuu.cf/extdomains/www.google.com.hk/search?q=</a> 谷歌镜像站3
 <br>
-&emsp;&emsp;<a href="https://v.icmy.cc/" target="_blank">https://v.icmy.cc/</a> 谷歌镜像站4
+&emsp;&emsp;<a href="https://ceres.shuu.cf/extdomains/www.google.com.hk/" target="_blank">https://ceres.shuu.cf/extdomains/www.google.com.hk/search?q=</a> 谷歌镜像站4
 <br>
-&emsp;&emsp;<a href="https://www.google-fix.com/" target="_blank">https://www.google-fix.com/</a> 谷歌镜像站5
+&emsp;&emsp;<a href="https://mars.shuu.cf/extdomains/www.google.com.hk/" target="_blank">https://mars.shuu.cf/extdomains/www.google.com.hk/search?q=</a> 谷歌镜像站5
 <br>
-&emsp;&emsp;<a href="https://txt.guoqiangti.ga/" target="_blank">https://txt.guoqiangti.ga/</a> 谷歌镜像站6
+&emsp;&emsp;<a href="https://aiolos.shuu.cf/extdomains/www.google.co.jp/" target="_blank">https://aiolos.shuu.cf/extdomains/www.google.co.jp/search?q=</a> 谷歌镜像站6
+<br>
+&emsp;&emsp;<a href="http://so.baqkft.top/" target="_blank">http://so.baqkft.top/search?q=</a> 谷歌镜像站7
+<br>
+&emsp;&emsp;<a href="https://www.google-fix.com/" target="_blank">https://www.google-fix.com/search?q=</a> 谷歌镜像站8
+<br>
+&emsp;&emsp;<a href="https://v.icmy.cc/" target="_blank">https://v.icmy.cc/</a> 谷歌镜像站9
+<br>
+&emsp;&emsp;<a href="https://anemoi.shuu.cf/extdomains/www.google.com.sg/" target="_blank">https://anemoi.shuu.cf/extdomains/www.google.com.sg/search?q=</a> 谷歌镜像站10
+<br>
+&emsp;&emsp;<a href="https://aether.shuu.cf/extdomains/www.google.com.sg/" target="_blank">https://aether.shuu.cf/extdomains/www.google.com.sg/search?q=</a> 谷歌镜像站11
+<br>
+&emsp;&emsp;<a href="https://alectrona.shuu.cf/extdomains/www.google.co.jp/" target="_blank">https://alectrona.shuu.cf/extdomains/www.google.co.jp/search?q=</a> 谷歌镜像站12
+<br>
+&emsp;&emsp;<a href="https://juno.shuu.cf/extdomains/www.google.com.hk/" target="_blank">https://juno.shuu.cf/extdomains/www.google.com.hk/search?q=</a> 谷歌镜像站13
+<br>
+&emsp;&emsp;<a href="https://search.iwiki.uk/extdomains/www.google.com.hk/" target="_blank">https://search.iwiki.uk/extdomains/www.google.com.hk/search?q=</a> 谷歌镜像站14
+<br>
+&emsp;&emsp;<a href="https://g20.i-research.edu.eu.org/" target="_blank">https://g20.i-research.edu.eu.org/search?q=</a> 谷歌镜像站14
 <br>
 </details>
 
@@ -94,14 +114,12 @@
 <https://wn.run/> 万能命令wn.run/后接任意网址  
 <https://member.bilibili.com/studio/bs-editor> bilibili云剪辑  
 <https://www.zybuluo.com/mdeditor> Cmd Markdown 编辑阅读器  
-<http://up.ly93.cc/> 文件直链平台  
-<https://www.ffsup.com/> 趣味云  
-<http://www.zlian.ga/> 牛牛直链上传  
-<https://url.sunweihu.com/> 墨涩网外链系统  
-<http://shudong.gm88888888.com/> 树洞外链  
-<http://zuoye.free.fr/> 豆子外链  
-<https://tntfiles.com/> tntfiles文件外链  
-<https://catbox.moe/> Catbox文件外链  
+<https://caiyunapp.com/weather/> 彩云天气  
+<https://his.sh/> 在网址前加上his.sh来查看其快照  
+<https://www.geogebra.org/download> GeoGebra数学工具在线使用下载  
+<https://mail.qq.com/> QQ邮箱  
+
+### <span id="图床">图床</span>
 <https://pic.baixiongz.com/> 白熊图床  
 <https://imgurl.org/> ImgURL免费图床  
 <https://sm.ms/> 图床  
@@ -109,13 +127,22 @@
 <https://pic.gimhoy.com/> Gimhoy图床 须微博登录  
 <https://imgtu.com/> 路过图床 须注册登录  
 <https://img.67w.top/> 67云图库 须注册登录  
-<https://caiyunapp.com/weather/> 彩云天气  
-<https://his.sh/> 在网址前加上his.sh来查看其快照  
-<https://www.geogebra.org/download> GeoGebra数学工具在线使用下载  
-<https://mail.qq.com/> QQ邮箱  
+
+### <span id="文件外链">文件外链</span>
+<!--<http://up.ly93.cc/> 文件直链平台  -->
+<https://www.ffsup.com/> 趣味云  
+<http://www.zlian.ga/> 牛牛直链上传  
+<https://url.sunweihu.com/> 墨涩网外链系统  
+<http://shudong.gm88888888.com/> 树洞外链  
+<http://zuoye.free.fr/> 豆子外链  
+<https://tntfiles.com/> tntfiles文件外链  
+<https://catbox.moe/> Catbox文件外链  
 
 ### <span id="program">编程</span>
 <https://github.com/> GitHub  
+<https://hub.fastgit.org/> GitHub镜像站1  
+<https://github.com.cnpmjs.org/> GitHub镜像站2  
+<https://github.iamsjy.workers.dev/> GitHub镜像站3  
 <https://www.csdn.net/> CSDN中国专业IT社区  
 <https://www.runoob.com/> 菜鸟教程  
 <https://www.dooccn.com/python3/> Python3在线编程  
@@ -126,4 +153,4 @@
 无  
 
 #### [返回顶部](#begin) [回到目录](#content)  
-<span id="end">更新时间：2021年7月18日13:45:55&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
+<span id="end">更新时间：2021-7-23 20:17:07&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
