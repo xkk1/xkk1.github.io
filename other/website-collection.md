@@ -41,7 +41,7 @@
 ~~[https://www.google.com/search?q=](https://www.google.com/) 谷歌~~  
 <details>
 <summary>
-<a href="https://www.library.ac.cn/" target="_blank">https://www.library.ac.cn/</a> 谷歌镜像站收集
+<a href="https://www.library.ac.cn/" target="_blank">https://www.library.ac.cn/</a> <a href="https://jia110.github.io/" target="_blank">1</a> 谷歌镜像站收集
 </summary>
 &emsp;&emsp;<a href="https://achelois.shuu.cf/" target="_blank">https://achelois.shuu.cf/search?q=</a> 谷歌镜像站1
 <br>
@@ -72,6 +72,16 @@
 &emsp;&emsp;<a href="https://search.iwiki.uk/extdomains/www.google.com.hk/" target="_blank">https://search.iwiki.uk/extdomains/www.google.com.hk/search?q=</a> 谷歌镜像站14
 <br>
 &emsp;&emsp;<a href="https://g20.i-research.edu.eu.org/" target="_blank">https://g20.i-research.edu.eu.org/search?q=</a> 谷歌镜像站15
+<br>
+&emsp;&emsp;<a href="https://g.luoyelusheng.com/" target="_blank">https://g.luoyelusheng.com/</a> 谷歌镜像站16
+<br>
+&emsp;&emsp;<a href="http://www.google.cn.ua/" target="_blank">http://www.google.cn.ua/search?q=</a> 谷歌镜像站17
+<br>
+&emsp;&emsp;<a href="https://so.niostack.com/" target="_blank">https://so.niostack.com/search?q=</a> 谷歌变种1
+<br>
+&emsp;&emsp;<a href="https://g.vovososo.com/" target="_blank">https://g.vovososo.com/search?q=</a> 谷歌变种2
+<br>
+&emsp;&emsp;<a href="https://www.sanzhima.com/" target="_blank">https://www.sanzhima.com/search?q=</a> 谷歌变种3
 <br>
 </details>
 
@@ -148,9 +158,10 @@
 <https://www.dooccn.com/python3/> Python3在线编程  
 <https://www.youzack.com/> YouZack-英语听力精听、背单词  
 <https://cloud.tencent.com/developer/devdocs> 开发者手册  
+<https://unbug.github.io/codelf/> CODELF(变量命名神器) [GitHub](https://github.com/unbug/codelf)  
 
 ### <span id="other">其他</span>
 无  
 
 #### [返回顶部](#begin) [回到目录](#content)  
-<span id="end">更新时间：2021-7-23 20:17:07&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
+<span id="end">更新时间：2021-7-24 13:21:39&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
