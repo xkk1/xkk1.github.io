@@ -41,7 +41,7 @@
 ~~[https://www.google.com/search?q=](https://www.google.com/) 谷歌~~  
 <details>
 <summary>
-<a href="https://www.library.ac.cn/" target="_blank">https://www.library.ac.cn/</a> <a href="https://jia110.github.io/" target="_blank">1</a> 谷歌镜像站收集
+谷歌镜像站收集 <a href="https://www.library.ac.cn/" target="_blank">[1]</a> <a href="https://jia110.github.io/" target="_blank">[2]</a> <a href="https://tool.yovisun.com/gs/" target="_blank">[3]</a>
 </summary>
 &emsp;&emsp;<a href="https://achelois.shuu.cf/" target="_blank">https://achelois.shuu.cf/search?q=</a> 谷歌镜像站1
 <br>
@@ -76,6 +76,10 @@
 &emsp;&emsp;<a href="https://g.luoyelusheng.com/" target="_blank">https://g.luoyelusheng.com/</a> 谷歌镜像站16
 <br>
 &emsp;&emsp;<a href="http://www.google.cn.ua/" target="_blank">http://www.google.cn.ua/search?q=</a> 谷歌镜像站17
+<br>
+&emsp;&emsp;<a href="https://g3.luciaz.me/" target="_blank">https://g3.luciaz.me/search?q=</a> 谷歌镜像站18 其中一个问发帖量最大的版块，答案为：心灵之约"
+<br>
+&emsp;&emsp;<a href="https://g.luciaz.me/" target="_blank">https://g.luciaz.me/search?q=</a> 谷歌镜像站19 其中一个问发帖量最大的版块，答案为：心灵之约"
 <br>
 &emsp;&emsp;<a href="https://so.niostack.com/" target="_blank">https://so.niostack.com/search?q=</a> 谷歌变种1
 <br>
@@ -164,4 +168,4 @@
 无  
 
 #### [返回顶部](#begin) [回到目录](#content)  
-<span id="end">更新时间：2021-7-24 21:46:06&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
+<span id="end">更新时间：2021-7-27 16:39:37&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
