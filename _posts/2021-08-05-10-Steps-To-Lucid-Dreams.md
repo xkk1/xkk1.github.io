@@ -520,7 +520,7 @@ We'll get to work on a new techniques in the next few minutes.
 
 You can practice it any time of day. And it only takes 30 seconds.
 
-## **Reality Checks**
+## Reality Checks
 
 ![hand](https://gallery.mailchimp.com/4cacdc3fd9acd295e79f5e34b/images/d587c74a-2d51-4b6b-ac40-7f15bf91e117.jpg)
 
