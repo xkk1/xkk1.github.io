@@ -7,10 +7,11 @@
 ## <span id="content">网站收藏-目录</span>
 + [主页](#主页)
 + [搜索引擎](#搜索引擎)
-+ [网盘](#网盘)
++ [学习](#study)
 + [工具](#tool)
 + [图床](#图床)
 + [文件外链](#文件外链)
++ [网盘](#网盘)
 + [编程](#program)
 + [其他](#other)
 
@@ -97,16 +98,10 @@
 - **其他搜索引擎**
 [https://www.kolsou.com/search?q=](https://www.kolsou.com/) 酷搜(百度网盘资源搜索)  
 
-### <span id="网盘">网盘</span>
-<https://pan.baidu.com/> 百度网盘 1T 限制速度  
-<https://www.lanzou.com/> 蓝奏云 限制单个大小、类型  
-<http://www.ys168.com/> 永硕Ｅ盘 1000M 直链 限制下载量  
-<https://www.jianguoyun.com/> 坚果云 限制上传下载量  
-<https://www.yunzhongzhuan.com/> 云中转 个人网盘  
-<https://www.laogoupan.com/> 老狗盘  
-<https://www.90pan.com/> 90网盘  
-<https://shandianpan.com/> 闪电盘  
-<https://quqi.com/> 曲奇云盘 2T  
+### <span id="study">学习</span>
+<https://ykt.eduyun.cn/> 国家中小学网络云平台  
+<https://www.icourse163.org/> 中国大学MOOC(慕课)_国家精品课程在线学习平台  
+
 
 ### <span id="tool">工具</span>
 <https://tinify.cn/> 图片压缩  
@@ -152,6 +147,17 @@
 <https://tntfiles.com/> tntfiles文件外链  
 <https://catbox.moe/> Catbox文件外链  
 
+### <span id="网盘">网盘</span>
+<https://pan.baidu.com/> 百度网盘 1T 限制速度  
+<https://www.lanzou.com/> 蓝奏云 限制单个大小、类型  
+<http://www.ys168.com/> 永硕Ｅ盘 1000M 直链 限制下载量  
+<https://www.jianguoyun.com/> 坚果云 限制上传下载量  
+<https://www.yunzhongzhuan.com/> 云中转 个人网盘  
+<https://www.laogoupan.com/> 老狗盘  
+<https://www.90pan.com/> 90网盘  
+<https://shandianpan.com/> 闪电盘  
+<https://quqi.com/> 曲奇云盘 2T 
+
 ### <span id="program">编程</span>
 <https://github.com/> GitHub  
 <https://hub.fastgit.org/> GitHub镜像站1  
@@ -168,4 +174,4 @@
 无  
 
 #### [返回顶部](#begin) [回到目录](#content)  
-<span id="end">更新时间：2021-7-27 16:39:37&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
+<span id="end">更新时间：2021-8-14 10:16:44&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
