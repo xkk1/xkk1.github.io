@@ -114,6 +114,44 @@ Java - 是一种广泛使用的计算机编程语言
 <a href="https://www.java.com/zh-CN/download/" target="_blank">官网</a>
 </details>
 
+<details>
+<summary>
+IconLover - 是一款功能强大且易于使用的图标编辑器，可用于为任何操作系统制作您自己的图标
+</summary>
+<b>官网[English]：</b><a href="http://www.aha-soft.com/iconlover/" target="_blank">http://www.aha-soft.com/iconlover/</a><br />
+<b>下载地址:</b><br />
+<a href="http://www.aha-soft.com/downloads/iconlove.zip" target="_blank">官网</a>
+</details>
+
+<details>
+<summary>
+UPX - 是一个免费的、可移植的、可扩展的、高性能的可执行打包程序，适用于多种可执行格式
+</summary>
+<b>官网[English]：</b><a href="https://upx.github.io/" target="_blank">https://upx.github.io/</a><br />
+<b>下载地址:</b><br />
+<a href="https://github.com/upx/upx/releases/latest" target="_blank">官方</a>
+&nbsp;<a href="https://www.lanzoui.com/ixiKXs2czqd" target="_blank">蓝奏云win64</a>
+</details>
+
+<details>
+<summary>
+Google Chrome - 开发者都遵循的网络浏览器
+</summary>
+<b>官网[中文(简体)]：</b><a href="https://www.google.cn/chrome/" target="_blank">https://www.google.cn/chrome/</a><br />
+<b>下载地址:</b><br />
+请进入官网下载
+</details>
+
+<details>
+<summary>
+Carnac - 将当前的按键操作显示在电脑屏幕上
+</summary>
+<b>官网[English]：</b><a href="http://code52.org/carnac/" target="_blank">http://code52.org/carnac/</a><br />
+<b>下载地址:</b><br />
+<a href="https://github.com/downloads/Code52/carnac/Carnac.zip" target="_blank">官网GitHub</a>
+&nbsp;<a href="https://www.lanzoui.com/ieuJvsmzeji"  target="_blank">蓝奏云(xkk2021-8-14)</a>
+</details>
+
 
 ### <span id="Android">安卓Android</span>
 
@@ -141,9 +179,48 @@ Termux - 是一个Android 终端模拟器和 Linux 环境应用程序
 &nbsp;<a href="http://www.laogoupan.com/b12955" target="_blank">老狗盘v114</a>
 </details>
 
+<details>
+<summary>
+Google Chrome - 开发者都遵循的网络浏览器
+</summary>
+<b>官网[中文(简体)]：</b><a href="https://www.google.cn/chrome/" target="_blank">https://www.google.cn/chrome/</a><br />
+<b>下载地址:</b><br />
+<a href="https://play.google.com/store/apps/details?id=com.android.chrome" target="_blank">Google Play(需翻墙)</a>
+&nbsp;<a href="https://apkfab.com/free-apk-download?q=com.android.chrome" target="_blank">免登录下载(需翻墙)</a>
+</details>
+
+<details>
+<summary>
+Via浏览器 - 探索速度与简约的极限
+</summary>
+<b>官网：</b><a href="https://viayoo.com/" target="_blank">https://viayoo.com/</a><br />
+<b>官网[中文(简体)]：</b><a href="https://viayoo.com/zh-cn/" target="_blank">https://viayoo.com/zh-cn/</a><br />
+<b>下载地址:</b><br />
+<a href="https://res.viayoo.com/v1/via-release-cn.apk" target="_blank">官网</a>
+&nbsp;<a href="https://play.google.com/store/apps/details?id=mark.via.gp"  target="_blank">Google Play(需翻墙)</a>
+<br />
+<b>via浏览器插件:</b><br />
+[1]:<a href="http://via-app.cn/" target="_blank">http://via-app.cn/</a><br />
+[2]:<a href="http://old.via-app.cn/" target="_blank">http://old.via-app.cn/</a><br />
+</details>
+
+<details>
+<summary>
+X浏览器 - 回归浏览器本质，还你一个纯粹的手机浏览器（不足1M却小而强大）
+</summary>
+<b>官网[中文(简体)]：</b><a href="https://www.xbext.com/" target="_blank">https://www.xbext.com/</a><br />
+<b>下载地址:</b><br />
+<a href="https://www.xbext.com/download/xbrowser-release.apk" target="_blank">官网</a>
+&nbsp;<a href="https://play.google.com/store/apps/details?id=com.xbrowser.play" target="_blank">Google Play(需翻墙)</a>
+&nbsp;<a href="https://www.coolapk.com/apk/com.x.browser.x5" target="_blank">酷安-X5内核版本</a>
+<br />
+<b>x浏览器脚本:</b><br />
+<a href="https://srvcn.xbext.com/mobile/share_scripts?locale=zh" target="_blank">https://srvcn.xbext.com/mobile/share_scripts?locale=zh</a><br />
+</details>
+
 
 #### [返回顶部](#begin) [回到目录](#content)  
-<span id="end">更新时间：2021-7-26 15:14:31&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
+<span id="end">更新时间：2021-8-14 22:19:29&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
 
 <!--
 <details>
