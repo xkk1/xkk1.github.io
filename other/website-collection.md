@@ -127,6 +127,7 @@
 <https://his.sh/> 在网址前加上his.sh来查看其快照  
 <https://www.geogebra.org/download> GeoGebra数学工具在线使用下载  
 <https://mail.qq.com/> QQ邮箱  
+<https://www.edrawmax.cn/> 亿图图示（流程图等的绘制）  
 
 ### <span id="图床">图床</span>
 <https://pic.baixiongz.com/> 白熊图床  
@@ -169,9 +170,11 @@
 <https://www.youzack.com/> YouZack-英语听力精听、背单词  
 <https://cloud.tencent.com/developer/devdocs> 开发者手册  
 <https://unbug.github.io/codelf/> CODELF(变量命名神器) [GitHub](https://github.com/unbug/codelf)  
+<https://jsrun.net/> 小闪电（多种编程语言在线运行）  
+<https://www.bejson.com/> (多种编程语言在线运行)  
 
 ### <span id="other">其他</span>
 无  
 
 #### [返回顶部](#begin) [回到目录](#content)  
-<span id="end">更新时间：2021-8-14 10:16:44&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
+<span id="end">更新时间：2021-8-16 20:35:52&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
