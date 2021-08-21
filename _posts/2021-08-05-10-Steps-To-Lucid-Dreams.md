@@ -17,6 +17,10 @@ The content you see below is the free lucid dreaming e-course on the [world-of-l
 - **[Day #9 – Controlling Lucid Dreams](#Day9)**
 - **[Day #10 – Converting Sleep Paralysis](#Day10)**
 - **[What Now xkk? 😀](#whatnow)**
+- **[xkk, did you have your first lucid dream yet?](#firstdream)**
+- **[Do you know the MANY spectrums of lucidity?](#MANYspectrums)**
+- **[I wish somebody had told me this when I first started](#toldme)**
+- **[🌒 The Hypnapompic State 🌘](#HypnapompicState)**
 
 ## Introduction
 
@@ -32,7 +36,7 @@ NO, KEEP MY MIND LOCKED
 
 ![LUCID_DREAMING_FAST_TRACK](https://a.optnmstr.com/users/9cba8a83a5e4/images/bfe4e6b72e4f1502413079-main_bookimg_sm_310.png)
 
-August 5, 2021, [xkk](https://xkk1.github.io) organizes.
+August 21, 2021, [xkk](https://xkk1.github.io) organizes.
 
 # <span id="welcome">Welcome!</span>
 
@@ -1216,3 +1220,197 @@ Sincerely
 Chris Hammond
 
 ---
+
+# <span id="firstdream">**xkk, did you have your first lucid dream yet?**</span>
+
+xkk
+
+It's been a few days since you completed 10 Steps to Lucid Dreams.
+
+I just wanted to check in to see if you had you first lucid dream yet?
+
+If so, I'd love to hear about it :-)
+
+I do actually read all the replies I get to these emails and always try my best to help out. So I'm only ever an email away if you need help with your training.
+
+**Lucid dreaming is a journey - keep exploring and keep learning!**
+
+I'll be sending you occasional news, tips and brain hacks that I think will help you on your way. After all, I promised I would get you lucid!
+
+Thanks
+
+**Chris**
+
+PS. Did lucid dreaming ever cause you to question exactly [what is reality](https://www.world-of-lucid-dreaming.com/what-is-reality.html)?
+
+---
+
+# <span id="MANYspectrums">**Do you know the MANY spectrums of lucidity?**</span>
+
+Team,
+
+One of the most frequent questions I get asked is simply:
+
+"Was this a lucid dream?"
+
+It's surprising the number of beginners that embark on their journey to lucidity without having a full understanding of what a lucid dream actually is!
+
+**It's worth having a quick recap.**
+
+Because the answer can help shed light for everybody - not just newbies.
+
+So remember this:
+
+**A lucid dream is any dream in which you are aware you are dreaming.**
+
+That's it.
+
+You don't have to have control, you don't have to be able to see crisp, sharp colors and you don't even have to fully remember the dream.
+
+Of course, all these things are *possible*, but they are not *requirements* of lucidity.
+
+**And this is where the answer starts to get a little more complex.**
+
+Because lucidity is not a binary state!
+
+It's not a Y/N flip switch.
+
+Like many things in life, lucidity exists along a *spectrum*.
+
+Actually, it exists across several spectrums!
+
+You see, the 'lucidity' of a dream can be measured across several independent dimensions - all of which exist along their own spectrums.
+
+For example:
+
+- **Awareness** - from a vague inkling to deep consciousness
+- **Control** - from none to advanced manipulation
+- **Recall** - from blurry fragments to detailed living memory
+- **Vividity** - from dull and distant to brilliant full color
+
+So, next time you have a lucid dream (or you question whether you may have), don't talk in vague terms like "lucid" or "semi-lucid" but try to assess each aspect along a scale.
+
+his is how academic researchers consider their dreams.
+
+For example, the [LuCiD Scale](https://pubmed.ncbi.nlm.nih.gov/23220345/) - Voss 2013.
+
+After all, when we dive downwards into the oceans of our dreams, we are acting as researchers of our own inner world!
+
+So pick up your archaeologist's belt, armed with your tools and scales - and go explore!
+
+Sincerely
+
+Chris Hammond
+
+---
+
+# <span id="toldme">I wish somebody had told me this when I first started </span>
+
+Dreamers,
+
+It's a beautiful sunny morning here and I wanted to send you something helpful.
+
+Some advice that might help you gain a greater appreciation of the nature of lucid dreaming.
+
+You see, many stumble across "lucid dreaming" online and become obsessed with it. The idea of controlling their dreams is exotic and alluring. They practice rigorously every day and invest all their energies into reading about techniques and tricks.
+
+But they don't see results and quickly become frustrated... thinking about giving up.
+
+Does this sound like you?
+
+It may, because I get hundreds of emails from folks in just this situation. And my advice is always the same:
+
+> Lucid dreaming is a **marathon**, not a **sprint**.
+>
+> And focus on the **journey**, not the **destination**.
+
+Think about it. Does the marathon runner get more from the experience of running for 4 hours, or that split second he crosses the finish line?
+
+Lucid dreaming is a long term life skill. You will never stop sleeping. There is no finish line. There is no end destination.
+
+There will always be room to improve and there will always be room to grow.
+
+There is no magic point at which you will suddenly become satisfied with your lucidity prowess. Accept each lucid dream as a gift and a precious grain of sand in the unending flux of energy that is our universe.
+
+You must start your journey with this mindset. Embrace lucid dreaming as a part of your **life** for the long term and do so **patiently**.
+
+But how do you stop yourself from burning out?
+
+And how do you stop yourself from becoming frustrated.
+
+You have to be grateful for and appreciate the significance of the "small wins". These are the the tiny "micro improvements" that you encounter on your journey.
+
+It could be holding onto lucidity for just 10 seconds longer than last time. Or it could be experiencing the feeling of sleep paralysis and being able to calm the terror just a little bit more.
+
+These are all important experiences and steps on this long journey.
+
+For the beginners out there, remember: lucid dreaming is but an exploration of the mysterious borderland sleep states.
+
+Do not rush into tying every fancy technique every night. Do not fret about the number of reality checks you are doing.
+
+**Just treat every evening - as you place your head on your pillow - as a journey into the dark expansive ocean of sleep onboard the ship of your mind.**
+
+Every spooky night time phenomenon you encounter is one small step closer and one more notch on your belt.
+
+**Sail the ocean patiently... and it will reward you! :-)**
+
+Chris Hammond
+
+---
+
+# <span id="HypnapompicState">🌒 The Hypnapompic State 🌘</span>
+
+Folks,
+
+Here's a story for ya.
+
+I woke this morning at 4:30am.
+
+It was black. I crawled out of bed in a half befuddled state and opened the door that leads out onto my balcony.
+
+The night air was cool, infinitely peaceful.
+
+Trees resting motionless and undisturbed before dawn.
+
+\- It was eerily quiet -
+
+The streetlights peered out at me, from across the garden - burning their image onto my vision.
+
+As I slowly blinked, the amorphous glowing blob remained - leaving its searing mark on my internal world.
+
+Except, it was not alone...
+
+Even with closed eyes, I continued to see the street lamp, the trees, my balcony. The searing glow. *Everything inside, was as out.*
+
+I blinked a few more times to see if I could observe the phenomenon again - and sure enough, shutting my eyes had no effect at all.
+
+My garden and the blob were staring at me - eyes open *or* closed.
+
+**This my friends is an example of a hypnopompic hallucination!**
+
+We often talk about hypnagogia - but forget about it's twin sister hypnopompia.
+
+While the hypnagogic state occurs *just before* we enter into sleep, the hypnopompic states occurs *just after* we awake.
+
+They are very similar but tend to have a subtly different character.
+
+Be aware of this.
+
+Because when you catch yourself waking in this bizarre half-asleep state of consciousness, it's an excellent time to try for a lucid dream!
+
+You'll know it when you see geometric patterns floating across your vision, your thoughts feel drowsy and your perception of reality is slow and dream-like.
+
+**These are the borderland sleep states from which lucid dreams are born!**
+
+So next time you wake extra early and all is black outside... try slumbering in bed a little longer.
+
+Let your body drift away and focus on the back of your eyelids - you may just catch a ride to the highly bizarre and ludicrously peculiar land of hypnopompia.
+
+(and remember, don't turn the lights on or look at your phone)
+
+Yours
+
+Chris Hammond
+
+---
+
