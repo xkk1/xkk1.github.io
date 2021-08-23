@@ -601,8 +601,6 @@ When pushing into your hand, examine the feeling in detail.
 
 Take note of how it feels physically and mentally. Don't stop until you have satisfied yourself 100% that you are awake – and *why* you believe that is the case (are you sure you're not dreaming right now?).
 
-
-
 ## Summary
 
 
