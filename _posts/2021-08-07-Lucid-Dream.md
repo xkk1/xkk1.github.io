@@ -19,8 +19,8 @@ __国外：__
 
 ## 相关材料
 10步进入清醒梦&nbsp;
-<a href="https://xkk1.github.io/2021/08/05/10%E6%AD%A5%E8%BF%9B%E5%85%A5%E6%B8%85%E9%86%92%E6%A2%A6.html">GitHub-Pages</a>&nbsp;
-<a href="https://xkk2.gitee.io/2021/08/05/10%E6%AD%A5%E8%BF%9B%E5%85%A5%E6%B8%85%E9%86%92%E6%A2%A6.html">Gitee-Pages</a>&nbsp;
+<a href="https://xkk1.github.io/2021/08/05/10%E6%AD%A5%E8%BF%9B%E5%85%A5%E6%B8%85%E9%86%92%E6%A2%A6.html" target="_blank">GitHub-Pages</a>&nbsp;
+<a href="https://xkk2.gitee.io/2021/08/05/10%E6%AD%A5%E8%BF%9B%E5%85%A5%E6%B8%85%E9%86%92%E6%A2%A6.html" target="_blank">Gitee-Pages</a>&nbsp;
 <a href="https://github.com/xkk1/xkk1.github.io/blob/master/_posts/2021-08-05-10%E6%AD%A5%E8%BF%9B%E5%85%A5%E6%B8%85%E9%86%92%E6%A2%A6.md#begin" target="_blank">GitHub</a>&nbsp;
 <a href="https://gitee.com/xkk2/xkk2/blob/master/_posts/2021-08-05-10%E6%AD%A5%E8%BF%9B%E5%85%A5%E6%B8%85%E9%86%92%E6%A2%A6.md#begin" target="_blank">Gitee</a>
 <br />
