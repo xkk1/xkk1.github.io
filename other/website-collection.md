@@ -101,6 +101,7 @@
 ### <span id="study">学习</span>
 <https://ykt.eduyun.cn/> 国家中小学网络云平台  
 <https://www.icourse163.org/> 中国大学MOOC(慕课)_国家精品课程在线学习平台  
+<https://www.leleketang.com/let3/knowledges.php?grade_id=30> 乐学堂-知识点视频  
 
 
 ### <span id="tool">工具</span>
@@ -173,9 +174,10 @@
 <https://jsrun.net/> 小闪电（多种编程语言在线运行）  
 <https://www.bejson.com/> (多种编程语言在线运行)  
 <https://curl.trillworks.com/> curl -> other program code  
+<https://goobe.io/> 为程序员服务的互联网搜索引擎  
 
 ### <span id="other">其他</span>
 无  
 
 #### [返回顶部](#begin) [回到目录](#content)  
-<span id="end">更新时间：2021-8-23 21:13:17&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
+<span id="end">更新时间：2021-8-27 08:19:04&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
