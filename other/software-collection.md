@@ -75,7 +75,7 @@ Enigma Virtual Box - Enigma 文件打包系统
 
 <details>
 <summary>
-Notepad++ - (作者ย่๋ี่่ัั๊ีี台ม๋๋่๊้独ปั้)是一个免费的源代码编辑器和支持多种语言的记事本替代品
+Notepad++ - 是一个免费的源代码编辑器和支持多种语言的记事本替代品
 </summary>
 <b>官网[English]：</b><a href="https://notepad-plus-plus.org/" target="_blank">https://notepad-plus-plus.org/</a><br />
 <b>下载地址:</b><br />
