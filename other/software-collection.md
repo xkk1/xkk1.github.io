@@ -161,6 +161,16 @@ Carnac - 将当前的按键操作显示在电脑屏幕上
 &nbsp;<a href="https://www.lanzoui.com/ieuJvsmzeji"  target="_blank">蓝奏云(xkk2021-8-14)</a>
 </details>
 
+<details>
+<summary>
+Typora - 一个 markdown 编辑器，markdown 阅读器。
+</summary>
+<b>官网[English]：</b><a href="https://www.typora.io/" target="_blank">https://www.typora.io/</a><br />
+<b>下载地址:</b><br />
+<a href="https://www.typora.io/windows/typora-setup-ia32.exe" target="_blank">官网32位</a>
+&nbsp;<a href="https://www.typora.io/windows/typora-setup-x64.exe" target="_blank">官网64位</a>
+</details>
+
 
 ### <span id="Android">安卓Android</span>
 
@@ -229,7 +239,7 @@ X浏览器 - 回归浏览器本质，还你一个纯粹的手机浏览器（不�
 
 
 #### [返回顶部](#begin) [回到目录](#content)  
-<span id="end">更新时间：2021-8-16 20:37:19&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
+<span id="end">更新时间：2021-8-19 18:50:14&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
 
 <!--
 <details>
