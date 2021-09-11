@@ -10,7 +10,7 @@ __国内：__
 清醒梦吧[百度贴吧]&nbsp;<a href="https://tieba.baidu.com/f?kw=%E6%B8%85%E9%86%92%E6%A2%A6" target="_blank">https://tieba.baidu.com/f?kw=清醒梦</a><br />
 梦控师学院[喜马拉雅]&nbsp;<a href="https://www.ximalaya.com/zhubo/44016475/" target="_blank">https://www.ximalaya.com/zhubo/44016475/</a><br />
 __国外：__  
-<a href="https://www.world-of-lucid-dreaming.com/" target="_blank"></a>https://www.world-of-lucid-dreaming.com/<br />
+<a href="https://www.world-of-lucid-dreaming.com/" target="_blank">https://www.world-of-lucid-dreaming.com/</a><br />
 <a href="http://www.lucidity.com/" target="_blank">http://www.lucidity.com/</a><br />
 
 ## 相关书籍
