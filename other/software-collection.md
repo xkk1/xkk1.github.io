@@ -171,6 +171,16 @@ Typora - 一个 markdown 编辑器，markdown 阅读器。
 &nbsp;<a href="https://www.typora.io/windows/typora-setup-x64.exe" target="_blank">官网64位</a>
 </details>
 
+<details>
+<summary>
+剪映专业版 - 轻而易剪 上演大幕 全能易用的桌面端剪辑软件，让创作更简单
+</summary>
+<b>官网桌面端[中文(简体)]：</b><a href="https://lv.ulikecam.com/" target="_blank">https://lv.ulikecam.com/</a><br />
+<b>官网移动端[中文(简体)]：</b><a href="https://lv.ulikecam.com/mobile_portal" target="_blank">https://lv.ulikecam.com/mobile_portal</a><br />
+<b>下载地址:</b><br />
+去官网
+</details>
+
 
 ### <span id="Android">安卓Android</span>
 
@@ -239,7 +249,7 @@ X浏览器 - 回归浏览器本质，还你一个纯粹的手机浏览器（不�
 
 
 #### [返回顶部](#begin) [回到目录](#content)  
-<span id="end">更新时间：2021-8-19 18:50:14&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
+<span id="end">更新时间：2021-9-11 20:39:44&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
 
 <!--
 <details>
