@@ -34,16 +34,16 @@
     </p>
     <script>
 var script_list = [ // [name, url , relevant_url]
-["找色差作弊", "./找色差作弊.user.js", "https://www.zhaosecha.com/"],
-["1", "2", "3"]
+["找色差作弊", "https://www.zhaosecha.com/"],
+["自定义百度", "https://www.baidu.com/"]
 ];
 var script_table = '<table border="1">\n<tr><td>脚本名称/安装脚本</td><td>相关网站</td></tr>';
 var i = 0;
 for  (i=0; i <= script_list.length - 1 ; i++){
     console.log(i);
     script_table += `<tr>
-    <td><span id="`+script_list[i][0]+`"><a href="`+script_list[i][1]+`">`+script_list[i][0]+`</a></span></td>
-    <td><a href="`+script_list[i][2]+`" target="_blank">`+script_list[i][2]+`</a></td>
+    <td><span id="`+script_list[i][0]+`"><a href="./`+script_list[i][0]+`.user.js">`+script_list[i][0]+`</a></span></td>
+    <td><a href="`+script_list[i][1]+`" target="_blank">`+script_list[i][1]+`</a></td>
 </tr>
 `;
 };
