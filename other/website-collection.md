@@ -102,6 +102,8 @@
 <https://ykt.eduyun.cn/> 国家中小学网络云平台  
 <https://www.icourse163.org/> 中国大学MOOC(慕课)_国家精品课程在线学习平台  
 <https://www.leleketang.com/let3/knowledges.php?grade_id=30> 乐学堂-知识点视频  
+<https://www.youzack.com/> YouZack-英语听力精听、背单词  
+<http://www.hxzxs.cn/> 化学自习室  
 
 
 ### <span id="tool">工具</span>
@@ -183,4 +185,4 @@
 无  
 
 #### [返回顶部](#begin) [回到目录](#content)  
-<span id="end">更新时间：2021-8-30 18:46:57&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
+<span id="end">更新时间：2021-10-24 11:32:03&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
