@@ -26,9 +26,10 @@
     window.onload = function(){
       document.documentElement.innerHTML += `
     <div class="goHomePage">
-      <a href="/">返回主页</a>
+      <a id="aHomePage" href="/">返回主页</a>
     </div>
       `;
+    document.getElementById("aHomePage").href = window.location.protocol + "//" + window.location.host
     }
     </script>
 </head>
