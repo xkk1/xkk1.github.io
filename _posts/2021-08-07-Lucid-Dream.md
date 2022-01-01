@@ -2,7 +2,7 @@
 
 ## 一些网站、网址
 __国内：__  
-68M·歧梦谷&nbsp;<a href="https://www.68m.com/" target="_blank">https://www.68m.com/</a><br />
+68M·歧梦谷&nbsp;<a href="https://www.68m.com/?fromuid=2615859" target="_blank">https://www.68m.com/</a><br />
 清明梦&nbsp;<a href="https://www.qingmingmeng.com/" target="_blank">https://www.qingmingmeng.com/</a><br />
 清醒梦&nbsp;<a href="https://www.qingxingmeng.com/" target="_blank">https://www.qingxingmeng.com/</a><br />
 追梦蚂蚁吧&nbsp;<a href="https://tieba.baidu.com/f?kw=%E8%BF%BD%E6%A2%A6%E8%9A%82%E8%9A%81" target="_blank">https://tieba.baidu.com/f?kw=追梦蚂蚁</a><br />
