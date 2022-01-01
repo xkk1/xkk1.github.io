@@ -14,8 +14,8 @@ __国外：__
 <a href="http://www.lucidity.com/" target="_blank">http://www.lucidity.com/</a><br />
 
 ## 相关书籍
-梦控师.pdf [github](https://github.com/xkk1/xkk1data/raw/main/book/%E6%A2%A6%E6%8E%A7%E5%B8%88.pdf)  
-【做梦技术】清明梦.pdf [github](https://github.com/xkk1/xkk1data/raw/main/book/%E3%80%90%E5%81%9A%E6%A2%A6%E6%8A%80%E6%9C%AF%E3%80%91%E6%B8%85%E6%98%8E%E6%A2%A6.pdf)  
+梦控师.pdf [github](https://github.com/xkk1/xkk1data/raw/main/book/%E6%A2%A6%E6%8E%A7%E5%B8%88.pdf) [百度网盘(提取码: bw7d)](https://pan.baidu.com/s/1bx2gHIj-Y3aok7bL3pDtLQ?pwd=bw7d)  
+【做梦技术】清明梦.pdf [github](https://github.com/xkk1/xkk1data/raw/main/book/%E3%80%90%E5%81%9A%E6%A2%A6%E6%8A%80%E6%9C%AF%E3%80%91%E6%B8%85%E6%98%8E%E6%A2%A6.pdf) [百度网盘(提取码: vchg)](https://pan.baidu.com/s/1dTnOwAZTSk77fJN6EymsKg?pwd=vchg)  
 
 ## 相关材料
 10步进入清醒梦&nbsp;
