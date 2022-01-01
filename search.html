@@ -87,7 +87,10 @@
 				<input id="new_page_open" name="new_page_open" type="checkbox" value="" />在新页面打开
 				<input id="more_set_up_buton" type="button" value="更多设置" onclick="more_set_up()" />
 				<div id="more_set_up_div"  style="display: none;">
-					<input id="open_this_page_in_a_new_page_button" type="button" value="在新页面打开本页" onclick="open_this_page_in_a_new_page()" />
+					<!--<input id="open_this_page_in_a_new_page_button" type="button" value="在新页面打开本页" onclick="open_this_page_in_a_new_page()" />-->
+					<p style="text-decoration:none;color: rgba(0, 0, 0, 0.5);">更多功能正在努力制作中……</p>
+					<a style="text-decoration:none;color: rgba(0, 0, 0, 1.0);" href="/" target="_blank">本页面由小喾苦制作<br></a>
+					<a href="https://space.bilibili.com/513689605" target="_blank">小喾苦的个人空间_哔哩哔哩</a>
 				</div>
 			</div>
 			<div id="list_div" style="display: none;">
@@ -143,7 +146,8 @@ function more_set_up(){
 	else{more_set_up_div.style.display="none";more_set_up_buton.value = "更多设置";}
 }
 
-function open_this_page_in_a_new_page(){window.open(search_page.contentWindow.location.href, '_blank');}
+// function open_this_page_in_a_new_page(){window.open(search_page.contentWindow.location.href, '_blank');}
+function open_this_page_in_a_new_page(){window.open(search_page.src, '_blank');}
 
 // 更改URL不跳转
 
