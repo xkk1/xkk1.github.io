@@ -165,7 +165,7 @@
 <https://www.90pan.com/> 90网盘  
 <https://www.118pan.com/> 118网盘  
 <https://shandianpan.com/> 闪电盘  
-<https://quqi.com/> 曲奇云盘 2TB 
+<https://quqi.com/> 曲奇云盘 2TB  
 <https://moecloud.cn/> 萌云 200GB  
 <https://www.bilnn.com/> 比邻云盘 1TB(不够可再要)  
 <https://wei-pan.cn/> 小麦云服 200GB(限制类型)  
