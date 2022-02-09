@@ -36,6 +36,11 @@
     </a>
     <a href="javascript:;" onclick="set_hitokoto()">换一换</a>
 </div>
+
+ <span id="busuanzi_container_page_pv">本文总阅读量<span id="busuanzi_value_page_pv"></span>次</span>&nbsp;|&nbsp;
+<span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>&nbsp;|&nbsp;
+<span id="busuanzi_container_site_uv">本站总访客数<span id="busuanzi_value_site_uv"></span>人</span>&nbsp;|&nbsp;
+  
 <style type="text/css">
 body
 {
@@ -67,6 +72,7 @@ body
 }
 </style>
 <script>
+/*一言*/
 var set_hitokoto = function(){
   //(一言)老式写法，兼容性最好; 支持 IE 
   var xhr = new XMLHttpRequest();
@@ -109,5 +115,6 @@ document.title = OriginTitle + '-' + ChooseTitle;
 set_hitokoto();
 }
 </script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </body>
 </html>
