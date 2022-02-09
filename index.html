@@ -42,7 +42,7 @@
 <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>、
 <span id="busuanzi_container_site_uv">本站总访客数<span id="busuanzi_value_site_uv"></span>人</span>
 <br \>
-<span id="sitetime"></span>
+本站已在风雨中度过：<span id="sitetime">?年?天?小时?分钟?秒（正在加载...）</span>
 </p>
 <style type="text/css">
 body
@@ -128,7 +128,7 @@ function siteTime(){
     var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours);
     var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes);
     var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds);
-    document.getElementById("sitetime").innerHTML=+diffYears+"年"+diffDays+"天"+diffHours+"时"+diffMinutes+"分钟"+diffSeconds+"秒";
+    document.getElementById("sitetime").innerHTML=+diffYears+"年"+diffDays+"天"+diffHours+"小时"+diffMinutes+"分钟"+diffSeconds+"秒";
 }
 
 window.onload = function(){
