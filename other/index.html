@@ -8,12 +8,12 @@
 <link rel="stylesheet" type="text/css" href="../main.css" />
 </head>
 <body>
-<h1 id="xkk_h1" onclick="javascript:display('secret');">其他</h1>
+<h1 class="xkk_h1" onclick="javascript:display('secret');">其他</h1>
 <div id="secret" style="display:none">
     <input type="password" id="password" name="password" placeholder="请输入密码" value="" />
     <input type="submit" id="submit" value="确认" onclick="return toopen();">
 </div>
-    <p id="xkk_p">
+    <p class="xkk_p">
 <a href="/">返回主页</a>
 <br><br>
 <a href="./markdown/marked.html?title=%E7%BD%91%E7%AB%99%E6%94%B6%E8%97%8F&md=../website-collection.md#begin" target="_blank">网站收藏</a>:
@@ -39,7 +39,7 @@
 <a href="./temporary/">临时temporary</a>
     </p>
 <div id="secret_information" style="display:none">
-    <p id="xkk_p">
+    <p class="xkk_p">
     <a href="https://github.com/xkk1/xkk1data/blob/main/information/README.md#begin" target="_blank">Go to GitHub to see other information.</a>
     <br>
     If you are unable to enter GitHub, you can try the following GitHub mirror website:<br>
@@ -49,11 +49,7 @@
     <br><br>
     </p>
 </div>
-<p style="text-align:center;">
-<span id="busuanzi_container_page_pv">本文总阅读量<span id="busuanzi_value_page_pv">?</span>次</span>、
-<span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv">?</span>次</span>、
-<span id="busuanzi_container_site_uv">本站总访客数<span id="busuanzi_value_site_uv">?</span>人</span>
-</p>
+
 <script type="text/javascript">
 var verification=false
 function toopen(){
@@ -88,6 +84,11 @@ function display(id){
     }
 }  
 </script>
+<p style="text-align:center;">
+<span id="busuanzi_container_page_pv">本文总阅读量<span id="busuanzi_value_page_pv">?</span>次</span>、
+<span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv">?</span>次</span>、
+<span id="busuanzi_container_site_uv">本站总访客数<span id="busuanzi_value_site_uv">?</span>人</span>
+</p>
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </body>
 </html>
