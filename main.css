@@ -13,6 +13,16 @@ body
 #xkk_p
 {
     color:black;
+    font-size:20px;
+}
+.xkk_h1
+{
+    color:orange;
     text-align:center;
+    font-size:40px;
+}
+.xkk_p
+{
+    color:black;
     font-size:20px;
 }
