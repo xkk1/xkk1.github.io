@@ -160,12 +160,12 @@
         // 更改标题
         var title = getQueryVariable("T");
         if (title != false) {
-            document.title = title;
+            document.title = decodeURIComponent(title);
         }
         // 更改背景
         var background = getQueryVariable("B");
         if (background != false) {
-            document.getElementById("overlay").setAttribute('style', 'background-image: url('+background+')');
+            document.getElementById("overlay").setAttribute('style', 'background-image: url('+decodeURIComponent(background)+')');
         }
         // 设置按钮
         const declineButton = document.getElementById("decline-button");
@@ -174,21 +174,21 @@
 	    //unescape , decodeURI , decodeURIComponent  解码
         var url = "";
         function buttonClickY(event) {
-            url = decodeURIComponent(getQueryVariable("Y"));
+            url = getQueryVariable("Y");
             if(url) {
                 // window.location.href = "https://xkk1.github.io/";
                 window.location.href = "https://www.bilibili.com/video/BV1GJ411x7h7";
             }else{
-                window.location.href = url;
+                window.location.href = decodeURIComponent(url);
             }
         }
         function buttonClickN(event) {
-            url = decodeURIComponent(getQueryVariable("N"));
+            url = getQueryVariable("N");
             if(url) {
                 // window.location.href = "https://space.bilibili.com/513689605";
                 window.location.href = "https://xkk1.github.io/";
             }else{
-                window.location.href = url;
+                window.location.href = decodeURIComponent(url);
             }
         }
         acceptButton.addEventListener("click", buttonClickY);
