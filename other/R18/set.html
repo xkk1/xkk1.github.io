@@ -37,7 +37,11 @@
             return value;
         }
         function show_url(){
-            url = "https://xkk1.github.io/other/r18/?f=set" + get_value("Y",Yi) + get_value("N",Ni) + get_value("T",Ti) + get_value("B",Bi);
+	    let hurl = "https://xkk1.github.io/other/r18/?f=set"
+	    if (url.indexOf("https://xkk2.gitee.io") == 0){
+		hurl = "https://xkk2.gitee.io/other/r18/?f=set"
+	    }
+            url = hurl + get_value("Y",Yi) + get_value("N",Ni) + get_value("T",Ti) + get_value("B",Bi);
             aurl.innerText = url;
             aurl.href = url;
             copyB.style = "";
