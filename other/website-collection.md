@@ -115,7 +115,7 @@ __bilibili封面提取__
 - <https://www.ibilibili.com/>  
 - <https://www.jijidown.com/> 唧唧  
 
-<https://xbeibeix.com/api/bilibili/> 贝贝BiliBili - B站视频下载 
+<https://xbeibeix.com/api/bilibili/> 贝贝BiliBili - B站视频下载  
 <https://member.bilibili.com/studio/bs-editor> bilibili云剪辑  
 
 #### 图片
