@@ -107,25 +107,36 @@
 
 
 ### <span id="tool">工具</span>
+#### B站（<https://www.bilibili.com>）
+__bilibili封面提取__  
+- <https://bilicover.magecorn.com/>  
+- <https://www.bilibiliq.com/>  
+- <https://bilibili.huangyuehe.com/bilibili.html>  
+- <https://www.ibilibili.com/>  
+- <https://www.jijidown.com/> 唧唧  
+
+<https://xbeibeix.com/api/bilibili/> 贝贝BiliBili - B站视频下载 
+<https://member.bilibili.com/studio/bs-editor> bilibili云剪辑  
+
+#### 图片
 <https://tinify.cn/> 图片压缩  
 <https://bigjpg.com/> AI人工智能图片放大  
+<https://www.gaoding.com> 稿定设计 设计聚合 [在线PS工具https://ps.gaoding.com/#/](https://ps.gaoding.com/#/)  
 <https://docs.wps.cn/> 金山文档 Office在线办公  
 <https://note.youdao.com/> 有道云笔记  
 <https://www.photopea.com/> 在线PS  
-<https://www.gaoding.com> 稿定设计 设计聚合 [在线PS工具https://ps.gaoding.com/#/](https://ps.gaoding.com/#/)  
+#### 其他工具  
 <https://www.toolnb.com/>爱资料在线工具  
 <https://jingzhunyun.com/> 精准云工具  
 <http://tools.bugscaner.com/> 在线工具  
 <http://tool.114la.com/> 114啦工具箱  
 <https://52online.vip/> 吾爱分享VIP影视  
-<https://bilicover.magecorn.com/> bilibili封面提取  
 <https://u.nu/> 短网址生成  
 <https://www.wjx.cn/> 问卷星  
 <https://www.ffkuaidu.com/> 在线文字转语音，讯飞快读  
 <https://note.youdao.com/> 有道云笔记  
 <https://shimo.im/> 石墨文档  
 <https://wn.run/> 万能命令wn.run/后接任意网址  
-<https://member.bilibili.com/studio/bs-editor> bilibili云剪辑  
 <https://www.zybuluo.com/mdeditor> Cmd Markdown 编辑阅读器  
 <https://caiyunapp.com/weather/> 彩云天气  
 <https://his.sh/> 在网址前加上his.sh来查看其快照  
@@ -134,7 +145,7 @@
 <https://www.edrawmax.cn/> 亿图图示（流程图等的绘制）  
 <https://airportal.cn/> 空投(传输文件)  
 <https://jianwai.youdao.com/> 网易见外工作台  
-<http://unlock.nkeji.cn/> 音乐解锁  
+音乐解锁 [1](http://unlock.nkeji.cn/) [2](http://qqlogin.com/unlock/)    
 
 ### <span id="图床">图床</span>
 <https://pic.baixiongz.com/> 白熊图床  
@@ -194,4 +205,4 @@
 [https://www.68m.com/](https://www.68m.com/?fromuid=2615859) 68M歧梦谷  
 
 #### [返回顶部](#begin) [回到目录](#content)  
-<span id="end">更新时间：2022年2月5日20点05分&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
+<span id="end">更新时间：2022年3月11日19点10分&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
