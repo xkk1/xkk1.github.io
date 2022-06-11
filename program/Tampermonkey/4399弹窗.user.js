@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         4399弹窗
 // @namespace    https://xkk1.github.io/program/Tampermonkey/#4399弹窗
-// @version      0.0.1
-// @description  try to take over the world!
+// @version      0.0.2
+// @description  关闭4399登录游戏弹窗，畅玩无需登录的小游戏
 // @author       小喾苦
-// @match        http://www.4399.com/*
+// @match        *://www.4399.com/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
 // ==/UserScript==
