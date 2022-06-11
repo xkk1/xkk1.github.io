@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         4399弹窗
+// @name         4399弹窗关闭
 // @namespace    https://xkk1.github.io/program/Tampermonkey/#4399弹窗
 // @version      0.0.2
 // @description  关闭4399登录游戏弹窗，畅玩无需登录的小游戏
