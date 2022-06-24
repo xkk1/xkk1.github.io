@@ -199,6 +199,15 @@ MediBang Paint - 是一款免费的漫画插画绘图应用
 
 <details>
 <summary>
+画世界 - 适用于全平台绘画软件 绘画爱好者创作交流社区 简洁 · 易用
+</summary>
+<b>官网[中文(简体)]：</b><a href="https://www.huashijie.art/" target="_blank">https://www.huashijie.art/</a><br />
+<b>下载地址:</b><br />
+<a href="https://www.huashijie.art/download/hsj" target="_blank">官网下载页面</a>
+</details>
+
+<details>
+<summary>
 Termux - 是一个Android 终端模拟器和 Linux 环境应用程序
 </summary>
 <b>官网[English]：</b><a href="https://termux.com/" target="_blank">https://termux.com/</a><br />
@@ -247,9 +256,20 @@ X浏览器 - 回归浏览器本质，还你一个纯粹的手机浏览器（不�
 <a href="https://srvcn.xbext.com/mobile/share_scripts?locale=zh" target="_blank">https://srvcn.xbext.com/mobile/share_scripts?locale=zh</a><br />
 </details>
 
+<details>
+<summary>
+Pydroid 3 - 手机上好用的Python IDE （支持图形界面）
+</summary>
+<!--<b>官网[English]：</b><a href="" target="_blank"></a><br />-->
+<b>下载地址:</b><br />
+<a href="https://play.google.com/store/apps/details?id=ru.iiec.pydroid3&hl=en_US&gl=US" target="_blank">Google Play(需翻墙)</a>&nbsp;<a href="https://www.lanzout.com/iTJkW06v2i1e" target="_blank">蓝奏云(v5.00_arm64)</a><br />
+<b>Pydroid3汉化版安装教程：</b><br />
+<a href="https://www.bilibili.com/video/BV1pL4y1L7fa" target="_blank">BV1pL4y1L7fa(哔哩哔哩视频教程)</a>&nbsp;<a href="https://blog.qaiu.top/archives/pydroid" target="_blank">https://blog.qaiu.top/archives/pydroid</a>
+</details>
+
 
 #### [返回顶部](#begin) [回到目录](#content)  
-<span id="end">更新时间：2021-9-11 20:39:44&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
+<span id="end">更新时间：2022/6/24 10:04&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈（有Github账号的还可以去[我的网站的留言板](https://xkk1.github.io/message.html)）<span>
 
 <!--
 <details>
