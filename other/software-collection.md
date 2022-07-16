@@ -181,6 +181,17 @@ Typora - 一个 markdown 编辑器，markdown 阅读器。
 去官网
 </details>
 
+<details>
+<summary>
+TightVNC - 
+VNC兼容的免费远程控制/远程桌面软件
+</summary>
+<b>官网[English]：</b><a href="https://www.tightvnc.com/" target="_blank">https://www.tightvnc.com/</a><br />
+<b>下载地址:</b><br />
+<a href="https://www.tightvnc.com/download.php" target="_blank">官网下载</a>
+</details>
+
+
 
 ### <span id="Android">安卓Android</span>
 
@@ -267,9 +278,29 @@ Pydroid 3 - 手机上好用的Python IDE （支持图形界面）
 <a href="https://www.bilibili.com/video/BV1pL4y1L7fa" target="_blank">BV1pL4y1L7fa(哔哩哔哩视频教程)</a>&nbsp;<a href="https://blog.qaiu.top/archives/pydroid" target="_blank">https://blog.qaiu.top/archives/pydroid</a>
 </details>
 
+<details>
+<summary>
+VNC Viewer (realvnc)
+</summary>
+<b>官网[English]：</b><a href="https://www.realvnc.com/en/" target="_blank">https://www.realvnc.com/en/</a><br />
+<b>下载地址:</b><br />
+<a href="https://www.realvnc.com/en/connect/download/viewer/" target="_blank">官网下载页面</a>
+&nbsp;<a href="https://play.google.com/store/apps/details?id=com.realvnc.viewer.android" target="_blank">Google Play(需翻墙)</a>
+&nbsp;<a href="https://apkfab.com/free-apk-download?q=com.realvnc.viewer.android" target="_blank">免登录下载(需翻墙)</a>
+</details>
+
+<details>
+<summary>
+必剪 - B站出品的剪辑软件
+</summary>
+<b>官网[中文(简体)]：</b><a href="https://bcut.drawyoo.com/" target="_blank">https://bcut.drawyoo.com/</a><br />
+<b>下载地址:</b><br />
+<a href="https://dl.hdslb.com/mobile/latest/bilistudio/android_bbs-master.apk" target="_blank">官网下载</a>
+</details>
+
 
 #### [返回顶部](#begin) [回到目录](#content)  
-<span id="end">更新时间：2022/6/24 10:04&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈（有Github账号的还可以去[我的网站的留言板](https://xkk1.github.io/message.html)）<span>
+<span id="end">更新时间：2022年7月16日 17点31分&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈（有Github账号的还可以去[我的网站的留言板](https://xkk1.github.io/message.html)）<span>
 
 <!--
 <details>
