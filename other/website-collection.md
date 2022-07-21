@@ -115,7 +115,7 @@ __bilibili封面提取__
 - <https://www.ibilibili.com/>  
 - <https://www.jijidown.com/> 唧唧  
 
-<https://xbeibeix.com/api/bilibili/> 贝贝BiliBili - B站视频下载  
+<https://xbeibeix.com/api/bilibili/> 贝贝BiliBili - B站视频下载 
 <https://member.bilibili.com/studio/bs-editor> bilibili云剪辑  
 
 #### 图片
@@ -145,7 +145,8 @@ __bilibili封面提取__
 <https://www.edrawmax.cn/> 亿图图示（流程图等的绘制）  
 <https://airportal.cn/> 空投(传输文件)  
 <https://jianwai.youdao.com/> 网易见外工作台  
-音乐解锁 [1](http://unlock.nkeji.cn/) [2](http://qqlogin.com/unlock/)    
+音乐解锁 [1](http://unlock.nkeji.cn/) [2](http://qqlogin.com/unlock/)  
+<https://toolb.cn/textspeech> 微软AI语音  
 
 ### <span id="图床">图床</span>
 <https://pic.baixiongz.com/> 白熊图床  
@@ -205,4 +206,4 @@ __bilibili封面提取__
 [https://www.68m.com/](https://www.68m.com/?fromuid=2615859) 68M歧梦谷  
 
 #### [返回顶部](#begin) [回到目录](#content)  
-<span id="end">更新时间：2022年3月11日19点10分&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈<span>
+<span id="end">更新时间：2022年7月21日16点22分&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈（有Github账号的还可以去[我的网站的留言板](https://xkk1.github.io/message.html)）<span>
