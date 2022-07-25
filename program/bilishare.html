@@ -17,9 +17,13 @@
         </div>
         <div id="show_info"></div>
         <div id="help_div">
-            <p id="help_p">
+            <p class="help_p">
                 <br />
-                本工具用于分享哔哩哔哩视频，可去除手机上无哔哩哔哩APP的用户观看时“<div class="mplayer-widescreen-callapp"><span>打开App，看高清全屏</span></div>”的打扰<i>（对于需要看字幕的视频影响太大了，很多人又懒得或不愿意为看一个视频下载APP，这可能降低外人对我们哔哩哔哩平台的好感度）</i>，本工具还可用来提取封面。<br />
+                本工具用于分享哔哩哔哩视频，可去除手机上无哔哩哔哩APP的用户观看时
+            </p>
+            <div class="mplayer-widescreen-callapp"><a href="https://d.bilibili.com/download_app.html" style="text-decoration: none;color: #fff;" target="_blank">打开App，看高清全屏</a></div>
+            <p class="help_p">
+                的打扰<i>（对于需要看字幕的视频影响太大了，很多人又懒得或不愿意为看一个视频下载APP，这可能降低外人对我们哔哩哔哩平台的好感度）</i>，本工具还可用来提取封面。<br />
                 使用方法：复制视频链接或BV号粘贴到上面的输入框里，点确定即可生成相应视频的分享页面。之后您可以选择分享本页或分享纯视频。<br />
                 <strong>注意：不支持https://b23.tv/xxx的短链接格式，请您在浏览器打开短链接后复制真正的链接</strong>
             </p>
@@ -210,8 +214,9 @@ h1{text-align: center}
 #desc{
     color: #666;
 }
-#help_p{
-    display: inline-block;
+.help_p{
+    color: #999;
+    /*display: inline-block;*/
 }
 .mplayer-widescreen-callapp {
     background: #fb729f;
@@ -223,7 +228,7 @@ h1{text-align: center}
     vertical-align: middle;
     line-height: 36px;  /*line-height must be equal to height*/  
     text-align: center;
-    display: inline-block;
+    margin:0px auto;
 }
 .end_p {
     text-align: center;
