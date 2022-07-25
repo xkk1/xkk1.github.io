@@ -100,8 +100,8 @@ function change_details(json){
 <strong>`+json.data.title+`</strong><br />
 `+json.data.desc.replace(/\n/g,"<br />\n")+`<br /><br />
 UP主：<a class="bili_a" href="https://space.bilibili.com/`+json.data.owner.mid+`" target="_blank">`+json.data.owner.name+`</a><br />
-封面：<a href="`+json.data.pic+`" rel="noreferrer" target="_blank">`+json.data.pic+`</a>
-</p><br /><br /><br /><br />`;
+<p style="text-align: center;"><a  class="bili_a" href="`+json.data.pic+`" rel="noreferrer" target="_blank">点我可以打开视频封面呦</a></p>
+</p><br /><br /><hr /><br /><br />`;
     document.title = json.data.title;
     var details_button_div = document.getElementById("details_button");
     var player_bilibili_URL = "https://player.bilibili.com/player.html?bvid=BV"+getQueryVariable("BV");
