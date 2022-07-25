@@ -10,7 +10,6 @@
 <body>
     <main style="margin:0 auto;max-width: 1000px;">
         <div id="biliplay"></div>
-        <div id="details_div"></div>
         <h1>哔哩哔哩视频分享</h1>
         <div id="input_div">
             <input type="search" id="BV" value="" onkeydown="enter_OK()" placeholder="请输入哔哩哔哩视频链接或BV号(包含BV)" />
@@ -34,7 +33,6 @@
     </main>
     <script>
 var biliplay_div = document.getElementById("biliplay");
-var details_div = document.getElementById("details_div");
 var BV_input = document.getElementById("BV");
 var show_info_div = document.getElementById("show_info");
 var copy_input = document.getElementById("copy_input");  //input 的ID
@@ -97,12 +95,13 @@ http://www.runoob.com/index.php?id=1&image=awesome.jpg
 */
 function change_details(json){
     // console.log(json);
+    var details_div = document.getElementById("details_div");
     details_div.innerHTML = `<p>
 <strong>`+json.data.title+`</strong><br />
 `+json.data.desc.replace(/\n/g,"<br />\n")+`<br /><br />
-UP主：<a href="https://space.bilibili.com/`+json.data.owner.mid+`" target="_blank">`+json.data.owner.name+`</a><br />
+UP主：<a class="bili_a" href="https://space.bilibili.com/`+json.data.owner.mid+`" target="_blank">`+json.data.owner.name+`</a><br />
 封面：<a href="`+json.data.pic+`" rel="noreferrer" target="_blank">`+json.data.pic+`</a>
-</p>`;
+</p><br /><br /><br /><br />`;
     document.title = json.data.title;
     var details_button_div = document.getElementById("details_button");
     var player_bilibili_URL = "https://player.bilibili.com/player.html?bvid=BV"+getQueryVariable("BV");
@@ -122,7 +121,8 @@ function show(BV){
     biliplay_div.innerHTML = `<div style="position: relative;width: 100%;height: 0;padding-bottom: 75%;margin-bottom: 30px;">
 <iframe src="//player.bilibili.com/player.html?bvid=`+bvid+`" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 100%;"> </iframe>
 </div><br />
-<a href="https://www.bilibili.com/video/`+bvid+`">原网页`+bvid+`</a>`;
+<p style="text-align: center;"><a class="bili_a" href="https://www.bilibili.com/video/`+bvid+`">原网页https://www.bilibili.com/video/`+bvid+`</a></p>
+<div id="details_div"></div>`;
     changeURLStatic('BV', BV);
     BV_input.value = bvid;
     var player_bilibili_URL = "https://player.bilibili.com/player.html?bvid="+bvid;
@@ -131,9 +131,9 @@ function show(BV){
 <input type="submit" class="button" value="复制纯视频链接" onclick="copy('`+player_bilibili_URL+`')" />&nbsp;<a href="`+player_bilibili_URL+`">`+player_bilibili_URL+`</a><br />
 <div id="details_button"></div>
 其他工具：<br />
-<a href="https://www.bilibiliq.com/video/`+bvid+`" target="_blank">封面提取</a>
-<a href="https://www.ibilibili.com/video/`+bvid+`" target="_blank">爱哔哩解析</a>&nbsp;
-<a href="https://www.jijidown.com/video/`+bvid+`" target="_blank">哔哩哔哩唧唧</a>&nbsp;
+<a class="bili_a" href="https://www.bilibiliq.com/video/`+bvid+`" target="_blank">封面提取</a>
+<a class="bili_a" href="https://www.ibilibili.com/video/`+bvid+`" target="_blank">爱哔哩解析</a>&nbsp;
+<a class="bili_a" href="https://www.jijidown.com/video/`+bvid+`" target="_blank">哔哩哔哩唧唧</a>&nbsp;
 `;
     details_div.innerHTML = "";
     load_details_script(bvid);
@@ -145,11 +145,11 @@ function OK(BV_input_value){
     catch(err) {
         try{
             var b32_tv = BV_input_value.match(/https:\/\/b23.tv\/[0-9a-zA-Z]+/)[0];
-            alert("暂不支持“"+b32_tv+"”短链接，请在浏览器打开短链接后复制真正的链接");
+            alert("暂不支持“"+b32_tv+"”短链接，请在浏览器打开短链接后复制真正的链接\n该短链接将在新页面打开，请注意并复制新链接");
             window.open(b32_tv, '_blank');
         }
         catch(err) {
-            alert(err+"未识别到BV号，请输入正确的视频链接或BV号，暂不支持b23.tv短链接");
+            alert(err+"未识别到BV号，请输入正确的视频链接或BV号");
         }
     }
 }
@@ -180,16 +180,29 @@ h1{text-align: center}
 #BV {
     width: 100%;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: 1px solid #fb729f;
+    border-radius: 5px;
     display: flex;
 }
 #OK {
     font-size: 16px;
     border: 1px solid #ccc;
+    background: #fb729f;
+    border-radius: 5px;
+    color: #fff;
 }
 .button {
     font-size: 16px;
     border: 1px solid #ccc;
+    background: #fb729f;
+    border-radius: 5px;
+    color: #fff;
+}
+.bili_a{
+    text-decoration: none;
+    background: #fb729f;
+    border-radius: 5px;
+    color: #fff;
 }
 #help_p{
     display: inline-block;
