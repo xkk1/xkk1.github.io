@@ -132,7 +132,7 @@ function siteTime(){
     document.getElementById("sitetime").innerHTML=+diffYears+"年"+diffDays+"天"+diffHours+"小时"+diffMinutes+"分钟"+diffSeconds+"秒";
 }
 
-window.onload = function(){
+
  siteTime();
 //随机标题
 var OriginTitle = document.title;
@@ -152,7 +152,6 @@ var ChooseTitle =  Titles[Math.floor(Math.random() * Titles.length)];
 document.title = OriginTitle + '-' + ChooseTitle;
 
 set_hitokoto();
-}
   
 </script>
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
