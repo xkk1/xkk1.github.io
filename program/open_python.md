@@ -5,7 +5,7 @@
 
 **安装&使用**
 
-[点我](https://www.lanzout.com/iXF5u0afpqre)下载Python 3.8.10 32位 便携版zip压缩包  
+[点我](https://www.lanzout.com/ihfPf0ag0hnc)下载Python 3.8.10 32位 便携版zip压缩包  
 将其解压到优盘即可完成安装  
 使用方法： 双击运行open_python.bat 
 
@@ -25,4 +25,4 @@ open_python GitHub开源地址：<https://github.com/xkk1/open_python>
 以上网站可能在国内不易访问，以下提供相应的蓝奏云链接  
 Python 3.8.10 32位 安装程序：<https://www.lanzout.com/ik134sx5x9i>  
 Notepad++ 8.4.4 32位 安装程序：<https://www.lanzout.com/i8Lc00ae8zgj>  
-open_python 0.0.4 zip压缩包：<https://www.lanzout.com/iCUBs0afqm2b>  
+open_python 0.0.4 zip压缩包：<https://www.lanzout.com/imuiN0afzl8f>  
