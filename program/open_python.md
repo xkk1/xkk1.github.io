@@ -1,6 +1,6 @@
 # open_python 方便的使用便携版Python 
 
-可将Python放在优盘里，走到哪用到哪，方便便捷
+可将Python放在优盘里，走到哪用到哪，方便便捷  
 支持 win7 32bit Python 3.8
 
 **安装&使用**
