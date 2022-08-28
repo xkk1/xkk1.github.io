@@ -1,13 +1,13 @@
 # open_python 方便的使用便携版Python 
 
-可将Python放在优盘里，走到哪用到哪，方便便捷  
+可将 Python 放在优盘里，走到哪用到哪，方便便捷  
 支持 win7 32bit Python 3.8
 
 **安装&使用**
 
-[点我](https://www.lanzout.com/ihfPf0ag0hnc)下载Python 3.8.10 32位 便携版zip压缩包  
+[点我](https://www.lanzout.com/ihfPf0ag0hnc)下载 Python 3.8.10 32位 便携版zip压缩包  
 将其解压到优盘即可完成安装  
-使用方法： 双击运行open_python.bat 
+使用方法： 双击运行 [open_python.bat](https://github.com/xkk1/open_python/blob/main/open_python.bat)  
 
 ---
 
@@ -15,10 +15,10 @@
 
 **制作方法：**  
 
-1. [下载Python安装包](https://www.python.org/downloads/windows/)，安装Python，记住安装路径  
-2. 复制安装路径下的*Pythonx.y*文件夹到移动存储设备（如U盘）  
-3. 下载open_python.py和open_python.bat放入python.exe同目录下 [点我下载zip压缩文件](https://github.com/xkk1/open_python/archive/refs/heads/main.zip)  
-4. 利用二进制编辑器将*Pythonx.y/Scripts*目录下的\*.exe文件中最后的绝对路径改为相对路径（我用的是[Notepad++](https://notepad-plus-plus.org/)）
+1. [下载Python安装包](https://www.python.org/downloads/windows/)，安装 Python ，记住安装路径  
+2. 复制安装路径下的 “ Python3\* ” 文件夹到移动存储设备（如U盘）  
+3. 下载 [open_python.py](https://github.com/xkk1/open_python/blob/main/open_python.py) 和 [open_python.bat](https://github.com/xkk1/open_python/blob/main/open_python.bat) 放入 python.exe 同目录下 [点我下载zip压缩文件](https://github.com/xkk1/open_python/archive/refs/heads/main.zip)  
+4. 利用二进制编辑器将 “ *Python3\*/Scripts* ” 目录下的 “ \*.exe ” 文件中最后的绝对路径改为相对路径（我用的是[Notepad++](https://notepad-plus-plus.org/)）
   
 open_python GitHub开源地址：<https://github.com/xkk1/open_python>  
 
