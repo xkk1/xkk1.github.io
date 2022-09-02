@@ -6,6 +6,7 @@
 **安装&使用**
 
 [点我](https://www.lanzout.com/ihfPf0ag0hnc)下载 Python 3.8.10 32位 便携版zip压缩包  
+[点我](https://www.lanzout.com/iyNDG0auo2xa)下载 Python 3.10.6 64位 便携版zip压缩包  
 将其解压到优盘即可完成安装  
 使用方法： 双击运行 [open_python.bat](https://github.com/xkk1/open_python/blob/main/open_python.bat)  
 
