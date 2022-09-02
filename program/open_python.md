@@ -28,7 +28,3 @@ Notepad++ 8.4.4 32位 安装程序：<https://www.lanzout.com/i8Lc00ae8zgj>
 open_python 0.0.4 zip压缩包：<https://www.lanzout.com/imuiN0afzl8f>  
 
 **介绍及制作视频[【哔哩哔哩】把Python装入U盘 随插随用](https://www.bilibili.com/video/BV1RD4y167ub)**  
-
-<div style="position: relative;width: 100%;height: 0;padding-bottom: 75%;margin-bottom: 30px;">
-    <iframe src="//player.bilibili.com/player.html?aid=730044153&bvid=BV1RD4y167ub&cid=818309853&page=1" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 100%;"> </iframe>
-</div>
