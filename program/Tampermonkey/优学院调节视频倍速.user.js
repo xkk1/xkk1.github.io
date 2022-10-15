@@ -59,7 +59,7 @@
       <input type="button" value="自动尝试调节倍速中..." id="xkkauto" onclick='javascript:xkkchauto();' />
       <br>
     倍速选择:<br />
-    <input type="number" min="0.1" max="16" step="0" value="16.0" id="inputnum">
+    <input type="number" min="0" max="16" step="0.05" value="16.0" id="inputnum">
     <br />
 
 <details>
