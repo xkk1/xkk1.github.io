@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         优学院调节视频倍速
 // @namespace    https://xkk1.github.io/program/Tampermonkey/#优学院调节视频倍速
-// @version      0.0.3
-// @description  优学院调节视频倍速，须在视频播放后点击
+// @version      0.0.4
+// @description  优学院调节视频倍速,最多支持16倍速
 // @author       小喾苦
 // @match        https://ua.ulearning.cn/learnCourse/learnCourse.html*
 // @icon         https://ua.ulearning.cn/favicon.ico
@@ -76,9 +76,15 @@
     let xkkcontentJS = document.createElement("script");
     xkkcontentJS.innerHTML=`
     function xkkchangespeed(){
+    try {
         for(var i=0;i<document.getElementsByClassName("custom-video").length;i++){
-            document.getElementsByClassName("custom-video")[i].playbackRate=document.getElementById("inputnum").value;
+                document.getElementsByClassName("custom-video")[i].playbackRate=document.getElementById("inputnum").value;
         }
+    }
+    catch(err) {
+        console.log('优学院调节视频倍速：脚本尝试调节错！错误信息：' + err.message);
+    }
+
     }
     var xkkifauto = document.getElementById("xkkauto");
     var xkkchdiv = document.getElementById("xkkchdiv");
@@ -113,5 +119,5 @@
         xkkMenu.style.display = "none";
     }
 
-    
+
 })();
