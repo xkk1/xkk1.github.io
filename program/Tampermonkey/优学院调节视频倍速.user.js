@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         优学院调节视频倍速
 // @namespace    https://xkk1.github.io/program/Tampermonkey/#优学院调节视频倍速
-// @version      0.0.4
-// @description  优学院调节视频倍速,最多支持16倍速
+// @version      0.0.5
+// @description  优学院调节视频倍速,最多支持16倍速,可隐藏菜单，每隔5秒记录倍速信息
 // @author       小喾苦
 // @match        https://ua.ulearning.cn/learnCourse/learnCourse.html*
 // @icon         https://ua.ulearning.cn/favicon.ico
@@ -39,6 +39,14 @@
         // alert(ifhead);
     }
 
+    var xkkspeed = 16.0;
+    if (GM_getValue("xkkspeed")==undefined){
+        GM_setValue("xkkspeed",xkkspeed);
+    }else{
+        xkkspeed = GM_getValue("xkkspeed");
+        // alert(xkkspeed);
+    }
+
     let xkkcontentStyle = document.createElement("style");
     xkkcontentStyle.innerHTML=`.xkkMenu {
         position: fixed;
@@ -59,7 +67,7 @@
       <input type="button" value="自动尝试调节倍速中..." id="xkkauto" onclick='javascript:xkkchauto();' />
       <br>
     倍速选择:<br />
-    <input type="number" min="0" max="16" step="0.05" value="16.0" id="inputnum">
+    <input id="xkkspeedinput" type="number" min="0" max="16" step="0.05" value="16.0" />
     <br />
 
 <details>
@@ -73,16 +81,18 @@
     `
     document.body.appendChild(xkkcontentDiv);
 
+    document.getElementById("xkkspeedinput").value=xkkspeed;
+
     let xkkcontentJS = document.createElement("script");
     xkkcontentJS.innerHTML=`
     function xkkchangespeed(){
     try {
         for(var i=0;i<document.getElementsByClassName("custom-video").length;i++){
-                document.getElementsByClassName("custom-video")[i].playbackRate=document.getElementById("inputnum").value;
+                document.getElementsByClassName("custom-video")[i].playbackRate=document.getElementById("xkkspeedinput").value;
         }
     }
     catch(err) {
-        console.log('优学院调节视频倍速：脚本尝试调节错！错误信息：' + err.message);
+        console.log('优学院调节视频倍速：脚本尝试调节出错！错误信息：' + err.message);
     }
 
     }
@@ -119,5 +129,17 @@
         xkkMenu.style.display = "none";
     }
 
+    var xkkgetspeed;
+    function savespeed(){
+        xkkgetspeed=parseFloat(document.getElementById("xkkspeedinput").value);
+        if(xkkgetspeed != NaN){
+            GM_setValue("xkkspeed", xkkgetspeed);
+            console.log('优学院调节视频倍速：脚本尝试保存倍速信息：' + xkkgetspeed);
+        }else{
+            console.log('优学院调节视频倍速：脚本尝试保存倍速信息出错！原因是未获取到合法的倍速信息！');
+        }
+        setTimeout(savespeed, 5000);
+    }
+    setTimeout(savespeed, 5000);
 
 })();
