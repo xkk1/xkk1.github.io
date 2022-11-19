@@ -1,12 +1,12 @@
-# <span id="title">网站收藏</span>
+# 网站收藏
 
 ### <span id="begin">[返回主页](https://xkk1.github.io/)[（gitee）](https://xkk2.gitee.io/) [返回其他](https://xkk1.github.io/other/)</span>
 
-***
+---
 
 #### 目录
 
-*   [主页](#主页 "???")
+*   [主页](#主页)
 *   [搜索引擎](#搜索引擎)
 *   [学习](#学习)
 *   [工具](#工具)
@@ -20,7 +20,7 @@
     *   [Markdown](#markdown "Markdown")
 *   [其他](#其他)
 
-***
+---
 
 ### 主页
 
@@ -29,7 +29,7 @@
 SimTab <https://h.simsoft.top/>  
 无解搜 <http://wujiesou.com/>  
 
-***
+---
 
 ### 搜索引擎
 
@@ -106,7 +106,7 @@ LooKao [https://lookao.com/search?q=](https://lookao.com/)   </font>
 *   **其他搜索引擎**
     酷搜(百度网盘资源搜索) [https://www.kolsou.com/search?q=](https://www.kolsou.com/)
 
-***
+---
 
 ### 学习
 
@@ -116,7 +116,7 @@ LooKao [https://lookao.com/search?q=](https://lookao.com/)   </font>
 YouZack\-英语听力精听、背单词 <https://www.youzack.com/>  
 化学自习室 <http://www.hxzxs.cn/>
 
-***
+---
 
 ### 工具
 
@@ -165,7 +165,7 @@ QQ邮箱 <https://mail.qq.com/>
 音乐解锁 [1](http://unlock.nkeji.cn/) [2](http://qqlogin.com/unlock/)  
 微软AI语音 <https://toolb.cn/textspeech>  
 
-***
+---
 
 ### 图床
 
@@ -177,7 +177,7 @@ QQ邮箱 <https://mail.qq.com/>
 <https://imgtu.com/> 路过图床 须注册登录  
 <https://img.67w.top/> 67云图库 须注册登录  
 
-***
+---
 
 ### 文件外链
 
@@ -191,7 +191,7 @@ QQ邮箱 <https://mail.qq.com/>
 tntfiles文件外链 <https://tntfiles.com/>  
 Catbox文件外链 <https://catbox.moe/>  
 
-***
+---
 
 ### 网盘
 
@@ -211,7 +211,7 @@ Catbox文件外链 <https://catbox.moe/>
 教育网盘 <http://www.edudisk.cn/>  
 星云网盘 <https://pan.2233yun.cn/> 1TB  
 
-***
+---
 
 ### 编程
 
@@ -227,7 +227,7 @@ YouZack-英语听力精听、背单词 <https://www.youzack.com/>
 CODELF(变量命名神器) <https://unbug.github.io/codelf/> [GitHub](https://github.com/unbug/codelf)  
 小闪电（多种编程语言在线运行）<https://jsrun.net/>  
 (多种编程语言在线运行) <https://www.bejson.com/>  
-curl -> other program code <https://curl.trillworks.com/>  
+curl \-\> other program code <https://curl.trillworks.com/>  
 为程序员服务的互联网搜索引擎 <https://goobe.io/>  
 
 #### Markdown
@@ -235,13 +235,17 @@ curl -> other program code <https://curl.trillworks.com/>
 **即开即用**  
 在线markdown编辑器 \| Markdown 官方教程 <https://markdown.com.cn/editor/>  
 StackEdit [https://stackedit.cn/](https://stackedit.cn/app#)  
-菜鸟工具 \| Markdown 在线编辑器 <https://c.runoob.com/front-end/712/>  
+Cmd Markdown 编辑阅读器 \- 作业部落出品 <https://www.zybuluo.com/mdeditor>  
+马克飞象 \| 印象笔记 <https://maxiang.io/>  
+Markdown 在线编辑器 \| 菜鸟工具 <https://c.runoob.com/front-end/712/>  
+Visual Studio Code for the Web 可打开本地文件 <https://vscode.dev/>  
 
-**下面的需登录**  
+**需登录**  
 CSDN <https://editor.csdn.net/md/>  
 有道云笔记 <https://note.youdao.com/view-type/#five-icon-5>  
+坚果云Markdown <https://www.jianguoyun.com/static/html/markdown-landing/index.html>  
 
-***
+---
 
 ### 其他
 
@@ -249,7 +253,7 @@ CSDN <https://editor.csdn.net/md/>
 Tulpa之家 <https://tulpa.cn/>  
 68M歧梦谷 [https://www.68m.com/](https://www.68m.com/?fromuid=2615859)  
 
-***
+---
 
 #### [返回顶部](#begin) [回到目录](#目录)
 
