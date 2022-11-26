@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         程序在线设计平台黑暗模式
 // @namespace    https://xkk1.github.io/program/Tampermonkey/#程序在线设计平台黑暗模式
-// @version      0.1.1
+// @version      0.1.2
 // @description  程序在线设计平台黑暗模式
 // @author       小喾苦
 // @match        https://icpc.ldu.edu.cn/*
@@ -234,6 +234,24 @@ small {
     background-color: #7f231c!important;
 }
 
+
+/*登录文字*/
+.card {
+    color: white;
+}
+/*忘记密码*/
+a.btn.btn-link {
+    color: #eee;
+}
+/*验证码输入文字颜色*/
+input#captcha {
+    color: white;
+}
+
+/*手机菜单*/
+button.navbar-toggler {
+    background: gray;
+}
 
 canvas {
     background-color: #9b9696;
