@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         程序在线设计平台黑暗模式
 // @namespace    https://xkk1.github.io/program/Tampermonkey/#程序在线设计平台黑暗模式
-// @version      0.0.3
+// @version      0.1.0
 // @description  程序在线设计平台黑暗模式
 // @author       小喾苦
 // @match        https://icpc.ldu.edu.cn/*
 // @icon         https://icpc.ldu.edu.cn/favicon.ico
 // @grant        none
+// @run-at       document-start
 // ==/UserScript==
 
 (function() {
@@ -18,126 +19,216 @@
     // 创建的的元素并不属于document对象，只是创建出来，并未添加到HTML文档中。添加的方式有appendChild或者insertBefore方法
     // 这里我使用appendChild
     contentStyle.innerHTML=`
-.bg-white {
-    color:#F0F0F0;
-    background-color:#3d3d3d!important;
+/*上栏背景*/
+nav.navbar {
+    background-color: #2c2c2c!important;
 }
-.body {
-     color:#F0F0F0;
-     background-color: #3d3d3d;
+/*左上角“程序设计在线评测平台”*/
+a.navbar-brand {
+    color: #eee!important;
 }
-.nav-tabs .nav-link.active {
-    color:#F0F0F0;
+/*页面部分黑字*/
+.text-nowrap {
+    color: #777!important;
 }
-.nav-tabs .nav-link {
-    color: #afafaf;
+/*上栏下拉字背景色*/
+.dropdown-menu {
+    background-color: #303030;
 }
-.container {
-    color:#F0F0F0;
-    background-color: #505050;
+/*上栏下拉字颜色*/
+a.dropdown-item {
+    color: #aaa;
 }
-.card {
-    background-color: #616461;
+/*左上角语言和账号*/
+a#navbarDropdown {
+    color: #eee;
 }
-.bg-light {
-    background-color: #515151!important;
-    color: white;
+/*题目页面容器背景颜色*/
+div#container {
+    background-color: #2c2c2c;
 }
-a {
-    color: #6df74d;
-} a:hover {
-    color: #3aff00;
+/*概览、提交记录、榜单*/
+a.nav-link {
+    color: #ccc!important;
 }
-.p-2 {
-    color: #ffffff!important;
-    background-color: #3f3f3f!important;
+/*题目标题文字颜色*/
+h4.text-center {
+    color: #eee;
 }
-.breadcrumb {
-    background-color: #2f2d2d;
+/*正文、题目等*/
+.p-3 {
+    color: #eee!important;
 }
-.table td {
-    color:#F0F0F0;
+/*C/C++/随堂/2022级第4章例题  背景*/
+ul.breadcrumb {
+    background-color: #363636;
 }
-.text-black {
-    color: white;
+/*语言:   上传文件:  主题:   文字颜色*/
+span.mr-2 {
+    color: #eee;
 }
-.px-2 {
-    color: #03a9f4;
-}
-.px-3 {
-    color: #03a9f4;
-}
-.btn-secondary.custom-file-control:before, .btn.btn-secondary {
-    color: #ebedee;
-    border-color: #ccc;
-}
-li {
-    color: #03a9f4;
-}
-.custom-file-control:read-only, .form-control:read-only {
-    color: #ebedee;
-}
+/*题目信息*/
 .alert-info {
-    color: #2fff0a;
-    background-color: #2d2f2f;;
-    border-color: #2d2f2f;
+    color: #cdeefd;
+    background-color: #02587f!important;
 }
-pre {
-    display: block;
-    color: #ffffff;
+/*祝贺! 你解决了这个问题, 因此我们邀请你为本题进行标记！注意，一经提交不可修改.*/
+.alert-success {
+    color: #dbefdc;
+    background-color: #285b2a;
 }
-i.fa.fa-list {
-    color: #ffffff;
+/*样例颜色*/
+pre.m-1 {
+    color: #e5e5e5;
 }
-.fa {
-    color: #f0f0f0;
+/*输入输出框*/
+.bg-light {
+    background-color: #3b3b3b!important;
 }
-body {
-    color:#F0F0F0;
-    background-color:#272822;
+/*标签收集*/
+h4.m-0 {
+    color: #cdeefd;
+    background-color: #02587f;
 }
-#footer {
-    background-color:#272822;
+/*
+div.p-2 {
+    background-color: #2b2a2a;
 }
-#left {
-    background-color:#272822;
+*/
+/*语言与主题选择*/
+select.px-3 {
+    background-color: #444;
+    color: #dedede;
 }
-#code_form {
-    background-color:#272822;
+
+
+
+/*主页*/
+/*主页页面容器背景颜色*/
+div.container {
+    background-color: #2c2c2c;
 }
-.dropdown-toggle {
-    color: #ffffff!important;
+html,body {
+    background-color: #2c2c2c;
+    height: auto;
 }
-.judge-result-4 {
-    color: lime;
+/*页脚*/
+div#footer {
+    background-color: #2c2c2c;
+    color: #eee;
 }
-.table thead th {
-    color: rgb(255 255 255 / 54%);
+/*主页 框 提交记录 上周 本周*/
+div.card {
+    background-color: #333;
 }
-.mt-2, .my-2 {
-    color: #ffffff;
+/*公告板内容*/
+a.pl-1.text-black {
+    color: #eee;
 }
-.btn.border {
-    color: #ffffff;
+/*最近30天*/
+select#past-select {
+    background-color: #444;
+    color: #dedede;
 }
-div{
-    background-color: #3d3d3d8c;
+/*提交记录  Top 10 上周  Top 10 本周*/
+h3.text-center.mb-0 {
+    color: #ccc;
 }
-select#lang_select {
-    background-color: #565454;
+/*表格*/
+tbody {
+    color: #eee;
 }
-select#theme_select {
-    background-color: #565454;
+/*榜单、用户、显示*/
+th.border-top-0 {
+    color: #ccc!important;
 }
-.alert {
-    background-color: #595858;
-    color: #04d504;
+/*静态框*/
+div.modal-content {
+    color: #eee;
+    background-color: #333;
 }
-.dropdown-item {
-    background-color: #4a4c4a;
-    color: #fff;
+/*提示框*/
+.notiflix-report-content {
+    background-color: #444!important;
+}
+h5.notiflix-report-title {
+    color: white!important;
+}
+p.notiflix-report-message {
+    color: white!important;
+}
+
+
+
+/*评测*/
+.my-container {
+    background-color: #222!important;
+}
+th {
+    color: #eee!important;
+}
+/*所有结果下拉框*/
+select.px-2.form-control {
+    background-color: #333;
+}
+
+
+/*题库*/
+/*题库字  隐藏的题目*/
+div.overflow-hidden {
+    color: #eee;
+}
+/*查找*/
+button.btn.border {
+    color: #eee;
+}
+/*竞赛字*/
+a.text-black {
+    color: #ccc;
+}
+/*已结束*/
+a.btn.border {
+    color: #eee;
+}
+/*小字*/
+ul.d-flex.flex-wrap.list-unstyled {
+    color: #bbb!important;
+}
+/*深入竞赛题目*/
+h3.text-center {
+    color: #999;
+}
+/*竞赛剩余时间*/
+font#remain_area {
+    color: white;
+}
+/*竞赛信息*/
+.my-container {
+    color: #bbb;
+}
+
+
+/*竞赛金银铜*/
+font.px-1 {
+    color: black;
+}
+/*实时更新开关*/
+small {
+    background-color: #333!important;
+}
+
+
+/*失败问题隐藏*/
+.alert-danger {
+    color: #fdd9d7!important;
+    background-color: #7f231c!important;
+}
+
+
+canvas {
+    background-color: #9b9696;
 }
 `
-    document.head.appendChild(contentStyle)
+    document.head.appendChild(contentStyle);
 
 })();
