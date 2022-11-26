@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         程序在线设计平台黑暗模式
 // @namespace    https://xkk1.github.io/program/Tampermonkey/#程序在线设计平台黑暗模式
-// @version      0.1.0
+// @version      0.1.1
 // @description  程序在线设计平台黑暗模式
 // @author       小喾苦
 // @match        https://icpc.ldu.edu.cn/*
@@ -158,6 +158,16 @@ p.notiflix-report-message {
     color: white!important;
 }
 
+
+/*排名*/
+/*黑字*/
+td.border.text-center {
+    color: black;
+}
+/*橙色选中*/
+.table-hover tbody tr:hover {
+    color: orange;
+}
 
 
 /*评测*/
