@@ -30,9 +30,128 @@
 鄙人不才，没能认真研究过写脚本
 <br />以下是我随便写写的脚本，大家可以安装玩玩
 <br />
+
 <div id="script_div"></div>
+</p>
+
+<div id="cover_box" style="display: none;" onclick="javascript:hide_help();"></div>
+<div id="help_box" style="display: none;">
+    <h3>“<span class="script_name"></span>”用户脚本</h3>
+    <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;用户脚本是一段代码，它们能够优化您的网页浏览体验。安装之后，有些脚本能为网站添加新的功能，有些能使网站的界面更加易用，有些则能隐藏网站上烦人的部分内容。<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;要使用用户脚本，您首先需要安装一个用户脚本管理器。我这里推荐使用“<b>油猴脚本</b>”作为您的用户脚本管理器。<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;如果您已经安装了“油猴脚本”，您可以点击下方“<b>安装此脚本</b>”来安装“<b><span class="script_name"></span></b>”脚本。
     </p>
-    <script>
+    <div id="install_box"></div>
+    <p>
+        <b>安装油猴脚本</b><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;电脑端推荐您使用 <a href="https://www.microsoft.com/zh-cn/edge/home" target="_blank">Microsoft Edge</a> 浏览器 ，
+        在安装完 Microsoft Edge 后请您用 Microsoft Edge 进入
+        <a href="https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd" target="_blank">油猴脚本 (Tampermonkey) Edge 外接程序</a> 点击“<b>获取</b>”来安装油猴脚本。<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;手机端(Android)您可以使用<a href="https://www.xbext.com/" target="_blank">X浏览器</a><br />
+        &nbsp;&nbsp;&nbsp;&nbsp;手机端(ios)您可以使用<a href="https://www.tampermonkey.net/?browser=safari" target="_blank">Safari</a>
+    </p>
+    <div id="OK_button" onclick="javascript:hide_help();"><span>确定</span></div>
+</div>
+<style>
+    *{margin: 0;padding: 0;}
+    div#help_box
+    {
+        width: auto;
+        height: auto;
+        background:rgb(113, 255, 158);
+        border-radius: 25px;
+        border: 2px solid #ccff00;
+        padding: 15px; /*内边距*/
+        /*居中*/
+        position: absolute;
+
+        overflow: auto; 
+        margin: auto; 
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-right: 40px;
+        margin-left: 40px;
+        left: 0;
+        bottom: 0;
+        right: 0; 
+        top:0;
+        z-index: 2; 
+        opacity: 1.0;
+        animation: help_box_animation 0.7s;
+    }
+    div#cover_box{
+        background: gray; 
+        position: absolute; 
+        left: 0px; 
+        top: 0px; 
+        width: 100%; 
+        height: 100%; 
+        z-index: 1; 
+        filter: blur(20px);
+        opacity: 0.8; 
+        animation: cover_box_animation 0.4s;
+    }
+    div#OK_button
+    {
+        width: 60px;
+        background:rgb(0, 53, 17);
+        border-radius: 10px;
+        border: 2px solid #116700;
+        margin: auto;
+        padding: 4px; /*内边距*/
+        color: #00ff00;
+        /*居中*/
+        vertical-align: middle;
+        text-align: center;
+        font-weight:bold;
+    }
+    #install_box
+    {
+        vertical-align: middle;
+        text-align: center;
+    }
+    #install
+    {
+    display: inline-block;
+    background-color: #005200;
+    padding: 1px 1px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    }
+    
+    @keyframes help_box_animation
+    {
+        0%   {
+    
+            top:400px;
+            opacity: 0.0;
+        }
+    
+        100% {
+    
+            top:0;
+            opacity: 0.9;
+        }
+    }
+    
+    @keyframes cover_box_animation
+    {
+        0%   {
+            filter: blur(1px);
+            opacity: 0.0; 
+        }
+    
+        100% {
+            filter: blur(20px);
+            opacity: 0.8; 
+        }
+    }
+
+</style>
+ <script>
 var script_list = [ // [name, url , relevant_url]
 ["找色差作弊", "https://www.zhaosecha.com/"],
 ["自定义百度", "https://www.baidu.com/"],
@@ -50,7 +169,7 @@ var i = 0;
 for  (i=0; i <= script_list.length - 1 ; i++){
     console.log(i);
     script_table += `<tr>
-    <td><span id="`+script_list[i][0]+`"><a href="./`+script_list[i][0]+`.user.js">`+script_list[i][0]+`</a></span></td>
+    <td><span id="`+script_list[i][0]+`"><a href="#`+script_list[i][0]+`" onclick="show_help('`+script_list[i][0]+`')">`+script_list[i][0]+`</a></span></td>
     <td><a href="`+script_list[i][1]+`" target="_blank">`+script_list[i][1]+`</a></td>
 </tr>
 `;
@@ -58,7 +177,30 @@ for  (i=0; i <= script_list.length - 1 ; i++){
 script_table += '</table>';
 var script_div = document.getElementById("script_div");
 script_div.innerHTML = script_table;
-    </script>
+
+
+function show_help(script_name){
+    document.getElementById("install_box").innerHTML=`<a id="install" href="./`+script_name+`.user.js" target="_blank">安装此脚本</a>`;
+	document.getElementById("help_box").style.display="";
+	document.getElementById("cover_box").style.display="";
+	var script_name_elements = document.getElementsByClassName("script_name");
+	for(i=0;i<script_name_elements.length;i++){
+		script_name_elements[i].innerHTML = script_name;
+	}
+	return 0;
+}
+function hide_help(){
+	document.getElementById("help_box").style.display="none";
+	document.getElementById("cover_box").style.display="none";
+	return 0;
+}
+function try_show_help(){
+    if(window.location.href.split("#").length==2){
+        show_help(decodeURIComponent(window.location.href.split("#")[1]));
+    }
+}
+window.onload=try_show_help;
+</script>
 <!--
 <a href="" target="_blank"></a>
 <table border="1">
