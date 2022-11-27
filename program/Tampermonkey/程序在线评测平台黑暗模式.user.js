@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         程序在线设计平台黑暗模式
-// @namespace    https://xkk1.github.io/program/Tampermonkey/#程序在线设计平台黑暗模式
+// @name         程序在线评测平台黑暗模式
+// @namespace    https://xkk1.github.io/program/Tampermonkey/#程序在线评测平台黑暗模式
 // @version      0.1.3
-// @description  程序在线设计平台黑暗模式
+// @description  程序在线评测平台黑暗模式
 // @author       小喾苦
 // @match        https://icpc.ldu.edu.cn/*
 // @icon         https://icpc.ldu.edu.cn/favicon.ico
