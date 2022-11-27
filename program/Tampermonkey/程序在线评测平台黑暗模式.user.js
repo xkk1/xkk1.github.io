@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         程序在线评测平台黑暗模式
 // @namespace    https://xkk1.github.io/program/Tampermonkey/#程序在线评测平台黑暗模式
-// @version      0.1.6
+// @version      0.1.7
 // @description  程序在线评测平台黑暗模式
 // @author       小喾苦
 // @match        https://icpc.ldu.edu.cn/*
@@ -268,6 +268,11 @@ pre {
 
 canvas {
     background-color: #9b9696;
+}
+
+/*代码填空题 语言颜色*/
+.form-inline {
+    color: wheat;
 }
 `
     document.head.appendChild(contentStyle);
