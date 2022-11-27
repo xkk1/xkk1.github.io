@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         程序在线评测平台黑暗模式
 // @namespace    https://xkk1.github.io/program/Tampermonkey/#程序在线评测平台黑暗模式
-// @version      0.1.5
+// @version      0.1.6
 // @description  程序在线评测平台黑暗模式
 // @author       小喾苦
 // @match        https://icpc.ldu.edu.cn/*
@@ -67,16 +67,7 @@ ul.breadcrumb {
 span.mr-2 {
     color: #eee;
 }
-/*题目信息*/
-.alert-info {
-    color: #cdeefd;
-    background-color: #02587f!important;
-}
-/*祝贺! 你解决了这个问题, 因此我们邀请你为本题进行标记！注意，一经提交不可修改.*/
-.alert-success {
-    color: #dbefdc;
-    background-color: #285b2a;
-}
+
 /*样例颜色*/
 pre.m-1 {
     color: #e5e5e5;
@@ -167,12 +158,13 @@ td.border {
 /*橙色选中*/
 .table-hover tbody tr:hover {
     color: orange;
+    background-color: rgb(0,0,0,.2);
 }
 
 
 /*评测*/
-.my-container {
-    background-color: #222!important;
+.bg-white {
+    background-color: #333!important;
 }
 th {
     color: #eee!important;
@@ -214,7 +206,7 @@ font#remain_area {
 }
 /*竞赛信息*/
 .my-container {
-    color: #bbb;
+    color: #bbb!important;
 }
 
 /*C/C++  数据结构 基础算法*/
@@ -253,9 +245,20 @@ input#captcha {
     color: white;
 }
 
+/*题目信息*/
+.alert-info {
+    color: #cdeefd;
+    background-color: #02587f!important;
+}
+/*祝贺! 你解决了这个问题, 因此我们邀请你为本题进行标记！注意，一经提交不可修改.*/
+.alert-success {
+    color: #dbefdc;
+    background-color: #285b2a;
+}
+
 /*手机菜单*/
 button.navbar-toggler {
-    background: gray;
+    background: #414141;
 }
 
 /*错误数据*/
