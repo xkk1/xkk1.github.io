@@ -160,7 +160,8 @@ var script_list = [ // [name, url , relevant_url]
 ["高考倒计时" ,"https://www.baidu.com/"],
 ["4399弹窗关闭", "https://www.4399.com/"],
 ["删除百度侧边栏", "https://www.baidu.com/"],
-["程序在线设计平台黑暗模式", "https://icpc.ldu.edu.cn/"],
+["程序在线评测平台黑暗模式", "https://icpc.ldu.edu.cn/"],
+["程序设计在线评测平台题目信息获取", "https://icpc.ldu.edu.cn/"],
 ["优学院夜间模式", "https://www.ulearning.cn/"],
 ["优学院调节视频倍速", "https://ua.ulearning.cn/learnCourse/learnCourse.html"]
 ];
@@ -180,7 +181,7 @@ script_div.innerHTML = script_table;
 
 
 function show_help(script_name){
-    document.getElementById("install_box").innerHTML=`<span id="`+script_name+`"><a id="install" href="./`+script_name+`.user.js" target="_blank">安装此脚本</a></span>`;
+    document.getElementById("install_box").innerHTML=`<span id="`+script_name+`"><a id="install" href="./`+script_name+`.user.js">安装此脚本</a></span>`;
 	document.getElementById("help_box").style.display="";
 	document.getElementById("cover_box").style.display="";
 	var script_name_elements = document.getElementsByClassName("script_name");
@@ -196,7 +197,13 @@ function hide_help(){
 }
 function try_show_help(){
     if(window.location.href.split("#").length==2){
-        show_help(decodeURIComponent(window.location.href.split("#")[1]));
+        var url_name=decodeURIComponent(window.location.href.split("#")[1]);
+        for  (i=0; i <= script_list.length - 1 ; i++){
+            if (url_name === script_list[i][0]){
+                show_help(url_name);
+                break;
+            }
+        }
     }
 }
 window.onload=try_show_help;
