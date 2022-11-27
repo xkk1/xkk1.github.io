@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         程序在线评测平台黑暗模式
 // @namespace    https://xkk1.github.io/program/Tampermonkey/#程序在线评测平台黑暗模式
-// @version      0.1.3
+// @version      0.1.5
 // @description  程序在线评测平台黑暗模式
 // @author       小喾苦
 // @match        https://icpc.ldu.edu.cn/*
@@ -161,7 +161,7 @@ p.notiflix-report-message {
 
 /*排名*/
 /*黑字*/
-td.border.text-center {
+td.border {
     color: black;
 }
 /*橙色选中*/
@@ -217,11 +217,16 @@ font#remain_area {
     color: #bbb;
 }
 
-
+/*C/C++  数据结构 基础算法*/
+.btn-secondary.custom-file-control:before, .btn.btn-secondary {
+    color: #aaaaaa;
+}
 /*竞赛金银铜*/
-font.px-1 {
+[class^="px-1"] {
     color: black;
 }
+
+
 /*实时更新开关*/
 small {
     background-color: #333!important;
