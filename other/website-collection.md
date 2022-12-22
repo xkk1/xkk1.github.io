@@ -48,7 +48,7 @@ Magi [https://magi.com/search?q=](https://magi.com/)
 ~~雅虎~~ [~~https://search.yahoo.com/search?p=~~](https://search.yahoo.com/)  
 ~~谷歌~~ [~~https://www.google.com/search?q=~~](https://www.google.com/)  
 谷歌镜像站收集 <https://www.library.ac.cn/> 变种：[\[1\]](https://so.niostack.com/) [\[2\]](https://g.vovososo.com/)  
-我做的搜索聚合 <https://xkk1.github.io/search.html> [备用](https://xkk2.gitee.io/search.html)  
+我做的搜索聚合 <https://xkk1.github.io/search.html> [\[备用\]](https://xkk2.gitee.io/search.html)  
 
 *   **文档搜索引擎**  
     鸠摩搜索 <https://www.jiumodiary.com/>  
@@ -81,7 +81,7 @@ YouZack\-英语听力精听、背单词 <https://www.youzack.com/>
 *   <https://bilibili.huangyuehe.com/bilibili.html>  
 *   <https://www.ibilibili.com/>  
 *   唧唧 <https://www.jijidown.com/>  
-*   我做的 <https://xkk1.github.io/bilishare/> [备用](https://xkk2.gitee.io/bilishare/)    
+*   我做的 <https://xkk1.github.io/bilishare/> [\[备用\]](https://xkk2.gitee.io/bilishare/)    
 
 贝贝BiliBili - B站视频下载 <https://xbeibeix.com/api/bilibili/>  
 bilibili云剪辑 <https://member.bilibili.com/studio/bs-editor>  
@@ -165,10 +165,11 @@ Catbox文件外链 <https://catbox.moe/>
 GitHub <https://github.com/>  
 CSDN中国专业IT社区 <https://www.csdn.net/>  
 菜鸟教程 <https://www.runoob.com/>  
+w3school 在线教程 <https://www.w3school.com.cn/>  
 Python3在线编程 <https://www.dooccn.com/python3/>  
 YouZack-英语听力精听、背单词 <https://www.youzack.com/>  
 开发者手册 <https://cloud.tencent.com/developer/devdocs>  
-CODELF(变量命名神器) <https://unbug.github.io/codelf/> [GitHub](https://github.com/unbug/codelf)  
+CODELF(变量命名神器) <https://unbug.github.io/codelf/> [\[GitHub\]](https://github.com/unbug/codelf)  
 小闪电（多种编程语言在线运行）<https://jsrun.net/>  
 (多种编程语言在线运行) <https://www.bejson.com/>  
 curl \-\> other program code <https://curl.trillworks.com/>  
@@ -201,4 +202,4 @@ Tulpa之家 <https://tulpa.cn/>
 
 #### [返回顶部](#begin) [回到目录](#目录)
 
-<span id="end">更新时间：2022年12月16日 21点42分 QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈（有Github账号的还可以去[我的网站的留言板](https://xkk1.github.io/message.html)）<span>
+<span id="end">更新时间：2022年12月22日 19点18分 QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈（有Github账号的还可以去[我的网站的留言板](https://xkk1.github.io/message.html)）<span>
