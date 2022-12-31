@@ -11,27 +11,28 @@
   <title>小喾苦的网站</title>
 </head>
 <body>
-    <h1 class="xkk_h1">小喾苦的网站</h1>
-    <p class="xkk_p center">
-        <a href="https://github.com/xkk1/xkk1.github.io" target="_blank">GitHub</a>
-        <a href="https://xkk1.github.io/" target="_blank">Pages</a>
-        |
-        <a href="https://gitee.com/xkk2/xkk2" target="_blank">Gitee</a>
-        <a href="https://xkk2.gitee.io/" target="_blank">Pages</a>
-        <br><br>
-        <a href="./program/">程序</a> | <a href="./search.html" target="_blank">搜索聚合</a> | <a href="./message.html">留言板</a> | <a href="./other/">其他</a>
-        <br><br>
-        <a href="./other/markdown/marked.html?title=%E7%BD%91%E7%AB%99%E6%94%B6%E8%97%8F&md=../website-collection.md#begin" target="_blank">网站收藏</a> | 
-        <a href="./other/markdown/marked.html?title=%E8%BD%AF%E4%BB%B6%E6%94%B6%E8%97%8F&md=../software-collection.md#begin" target="_blank">软件收藏</a> |
-        <a href="https://github.com/xkk1/xkk1data/blob/main/book/list.md#begin" target="_blank">书籍收藏</a>
-        <br><br>
-        <!--<a href="http://xiaokuku.ys168.com/" target="_blank">网盘</a> <a href="http://ys168.com/" target="_blank">（永硕E盘）</a> |-->
-        <a href="http://xiaokuku.ysepan.com/" target="_blank">小喾苦网盘</a> | <a href="./chat_room.html" target="_blank">聊天室</a> |
-        <!--<a href="./2021/08/07/Lucid-Dream.html" target="_blank">清明梦、清醒梦</a>-->
-        <a href="./2021/08/25/blog.html">博客</a> | <a href="./about.html">关于</a>
-        <br><br>
-        <!--<a href="./mindex.html">访问手机版</a><br><br>-->
-    </p>
+    <div id="main">
+        <h1 class="xkk_h1">小喾苦的网站</h1>
+        <p class="xkk_p center">
+            <a href="https://github.com/xkk1/xkk1.github.io" target="_blank">GitHub</a>
+            <a href="https://xkk1.github.io/" target="_blank">Pages</a>
+            |
+            <a href="https://gitee.com/xkk2/xkk2" target="_blank">Gitee</a>
+            <a href="https://xkk2.gitee.io/" target="_blank">Pages</a>
+            <br><br>
+            <a href="./program/">程序</a> | <a href="./search.html" target="_blank">搜索聚合</a> | <a href="./message.html">留言板</a> | <a href="./other/">其他</a>
+            <br><br>
+            <a href="./other/markdown/marked.html?title=%E7%BD%91%E7%AB%99%E6%94%B6%E8%97%8F&md=../website-collection.md#begin" target="_blank">网站收藏</a> | 
+            <a href="./other/markdown/marked.html?title=%E8%BD%AF%E4%BB%B6%E6%94%B6%E8%97%8F&md=../software-collection.md#begin" target="_blank">软件收藏</a> |
+            <a href="https://github.com/xkk1/xkk1data/blob/main/book/list.md#begin" target="_blank">书籍收藏</a>
+            <br><br>
+            <!--<a href="http://xiaokuku.ys168.com/" target="_blank">网盘</a> <a href="http://ys168.com/" target="_blank">（永硕E盘）</a> |-->
+            <a href="http://xiaokuku.ysepan.com/" target="_blank">小喾苦网盘</a> | <a href="./chat_room.html" target="_blank">聊天室</a> |
+            <!--<a href="./2021/08/07/Lucid-Dream.html" target="_blank">清明梦、清醒梦</a>-->
+            <a href="./2021/08/25/blog.html">博客</a> | <a href="./about.html">关于</a>
+            <br><br>
+            <!--<a href="./mindex.html">访问手机版</a><br><br>-->
+        </p>
 <!-- （一言）请注意，以下的示例包含超链接，您可能需要手动配置样式使其不变色。如果您嫌麻烦，可以移除。 -->
 <div id="hitokoto">
     <a href="#" id="hitokoto_link" target=_blank>
@@ -48,33 +49,35 @@
 <br \>
 本站已在风雨中度过：<span id="sitetime">?年?天?小时?分钟?秒（正在加载...）</span>
 </p>
+
+</div>
+
 <style type="text/css">
-body
-{
+body {
     /*background-image: url(img/bg6.jpg);
     background-size: cover;*/
     background-color:#eafed0;
 }
-.xkk_h1
-{
+div#main {
+    max-width: 64rem;
+    margin: 0 auto;
+}
+.xkk_h1 {
     color:orange;
     text-align:center;
     font-size:40px;
 }
-.xkk_p
-{
+.xkk_p {
     color:black;
     text-align:center;
     font-size:20px;
 }
 p.center {text-align:center;}
-#hitokoto
-{
+#hitokoto {
     display:none;
     font-size:20px;
 }
-#hitokoto_link
-{
+#hitokoto_link {
     text-decoration:none;
     color:black;
 }
