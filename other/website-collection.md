@@ -166,6 +166,7 @@ GitHub <https://github.com/>
 CSDN中国专业IT社区 <https://www.csdn.net/>  
 菜鸟教程 <https://www.runoob.com/>  
 w3school 在线教程 <https://www.w3school.com.cn/>  
+MDN <https://developer.mozilla.org/zh-CN/>  
 Python3在线编程 <https://www.dooccn.com/python3/>  
 YouZack-英语听力精听、背单词 <https://www.youzack.com/>  
 开发者手册 <https://cloud.tencent.com/developer/devdocs>  
@@ -202,4 +203,4 @@ Tulpa之家 <https://tulpa.cn/>
 
 #### [返回顶部](#begin) [回到目录](#目录)
 
-<span id="end">更新时间：2022年12月22日 19点18分 QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈（有Github账号的还可以去[我的网站的留言板](https://xkk1.github.io/message.html)）<span>
+<span id="end">更新时间：2023年1月4日19点34分 QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈（有Github账号的还可以去[我的网站的留言板](https://xkk1.github.io/message.html)）<span>
