@@ -17,7 +17,8 @@
 *   [文件外链](#文件外链)
 *   [网盘](#网盘)
 *   [编程](#编程)
-    *   Markdown
+    *   [在线Markdown编辑](#在线markdown编辑)
+    *   [前端](#前端)
 *   [其他](#其他)
 
 ---
@@ -165,8 +166,6 @@ Catbox文件外链 <https://catbox.moe/>
 GitHub <https://github.com/>  
 CSDN中国专业IT社区 <https://www.csdn.net/>  
 菜鸟教程 <https://www.runoob.com/>  
-w3school 在线教程 <https://www.w3school.com.cn/>  
-MDN <https://developer.mozilla.org/zh-CN/>  
 Python3在线编程 <https://www.dooccn.com/python3/>  
 YouZack-英语听力精听、背单词 <https://www.youzack.com/>  
 开发者手册 <https://cloud.tencent.com/developer/devdocs>  
@@ -176,7 +175,7 @@ CODELF(变量命名神器) <https://unbug.github.io/codelf/> [\[GitHub\]](https:
 curl \-\> other program code <https://curl.trillworks.com/>  
 为程序员服务的互联网搜索引擎 <https://goobe.io/>  
 
-#### Markdown
+#### 在线markdown编辑
 
 **即开即用**  
 在线markdown编辑器 \| Markdown 官方教程 <https://markdown.com.cn/editor/>  
@@ -191,6 +190,14 @@ CSDN <https://editor.csdn.net/md/>
 有道云笔记 <https://note.youdao.com/view-type/#five-icon-5>  
 坚果云Markdown <https://www.jianguoyun.com/static/html/markdown-landing/index.html>  
 
+#### 前端
+
+w3school 在线教程 <https://www.w3school.com.cn/>  
+MDN <https://developer.mozilla.org/zh-CN/>  
+生成波浪 <https://getwaves.io/>  
+不规则圆角 <https://9elements.github.io/fancy-border-radius/>  
+分隔符生成器 <https://wweb.dev/resources/css-separator-generator/>  
+
 ---
 
 ### 其他
@@ -203,4 +210,4 @@ Tulpa之家 <https://tulpa.cn/>
 
 #### [返回顶部](#begin) [回到目录](#目录)
 
-<span id="end">更新时间：2023年1月4日19点34分 QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈（有Github账号的还可以去[我的网站的留言板](https://xkk1.github.io/message.html)）<span>
+<span id="end">更新时间：2023年1月7日16点17分 QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈（有Github账号的还可以去[我的网站的留言板](https://xkk1.github.io/message.html)）<span>
