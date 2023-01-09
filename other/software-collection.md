@@ -53,14 +53,22 @@ Internet Download Manager (IDM) - 最快的下载加速器
 
 <details>
 <summary>
-FastStone Capture(FSCapture) - 集截屏、滚动截图、屏幕录制、图片编辑为体轻量级截图软件
+FastStone Capture - 集截屏、滚动截图、屏幕录制、图片编辑为体轻量级截图软件
 </summary>
 <b>官网[English]：</b><a href="https://www.faststone.org/FSCaptureDownload.htm" target="_blank">https://www.faststone.org/FSCaptureDownload.htm</a><br />
 <b>官网[中文(简体)]：</b><a href="http://www.faststonecapture.com/" target="_blank">http://www.faststonecapture.com/</a>(中国区正版授权)<br />
 <b>下载地址:</b><br />
-<a href="https://www.lanzoui.com/ivbQErotk7c" target="_blank">蓝奏云9.6破解</a>
+<a href="https://www.lanzout.com/irKOZ0kg85uf" target="_blank">蓝奏云9.8绿色版</a>
+&nbsp;<a href="https://www.lanzoui.com/ivbQErotk7c" target="_blank">蓝奏云9.6破解</a>
 &nbsp;<a href="https://www.lanzoui.com/icrNDrpnaje" target="_blank">蓝奏云中国9.3破解</a>
 &nbsp;<a href="https://www.lanzoui.com/i1fsvip9hxc" target="_blank">蓝奏云7.3</a>
+</details>
+
+<details>
+<summary>
+Snipaste - 截图 + 贴图
+</summary>
+<b>官网[中文(简体)]：</b><a href="https://zh.snipaste.com/" target="_blank">https://zh.snipaste.com/</a>
 </details>
 
 <details>
@@ -147,8 +155,13 @@ UPX - 是一个免费的、可移植的、可扩展的、高性能的可执行�
 Google Chrome - 开发者都遵循的网络浏览器
 </summary>
 <b>官网[中文(简体)]：</b><a href="https://www.google.cn/chrome/" target="_blank">https://www.google.cn/chrome/</a><br />
-<b>下载地址:</b><br />
-请进入官网下载
+</details>
+
+<details>
+<summary>
+Microsoft Edge - 使用chromium内核，支持扩展，体验良好的浏览器
+</summary>
+<b>官网[中文]：</b><a href="https://www.microsoft.com/zh-cn/edge/home" target="_blank">https://www.microsoft.com/zh-cn/edge/home</a><br />
 </details>
 
 <details>
@@ -163,12 +176,20 @@ Carnac - 将当前的按键操作显示在电脑屏幕上
 
 <details>
 <summary>
-Typora - 一个 markdown 编辑器，markdown 阅读器。
+Typora - 一个 Markdown 编辑器，Markdown 阅读器。
 </summary>
 <b>官网[English]：</b><a href="https://www.typora.io/" target="_blank">https://www.typora.io/</a><br />
 <b>下载地址:</b><br />
-<a href="https://www.typora.io/windows/typora-setup-ia32.exe" target="_blank">官网32位</a>
+<a href="https://www.lanzout.com/i4iAB0kgkaxa" target="_blank">1.3.6破解版</a>
+&nbsp;<a href="https://www.typora.io/windows/typora-setup-ia32.exe" target="_blank">官网32位</a>
 &nbsp;<a href="https://www.typora.io/windows/typora-setup-x64.exe" target="_blank">官网64位</a>
+</details>
+
+<details>
+<summary>
+MarkText - 一个简单优雅的开源 Markdown 编辑器，专注于速度和可用性。
+</summary>
+<b>Github[English]：</b><a href="https://github.com/marktext/marktext" target="_blank">https://github.com/marktext/marktext</a><br />
 </details>
 
 <details>
@@ -191,7 +212,24 @@ VNC兼容的免费远程控制/远程桌面软件
 <a href="https://www.tightvnc.com/download.php" target="_blank">官网下载</a>
 </details>
 
+<details>
+<summary>
+GIMP - 开源、跨平台的图片编辑工具 替代Photoshop
+</summary>
+<b>官网[English]：</b><a href="https://www.gimp.org/" target="_blank">https://www.gimp.org/</a><br />
+<b>下载地址:</b><br />
+<a href="https://www.gimp.org/downloads/" target="_blank">官网</a>
+</details>
 
+<details>
+<summary>
+Visual Studio Code - 免费、开源、功能强大的代码编辑器
+</summary>
+<b>官网[English]：</b><a href="https://code.visualstudio.com/" target="_blank">https://code.visualstudio.com/</a><br />
+<strong><a href="https://vscode.dev/" target="_blank">在线版 https://vscode.dev/</a></strong><br />
+<b>下载地址:</b><br />
+<a href="https://code.visualstudio.com/Download" target="_blank">官网</a>
+</details>
 
 ### <span id="Android">安卓Android</span>
 
@@ -230,12 +268,12 @@ Termux - 是一个Android 终端模拟器和 Linux 环境应用程序
 
 <details>
 <summary>
-Google Chrome - 开发者都遵循的网络浏览器
+Kiwi Browser - Chromium内核，支持扩展，有开发者工具的浏览器
 </summary>
-<b>官网[中文(简体)]：</b><a href="https://www.google.cn/chrome/" target="_blank">https://www.google.cn/chrome/</a><br />
+<b>官网[English]：</b><a href="https://kiwibrowser.com/" target="_blank">https://kiwibrowser.com/</a><br />
 <b>下载地址:</b><br />
-<a href="https://play.google.com/store/apps/details?id=com.android.chrome" target="_blank">Google Play(需翻墙)</a>
-&nbsp;<a href="https://apkfab.com/free-apk-download?q=com.android.chrome" target="_blank">免登录下载(需翻墙)</a>
+<a href="https://play.google.com/store/apps/details?id=com.kiwibrowser.browser" target="_blank">Google Play(需翻墙)</a>
+&nbsp;<a href="https://apkfab.com/free-apk-download?q=com.kiwibrowser.browser" target="_blank">免登录下载(需翻墙)</a>
 </details>
 
 <details>
@@ -298,9 +336,18 @@ VNC Viewer (realvnc)
 <a href="https://dl.hdslb.com/mobile/latest/bilistudio/android_bbs-master.apk" target="_blank">官网下载</a>
 </details>
 
+<details>
+<summary>
+Zarchiver - 支持多格式的解压压缩工具
+</summary>
+<b>官网[English]：</b><a href="https://www.zarchiver.net/" target="_blank">https://www.zarchiver.net/</a><br />
+<b>下载地址:</b><br />
+<a href="https://myfile.lanzouo.com/b00wh8a3g" target="_blank">Pro_1.0.6密码c04q</a>
+</details>
+
 
 #### [返回顶部](#begin) [回到目录](#content)  
-<span id="end">更新时间：2022年7月16日 17点31分&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈（有Github账号的还可以去[我的网站的留言板](https://xkk1.github.io/message.html)）<span>
+<span id="end">更新时间：2023年1月9日21点17分&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈（有Github账号的还可以去[我的网站的留言板](https://xkk1.github.io/message.html)）<span>
 
 <!--
 <details>
@@ -311,18 +358,4 @@ VNC Viewer (realvnc)
 <b>下载地址:</b><br />
 <a href="" target="_blank"></a>
 </details>
-
-
-<details>
-<summary>
-
-</summary>
-
-</details>
-
-&nbsp;<a href="" target="_blank"></a>
-
-<a href="" target="_blank"></a>
-
-&nbsp;
 -->
