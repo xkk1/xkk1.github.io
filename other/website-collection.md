@@ -184,6 +184,7 @@ Cmd Markdown 编辑阅读器 \- 作业部落出品 <https://www.zybuluo.com/mded
 马克飞象 \| 印象笔记 <https://maxiang.io/>  
 Markdown 在线编辑器 \| 菜鸟工具 <https://c.runoob.com/front-end/712/>  
 Visual Studio Code for the Web 可打开本地文件 <https://vscode.dev/>  
+迅捷Markdown <https://markdown.liuchengtu.com/work/>  
 
 **需登录**  
 CSDN <https://editor.csdn.net/md/>  
@@ -194,9 +195,12 @@ CSDN <https://editor.csdn.net/md/>
 
 w3school 在线教程 <https://www.w3school.com.cn/>  
 MDN <https://developer.mozilla.org/zh-CN/>  
+CSS参考手册 <http://css.doyoe.com/>  
 生成波浪 <https://getwaves.io/>  
 不规则圆角 <https://9elements.github.io/fancy-border-radius/>  
 分隔符生成器 <https://wweb.dev/resources/css-separator-generator/>  
+软UI生成 <https://neumorphism.io/>  
+
 
 ---
 
@@ -210,4 +214,4 @@ Tulpa之家 <https://tulpa.cn/>
 
 #### [返回顶部](#begin) [回到目录](#目录)
 
-<span id="end">更新时间：2023年1月7日16点17分 QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈（有Github账号的还可以去[我的网站的留言板](https://xkk1.github.io/message.html)）<span>
+<span id="end">更新时间：2023年1月23日14点45分 QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈（有Github账号的还可以去[我的网站的留言板](https://xkk1.github.io/message.html)）<span>
