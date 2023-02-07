@@ -10,9 +10,9 @@
 <body>
 <div id="main">
 <h1 class="xkk_h1" onclick="javascript:display('secret');">其他</h1>
-<div id="secret" style="display:none">
+<div id="secret" style="display:none;text-align:center">
     <input type="password" id="password" name="password" placeholder="请输入密码" value="" />
-    <input type="submit" id="submit" value="确认" onclick="return toopen();">
+    <input type="submit" id="submit" value="确认" onclick="toopen();">
 </div>
     <p class="xkk_p">
 <a href="/">返回主页</a>
@@ -43,12 +43,7 @@
     </p>
 <div id="secret_information" style="display:none">
     <p class="xkk_p">
-    <a href="https://github.com/xkk1/xkk1data/blob/main/information/README.md#begin" target="_blank">Go to GitHub to see other information.</a>
-    <br>
-    If you are unable to enter GitHub, you can try the following GitHub mirror website:<br>
-    <a href="https://hub.fastgit.org/xkk1/xkk1data/blob/main/information/README.md#begin" target="_blank">FastGit(hub.fastgit.org)</a>
-    <a href="https://github.com.cnpmjs.org/xkk1/xkk1data/blob/main/information/README.md#begin" target="_blank">cnpmjs(github.com.cnpmjs.org)</a>
-    <a href="https://github.iamsjy.workers.dev/xkk1/xkk1data/blob/main/information/README.md#begin" target="_blank">Workers(github.iamsjy.workers.dev)</a>
+    这里什么都没有
     <br><br>
     </p>
 </div>
@@ -62,13 +57,10 @@ function toopen(){
     if(document.getElementById("password").value=="13579"){
         document.getElementById("secret_information").style.display="";
         document.getElementById("secret").style.display="none";
-       //var traget=document.getElementById("secret_information");
-       //traget.style.display="";
-       //document.forms[0].action="try.html";
        verification=true
        return true;
     }else{
-    alert("密码不正确！")
+        alert("密码不正确！")
     return false;
     }
 }
