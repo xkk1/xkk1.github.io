@@ -124,7 +124,7 @@ OneDrive直链获取工具 <https://onedrive.gimhoy.com/>
 遇见图床 <https://www.hualigs.cn/>  
 麦趣图床 <https://img.maiquit.com/>  
 聚合图床 <https://www.superbed.cn/>  
-ImgURL免费图床 <https://www.imgurl.org/> 须注册登录 
+ImgURL免费图床 <https://www.imgurl.org/> 须注册登录  
 OneDrive直链获取工具 <https://onedrive.gimhoy.com/>  
 ~~Gimhoy图床 <https://pic.gimhoy.com/> 须微博登录~~  
 ~~<https://sm.ms/>~~  
