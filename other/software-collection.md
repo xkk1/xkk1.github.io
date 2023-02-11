@@ -78,7 +78,8 @@ Enigma Virtual Box - Enigma 文件打包系统
 <b>官网[English]：</b><a href="https://enigmaprotector.com/en/home.html" target="_blank">https://enigmaprotector.com/en/home.html</a><br />
 <b>官网[中文(简体)]：</b><a href="https://enigmaprotector.com/cn/home.html" target="_blank">https://enigmaprotector.com/cn/home.html</a><br />
 <b>下载地址:</b><br />
-<a href="https://www.lanzoui.com/izRYZiaug7g" target="_blank">蓝奏云</a>
+<a href="https://xiaokuku.lanzout.com/iWJVg0n7yppa" target="_blank">蓝奏云7.50单文件</a>
+&nbsp;<a href="https://xiaokuku.lanzout.com/iCimT0n7z1pc" target="_blank">蓝奏云10.20安装包</a>
 </details>
 
 <details>
@@ -299,6 +300,7 @@ X浏览器 - 回归浏览器本质，还你一个纯粹的手机浏览器（不�
 <b>下载地址:</b><br />
 <a href="https://www.xbext.com/download/xbrowser-release.apk" target="_blank">官网</a>
 &nbsp;<a href="https://play.google.com/store/apps/details?id=com.xbrowser.play" target="_blank">Google Play(需翻墙)</a>
+&nbsp;<a href="https://www.lanzoup.com/i6L5U0mouidi" target="_blank">蓝奏云3.8.5</a>
 &nbsp;<a href="https://www.coolapk.com/apk/com.x.browser.x5" target="_blank">酷安-X5内核版本</a>
 <br />
 <b>x浏览器脚本:</b><br />
@@ -343,11 +345,12 @@ Zarchiver - 支持多格式的解压压缩工具
 <b>官网[English]：</b><a href="https://www.zarchiver.net/" target="_blank">https://www.zarchiver.net/</a><br />
 <b>下载地址:</b><br />
 <a href="https://myfile.lanzouo.com/b00wh8a3g" target="_blank">Pro_1.0.6密码c04q</a>
+&nbsp;<a href="https://www.lanzoup.com/i6V6N0mouhla" target="_blank">1.0.5</a>
 </details>
 
 
 #### [返回顶部](#begin) [回到目录](#content)  
-<span id="end">更新时间：2023年1月9日21点17分&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈（有Github账号的还可以去[我的网站的留言板](https://xkk1.github.io/message.html)）<span>
+<span id="end">更新时间：2023年2月11日13点24分&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈（有Github账号的还可以去[我的网站的留言板](https://xkk1.github.io/message.html)）<span>
 
 <!--
 <details>
