@@ -113,18 +113,22 @@ QQ邮箱 <https://mail.qq.com/>
 网易见外工作台 <https://jianwai.youdao.com/>  
 音乐解锁 [1](https://qqlogin.com/unlock/) [2](https://www.tjsky.net/music/)  
 微软AI语音合成下载 <https://toolb.cn/textspeech>  
+OneDrive直链获取工具 <https://onedrive.gimhoy.com/>  
+风之暇想博客 - 软件综合分享站 <https://www.fzxx.xyz/>  
 
 ---
 
 ### 图床
 
-
-<https://imgtu.com/> 路过图床  
-<https://www.hualigs.cn/> 遇见图床  
-<https://pic.gimhoy.com/> Gimhoy图床 须微博登录  
-<https://www.imgurl.org/> ImgURL免费图床 须注册登录  
-~~<https://sm.ms/> 图床~~  
-~~<https://img.67w.top/> 67云图库 须注册登录~~  
+路过图床 <https://imgse.com/>  
+遇见图床 <https://www.hualigs.cn/>  
+麦趣图床 <https://img.maiquit.com/>  
+聚合图床 <https://www.superbed.cn/>  
+ImgURL免费图床 <https://www.imgurl.org/> 须注册登录 
+OneDrive直链获取工具 <https://onedrive.gimhoy.com/>  
+~~Gimhoy图床 <https://pic.gimhoy.com/> 须微博登录~~  
+~~<https://sm.ms/>~~  
+~~67云图库 <https://img.67w.top/> 须注册登录~~  
 
 ---
 
@@ -140,18 +144,18 @@ Catbox文件外链 <https://catbox.moe/>
 
 ### 网盘
 
-蓝奏云 <https://www.lanzou.com/> 限制单个大小、类型  
+蓝奏云 <https://www.lanzou.com/> 限制单个大小100M、类型  
 阿里云盘 <https://yunpan.aliyun.com> 限时容量、限制分享文件类型  
 百度网盘 <https://pan.baidu.com/> 100G 限制速度  
-永硕Ｅ盘 <http://www.ys168.com/> 1000M 直链 限制下载量  
+永硕Ｅ盘 <http://www.ys168.com/> 2000M 直链 限制下载量  
 坚果云 <https://www.jianguoyun.com/> 限制上传下载量  
 云中转 <https://www.yunzhongzhuan.com/> 个人网盘  
-118网盘 <https://www.118pan.com/>  
+118网盘 <https://www.118pan.com/> 限制单个大小150M、类型  
 曲奇云盘 <https://quqi.com/> 2TB  
 123云盘 <https://www.123pan.com/> 2TB  
 比邻云盘 <https://www.bilnn.com/> 1TB(不够可再要)  
-教育网盘 <http://www.edudisk.cn/>  
 诚通网盘 <https://union.ctfile.com/>  
+棱束链 <https://www.lingshulian.com/> 个人储存5G、对象储存10G  
 ~~老狗盘 <https://www.laogoupan.com/>~~  
 ~~90网盘 <https://www.90pan.com/>~~  
 ~~闪电盘 <https://shandianpan.com/>~~  
@@ -214,4 +218,4 @@ Tulpa之家 <https://tulpa.cn/>
 
 #### [返回顶部](#begin) [回到目录](#目录)
 
-<span id="end">更新时间：2023年1月23日14点45分 QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈（有Github账号的还可以去[我的网站的留言板](https://xkk1.github.io/message.html)）<span>
+<span id="end">更新时间：2023年2月11日13点20分 QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈（有Github账号的还可以去[我的网站的留言板](https://xkk1.github.io/message.html)）<span>
