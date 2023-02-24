@@ -107,6 +107,7 @@ AI人工智能图片放大<https://bigjpg.com/>
 彩云天气 <https://caiyunapp.com/weather/>  
 在网址前加上his.sh来查看其快照 <https://his.sh/>  
 GeoGebra数学工具在线使用下载 <https://www.geogebra.org/download>  
+Desmos \| 免费领略数学之美 <https://www.desmos.com/?lang=zh-CN>  
 QQ邮箱 <https://mail.qq.com/>  
 亿图图示（流程图等的绘制） <https://www.edrawmax.cn/>  
 空投(传输文件) <https://airportal.cn/>  
@@ -124,11 +125,16 @@ OneDrive直链获取工具 <https://onedrive.gimhoy.com/>
 遇见图床 <https://www.hualigs.cn/>  
 麦趣图床 <https://img.maiquit.com/>  
 聚合图床 <https://www.superbed.cn/>  
+LOC专用免费图床 <https://locimg.com/>  
+Postimages <https://postimages.org/>  
 ImgURL免费图床 <https://www.imgurl.org/> 须注册登录  
+TG 图床 <https://imgtg.com/> 须注册登录  
+Simple Free Image Hosting ~~<https://sm.ms/>~~ <https://smms.app/> 须注册登录  
 OneDrive直链获取工具 <https://onedrive.gimhoy.com/>  
+薄荷图床 <https://riyugo.com/> 免费版链接有效期为 3天  
 ~~Gimhoy图床 <https://pic.gimhoy.com/> 须微博登录~~  
-~~<https://sm.ms/>~~  
 ~~67云图库 <https://img.67w.top/> 须注册登录~~  
+图床测试 <http://simp.ly/p/51g4JF>
 
 ---
 
@@ -189,6 +195,9 @@ Cmd Markdown 编辑阅读器 \- 作业部落出品 <https://www.zybuluo.com/mded
 Markdown 在线编辑器 \| 菜鸟工具 <https://c.runoob.com/front-end/712/>  
 Visual Studio Code for the Web 可打开本地文件 <https://vscode.dev/>  
 迅捷Markdown <https://markdown.liuchengtu.com/work/>  
+Markdown Nice \| 让排版变 Nice <https://editor.mdnice.com/>  
+Arya - 在线 Markdown 编辑器 <https://markdown.lovejade.cn/>  
+在线Markdown编辑器 -  <https://md.mzr.me/>   
 
 **需登录**  
 CSDN <https://editor.csdn.net/md/>  
@@ -218,4 +227,4 @@ Tulpa之家 <https://tulpa.cn/>
 
 #### [返回顶部](#begin) [回到目录](#目录)
 
-<span id="end">更新时间：2023年2月11日13点20分 QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈（有Github账号的还可以去[我的网站的留言板](https://xkk1.github.io/message.html)）<span>
+<span id="end">更新时间：2023年2月24日23点35分 QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈（有GitHub账号的还可以去[我的网站的留言板](https://xkk1.github.io/message.html)）<span>
