@@ -1,6 +1,6 @@
 # <span id="begin">软件收藏</span>
 
-### [返回主页](https://xkk1.github.io/)[（gitee）](https://xkk2.gitee.io/)　　[返回其他](https://xkk1.github.io/other/)
+### [返回主页](https://xkk1.github.io/)[（gitee）](https://xkk1.gitee.io/)　　[返回其他](https://xkk1.github.io/other/)
 
 ---
 
@@ -182,7 +182,8 @@ Typora - 一个 Markdown 编辑器，Markdown 阅读器。
 </summary>
 <b>官网[English]：</b><a href="https://www.typora.io/" target="_blank">https://www.typora.io/</a><br />
 <b>下载地址:</b><br />
-<a href="https://www.lanzout.com/i4iAB0kgkaxa" target="_blank">1.3.6破解版</a>
+<a href="https://xiaokuku.lanzout.com/ijKls0oi6pva" target="_blank">1.3.8</a>
+&nbsp;<a href="https://www.lanzout.com/i4iAB0kgkaxa" target="_blank">1.3.6</a>
 &nbsp;<a href="https://www.typora.io/windows/typora-setup-ia32.exe" target="_blank">官网32位</a>
 &nbsp;<a href="https://www.typora.io/windows/typora-setup-x64.exe" target="_blank">官网64位</a>
 </details>
