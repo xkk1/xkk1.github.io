@@ -182,7 +182,9 @@ Typora - 一个 Markdown 编辑器，Markdown 阅读器。
 </summary>
 <b>官网[English]：</b><a href="https://www.typora.io/" target="_blank">https://www.typora.io/</a><br />
 <b>下载地址:</b><br />
-<a href="https://xiaokuku.lanzout.com/ijKls0oi6pva" target="_blank">1.3.8</a>
+<a href="https://xiaokuku.lanzout.com/iU1t50x0ujve" target="_blank">1.5以下补丁winmm.dll</a>
+&nbsp;<a href="https://xiaokuku.lanzout.com/inPkL0x0uggb" target="_blank">1.5.12x64</a>(<a href="https://xiaokuku.lanzout.com/inUes0x0tv6f" target="_blank">x32</a>)
+&nbsp;<a href="https://xiaokuku.lanzout.com/ijKls0oi6pva" target="_blank">1.3.8</a>
 &nbsp;<a href="https://www.lanzout.com/i4iAB0kgkaxa" target="_blank">1.3.6</a>
 &nbsp;<a href="https://www.typora.io/windows/typora-setup-ia32.exe" target="_blank">官网32位</a>
 &nbsp;<a href="https://www.typora.io/windows/typora-setup-x64.exe" target="_blank">官网64位</a>
@@ -352,7 +354,7 @@ Zarchiver - 支持多格式的解压压缩工具
 
 
 #### [返回顶部](#begin) [回到目录](#content)  
-<span id="end">更新时间：2023年2月24日23点29分&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈（有Github账号的还可以去[我的网站的留言板](https://xkk1.github.io/message.html)）<span>
+<span id="end">更新时间：2023年5月23日13:32:49&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈（有Github账号的还可以去[我的网站的留言板](https://xkk1.github.io/message.html)）<span>
 
 <!--
 <details>
