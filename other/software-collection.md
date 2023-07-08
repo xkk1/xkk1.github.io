@@ -58,7 +58,8 @@ FastStone Capture - 集截屏、滚动截图、屏幕录制、图片编辑为体
 <b>官网[English]：</b><a href="https://www.faststone.org/FSCaptureDownload.htm" target="_blank">https://www.faststone.org/</a><br />
 <b>官网[中文(简体)]：</b><a href="http://www.faststonecapture.com/" target="_blank">https://www.faststonecapture.cn/</a>(中国区正版授权)<br />
 <b>下载地址:</b><br />
-<a href="https://xiaokuku.lanzout.com/iQFxn10fy4pa" target="_blank">蓝奏云10.0便携版</a>
+<a href="https://xiaokuku.lanzout.com/iS9cD11ngzjg" target="_blank">蓝奏云10.2便携版</a>
+&nbsp;<a href="https://xiaokuku.lanzout.com/iQFxn10fy4pa" target="_blank">蓝奏云10.0便携版</a>
 &nbsp;<a href="https://xiaokuku.lanzout.com/i5u7j0ohj81a" target="_blank">蓝奏云9.9便携版</a>
 &nbsp;<a href="https://www.lanzout.com/irKOZ0kg85uf" target="_blank">蓝奏云9.8绿色版</a>
 &nbsp;<a href="https://www.lanzoui.com/ivbQErotk7c" target="_blank">蓝奏云9.6破解</a>
@@ -355,7 +356,7 @@ Zarchiver - 支持多格式的解压压缩工具
 
 
 #### [返回顶部](#begin) [回到目录](#content)  
-<span id="end">更新时间：2023年6月26日10:56:19&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈（有Github账号的还可以去[我的网站的留言板](https://xkk1.github.io/message.html)）<span>
+<span id="end">更新时间：2023年7月8日12:29:46&nbsp;&nbsp;QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈（有Github账号的还可以去[我的网站的留言板](https://xkk1.github.io/message.html)）<span>
 
 <!--
 <details>
