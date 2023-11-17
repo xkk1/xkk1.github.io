@@ -116,6 +116,7 @@ QQ邮箱 <https://mail.qq.com/>
 微软AI语音合成下载 <https://toolb.cn/textspeech>  
 OneDrive直链获取工具 <https://onedrive.gimhoy.com/>  
 风之暇想博客 - 软件综合分享站 <https://www.fzxx.xyz/>  
+Koodo Reader - 开源电子阅读 <https://reader.960960.xyz/>  
 
 ---
 
@@ -227,4 +228,4 @@ Tulpa之家 <https://tulpa.cn/>
 
 #### [返回顶部](#begin) [回到目录](#目录)
 
-<span id="end">更新时间：2023年2月24日23点35分 QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈（有GitHub账号的还可以去[我的网站的留言板](https://xkk1.github.io/message.html)）<span>
+<span id="end">更新时间：2023-11-17 11:22:28 QQ:3434623263<br>如果您对本页有什么意见或建议，可以到[我的网盘](http://xiaokuku.ys168.com/)留言区反馈（有GitHub账号的还可以去[我的网站的留言板](https://xkk1.github.io/message.html)）<span>
