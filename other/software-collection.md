@@ -58,7 +58,8 @@ FastStone Capture - 集截屏、滚动截图、图片编辑、屏幕录制、屏
 <b>官网[English]：</b><a href="https://www.faststone.org/FSCaptureDownload.htm" target="_blank">https://www.faststone.org/</a><br />
 <b>官网[中文(简体)]：</b><a href="http://www.faststonecapture.com/" target="_blank">https://www.faststonecapture.cn/</a>(中国区正版授权)<br />
 <b>下载地址:</b><br />
-<a href="https://xiaokuku.lanzout.com/iS4wz25rc6pi" target="_blank">蓝奏云10.6便携版</a>
+<a href="https://xiaokuku.lanzout.com/iH7gN2a39bta" target="_blank">蓝奏云10.7便携版</a>
+&nbsp;<a href="https://xiaokuku.lanzout.com/iS4wz25rc6pi" target="_blank">蓝奏云10.6便携版</a>
 &nbsp;<a href="https://xiaokuku.lanzout.com/iFTsr1er0ryj" target="_blank">蓝奏云10.3便携版</a>
 &nbsp;<a href="https://xiaokuku.lanzout.com/iS9cD11ngzjg" target="_blank">蓝奏云10.2便携版</a>
 &nbsp;<a href="https://xiaokuku.lanzout.com/iQFxn10fy4pa" target="_blank">蓝奏云10.0便携版</a>
