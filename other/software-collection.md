@@ -189,13 +189,18 @@ Carnac - 将当前的按键操作显示在电脑屏幕上
 Typora - 一个 Markdown 编辑器，Markdown 阅读器。
 </summary>
 <b>官网[English]：</b><a href="https://www.typora.io/" target="_blank">https://www.typora.io/</a><br />
+<b>官网[中文(简体)]：</b><a href="https://typoraio.cn/" target="_blank">https://typoraio.cn/</a><br />
 <b>下载地址:</b><br />
-<a href="https://xiaokuku.lanzout.com/iU1t50x0ujve" target="_blank">1.5以下补丁winmm.dll</a>
+<a href="https://typoraio.cn/releases/stable.html" target="_blank">官网稳定版</a>
+<a href="https://xiaokuku.lanzout.com/iXTUG2z4bj6d" target="_blank">1.9.5</a>
+<a href="https://xiaokuku.lanzout.com/isCFx2z4bvla" target="_blank">1.5.12</a>
+<a href="https://xiaokuku.lanzout.com/iPfh32z4bo6d" target="_blank">0.9.98(beta)</a>
+<!-- <a href="https://xiaokuku.lanzout.com/iU1t50x0ujve" target="_blank">1.5以下补丁winmm.dll</a>
 &nbsp;<a href="https://xiaokuku.lanzout.com/inPkL0x0uggb" target="_blank">1.5.12x64</a>(<a href="https://xiaokuku.lanzout.com/inUes0x0tv6f" target="_blank">x32</a>)
 &nbsp;<a href="https://xiaokuku.lanzout.com/ijKls0oi6pva" target="_blank">1.3.8</a>
 &nbsp;<a href="https://www.lanzout.com/i4iAB0kgkaxa" target="_blank">1.3.6</a>
 &nbsp;<a href="https://www.typora.io/windows/typora-setup-ia32.exe" target="_blank">官网32位</a>
-&nbsp;<a href="https://www.typora.io/windows/typora-setup-x64.exe" target="_blank">官网64位</a>
+&nbsp;<a href="https://www.typora.io/windows/typora-setup-x64.exe" target="_blank">官网64位</a> -->
 </details>
 
 <details>
