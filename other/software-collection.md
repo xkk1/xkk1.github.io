@@ -58,17 +58,18 @@ FastStone Capture - 集截屏、滚动截图、图片编辑、屏幕录制、屏
 <b>官网[English]：</b><a href="https://www.faststone.org/FSCaptureDownload.htm" target="_blank">https://www.faststone.org/</a><br />
 <b>官网[中文(简体)]：</b><a href="http://www.faststonecapture.com/" target="_blank">https://www.faststonecapture.cn/</a>(中国区正版授权)<br />
 <b>下载地址:</b><br />
+<a href="https://xiaokuku.lanzout.com/iZiPc2z5q9sb" target="_blank">蓝奏云11.0绿色版</a>
 <a href="https://xiaokuku.lanzout.com/izpNX2fprmhe" target="_blank">蓝奏云10.8便携版</a>
-&nbsp;<a href="https://xiaokuku.lanzout.com/iH7gN2a39bta" target="_blank">蓝奏云10.7便携版</a>
-&nbsp;<a href="https://xiaokuku.lanzout.com/iS4wz25rc6pi" target="_blank">蓝奏云10.6便携版</a>
-&nbsp;<a href="https://xiaokuku.lanzout.com/iFTsr1er0ryj" target="_blank">蓝奏云10.3便携版</a>
-&nbsp;<a href="https://xiaokuku.lanzout.com/iS9cD11ngzjg" target="_blank">蓝奏云10.2便携版</a>
-&nbsp;<a href="https://xiaokuku.lanzout.com/iQFxn10fy4pa" target="_blank">蓝奏云10.0便携版</a>
-&nbsp;<a href="https://xiaokuku.lanzout.com/i5u7j0ohj81a" target="_blank">蓝奏云9.9便携版</a>
-&nbsp;<a href="https://www.lanzout.com/irKOZ0kg85uf" target="_blank">蓝奏云9.8绿色版</a>
-&nbsp;<a href="https://www.lanzoui.com/ivbQErotk7c" target="_blank">蓝奏云9.6破解</a>
-&nbsp;<a href="https://www.lanzoui.com/icrNDrpnaje" target="_blank">蓝奏云中国9.3破解</a>
-&nbsp;<a href="https://www.lanzoui.com/i1fsvip9hxc" target="_blank">蓝奏云7.3</a><br />
+<a href="https://xiaokuku.lanzout.com/iH7gN2a39bta" target="_blank">蓝奏云10.7便携版</a>
+<a href="https://xiaokuku.lanzout.com/iS4wz25rc6pi" target="_blank">蓝奏云10.6便携版</a>
+<a href="https://xiaokuku.lanzout.com/iFTsr1er0ryj" target="_blank">蓝奏云10.3便携版</a>
+<a href="https://xiaokuku.lanzout.com/iS9cD11ngzjg" target="_blank">蓝奏云10.2便携版</a>
+<a href="https://xiaokuku.lanzout.com/iQFxn10fy4pa" target="_blank">蓝奏云10.0便携版</a>
+<a href="https://xiaokuku.lanzout.com/i5u7j0ohj81a" target="_blank">蓝奏云9.9便携版</a>
+<a href="https://www.lanzout.com/irKOZ0kg85uf" target="_blank">蓝奏云9.8绿色版</a>
+<a href="https://www.lanzoui.com/ivbQErotk7c" target="_blank">蓝奏云9.6破解</a>
+<a href="https://www.lanzoui.com/icrNDrpnaje" target="_blank">蓝奏云中国9.3破解</a>
+<a href="https://www.lanzoui.com/i1fsvip9hxc" target="_blank">蓝奏云7.3</a><br />
 注册机：<a href="https://xiaokuku.lanzout.com/iSTgb11ni0mb" target="_blank">FastStone Products Keygen</a>
 </details>
 
