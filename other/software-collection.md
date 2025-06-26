@@ -1,6 +1,6 @@
 # <span id="begin">软件收藏</span>
 
-### [返回主页](https://xkk1.github.io/)[（gitee）](https://xkk1.gitee.io/)　　[返回其他](https://xkk1.github.io/other/)
+### [返回主页](https://xkk1.github.io/) [返回其他](https://xkk1.github.io/other/)
 
 ---
 
@@ -47,6 +47,9 @@ Internet Download Manager (IDM) - 最快的下载加速器
 <b>下载地址:</b><br />
 <b>官网[English]：</b><a href="https://www.7-zip.org/" target="_blank">https://www.7-zip.org/</a><br />
 <b>官网[中文(简体)]：</b><a href="https://sparanoid.com/lab/7z/" target="_blank">https://sparanoid.com/lab/7z/</a><br />
+<b>Windows 11 推荐：</b>
+<a href="https://apps.microsoft.com/detail/9n8g7tscl18r?hl=zh-cn&gl=CN" target="_blank">NanaZip</a>
+<a href="https://apps.microsoft.com/detail/9nzl0lrp1bnl?hl=zh-cn&gl=CN" target="_blank">NanaZip Preview</a><br />
 <a href="https://www.lanzoui.com/iVQ2ol7f8sj" target="_blank">蓝奏云32位</a>
 &nbsp;<a href="https://www.lanzoui.com/iNisIip9suf" target="_blank">蓝奏云64位</a>
 </details>
