@@ -1,4 +1,4 @@
-name: Mirror to GitLab
+name: Mirror to JihuLab
 
 on:
   push:
@@ -9,14 +9,14 @@ jobs:
   mirror-sync:
     runs-on: ubuntu-latest
     steps:
-    - name: Configure SSH for GitLab
+    - name: Configure SSH for JihuLab
       env:
-        SSH_PRIVATE_KEY: ${{ secrets.GITLAB_SSH_PRIVATE_KEY }}
+        SSH_PRIVATE_KEY: ${{ secrets.JIHULAB_SSH_PRIVATE_KEY }}
       run: |
         mkdir -p ~/.ssh
         echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_ed25519
         chmod 600 ~/.ssh/id_ed25519
-        echo -e "Host gitlab.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+        echo -e "Host jihulab.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
         
     - name: Create Bare Mirror Repository
       run: |
@@ -29,16 +29,16 @@ jobs:
         git clone --bare https://github.com/xkk1/xkk1.github.io.git $TEMP_DIR
         echo "裸镜像仓库创建完成！"
         
-    - name: Push Mirror to GitLab
+    - name: Push Mirror to JihuLab
       run: |
-        echo "正在将裸镜像推送到GitLab..."
+        echo "正在将裸镜像推送到 JihuLab..."
         cd ${{ env.TEMP_DIR }}
         
-        # 添加GitLab远程仓库
-        git remote add gitlab git@gitlab.com:xkk1/xkk1.gitlab.io.git
+        # 添加 JihuLab 远程仓库
+        git remote add jihulab git@jihulab.com:xkk1/xkk1.jihulab.io.git
         
-        # 推送完整镜像到GitLab
-        git push --mirror gitlab
+        # 推送完整镜像到 JihuLab
+        git push --mirror jihulab
         echo "镜像推送成功！"
         
     - name: Cleanup Temporary Directory

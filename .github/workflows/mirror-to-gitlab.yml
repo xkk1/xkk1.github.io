@@ -1,0 +1,48 @@
+name: Mirror to GitLab
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  mirror-sync:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Configure SSH for GitLab
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.GITLAB_SSH_PRIVATE_KEY }}
+      run: |
+        mkdir -p ~/.ssh
+        echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_ed25519
+        chmod 600 ~/.ssh/id_ed25519
+        echo -e "Host gitlab.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+        
+    - name: Create Bare Mirror Repository
+      run: |
+        # 创建临时目录
+        TEMP_DIR=$(mktemp -d)
+        echo "TEMP_DIR=$TEMP_DIR" >> $GITHUB_ENV
+        
+        # 克隆GitHub仓库的裸镜像
+        echo "正在创建裸镜像仓库..."
+        git clone --bare https://github.com/xkk1/xkk1.github.io.git $TEMP_DIR
+        echo "裸镜像仓库创建完成！"
+        
+    - name: Push Mirror to GitLab
+      run: |
+        echo "正在将裸镜像推送到 GitLab..."
+        cd ${{ env.TEMP_DIR }}
+        
+        # 添加 GitLab 远程仓库
+        git remote add gitlab git@gitlab.com:xkk1/xkk1.gitlab.io.git
+        
+        # 推送完整镜像到 GitLab
+        git push --mirror gitlab
+        echo "镜像推送成功！"
+        
+    - name: Cleanup Temporary Directory
+      run: |
+        echo "正在清理临时目录..."
+        rm -rf ${{ env.TEMP_DIR }}
+        echo "清理完成！"
