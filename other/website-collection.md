@@ -135,6 +135,8 @@ OneDrive直链获取工具 <https://onedrive.gimhoy.com/>
 薄荷图床 <https://riyugo.com/> 免费版链接有效期为 3天  
 ~~Gimhoy图床 <https://pic.gimhoy.com/> 须微博登录~~  
 ~~67云图库 <https://img.67w.top/> 须注册登录~~  
+Telegraph-Image <https://im.gurl.eu.org/> [GitHub](https://github.com/cf-pages/Telegraph-Image)  
+小喾苦 ↑ <https://telegraph-image-xkk1.pages.dev/> [管理](https://telegraph-image-xkk1.pages.dev/admin)  
 图床测试 <http://simp.ly/p/51g4JF>
 
 ---
