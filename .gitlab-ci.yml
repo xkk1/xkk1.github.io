@@ -48,6 +48,7 @@
 #     - echo "Deploying application..."
 #     - echo "Application successfully deployed."
 
+# GitLab Pages
 pages:
   stage: deploy
   script:
