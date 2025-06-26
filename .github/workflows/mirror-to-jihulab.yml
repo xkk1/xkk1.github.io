@@ -35,7 +35,7 @@ jobs:
         cd ${{ env.TEMP_DIR }}
         
         # 添加 JihuLab 远程仓库
-        git remote add jihulab git@jihulab.com:xkk1/xkk1.jihulab.io.git
+        git remote add jihulab git@jihulab.com:xkk1/xkk1.pages.jihulab.net.git
         
         # 推送完整镜像到 JihuLab
         git push --mirror jihulab
