@@ -1,0 +1,29 @@
+name: Sync to GitLab
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  mirror-sync:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout GitHub repo
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # 获取完整历史记录
+
+    - name: Configure SSH for GitLab
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.GITLAB_SSH_PRIVATE_KEY }}
+      run: |
+        mkdir -p ~/.ssh
+        echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_ed25519
+        chmod 600 ~/.ssh/id_ed25519
+        ssh-keyscan gitlab.com >> ~/.ssh/known_hosts
+        
+    - name: Mirror to GitLab
+      run: |
+        git remote add gitlab git@gitlab.com:xkk1/xkk1.gitlab.io.git
+        git push --mirror gitlab
