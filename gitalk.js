@@ -128,11 +128,13 @@ const OAuth_apps = {
 };
 
 document.addEventListener('DOMContentLoaded', (event) => {
-  let idString = window.location.pathname; // 初始化 idString
+  let idString = decodeURI(window.location.pathname); // 初始化 idString
+  // 如果是 markdown 页面，则获取 URL 中的 md 参数，构建相应的 html 页面路径
   if (idString === "/md/") {
-    let markdownURL = getQueryVariable("md");
+    let markdownURL = decodeURI(getQueryVariable("md"));
     if (markdownURL) {
       idString = markdownURL;
+      console.log("markdownURL: " + markdownURL);
       if (idString.startsWith("https://") || idString.startsWith("http://") || idString.startsWith("//") || idString.startsWith("www.")) {
         console.log("外来链接，不加载 Gitalk");
         return;
@@ -156,9 +158,15 @@ document.addEventListener('DOMContentLoaded', (event) => {
       }
     }
   }
+  // 以 "/index.html" 结尾，则去除 "index.html"
   if (idString.endsWith("/index.html")) {
     idString = idString.substring(0, idString.length - 10);
   }
+  // 不以 ".html" 结尾，则加上 ".html"
+  if (!idString.endsWith(".html") && !idString.endsWith("/")) {
+    idString += ".html";
+  }
+  console.log("idString: " + idString);
   // 长度大于 50 ，使用 sha1
   if (idString.length > 50) {
     idString = sha1(idString);
@@ -178,13 +186,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
       clientSecret: OAuth_app["clientSecret"], // GitHub Application Client Secret
       repo: 'xkk1.github.io', // 存放评论的仓库
       owner: 'xkk1', // 仓库的创建者，
-      admin: ['xkk1', 'lubiandewoheni'], // 如果仓库有多个人可以操作，那么在这里以数组形式写出
+      admin: ['xkk1'], // 如果仓库有多个人可以操作，那么在这里以数组形式写出
       labels: ['Gitalk'], //GitHub issue 的标签。
       perPage: 20, //每次加载的数据大小，最多 100。
       language: 'zh-CN', //设置语言，支持 [en, zh-CN, zh-TW, es-ES, fr, ru, de, pl, ko]
       createIssueManually: true, //如果当前页面没有相应的 isssue 且登录的用户属于 admin，则会自动创建 issue。如果设置为 true，则显示一个初始化页面，创建 issue 需要点击 init 按钮。
     })
     gitalk.render('gitalk-container')
-    console.log("Gitalk 已加载，id: " + idString);
+    console.log("加载 Gitalk，id: " + idString);
   });
 });
