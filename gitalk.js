@@ -176,12 +176,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
       id: idString, // 用于标记评论是哪个页面的，确保唯一，并且长度小于50
       clientID: OAuth_app["clientID"], // GitHub Application Client ID
       clientSecret: OAuth_app["clientSecret"], // GitHub Application Client Secret
-      repo: 'gitalk-comments', // 存放评论的仓库
+      repo: 'xkk1.github.io', // 存放评论的仓库
       owner: 'xkk1', // 仓库的创建者，
       admin: ['xkk1', 'lubiandewoheni'], // 如果仓库有多个人可以操作，那么在这里以数组形式写出
       labels: ['Gitalk'], //GitHub issue 的标签。
       perPage: 20, //每次加载的数据大小，最多 100。
       language: 'zh-CN', //设置语言，支持 [en, zh-CN, zh-TW, es-ES, fr, ru, de, pl, ko]
+      createIssueManually: true, //如果当前页面没有相应的 isssue 且登录的用户属于 admin，则会自动创建 issue。如果设置为 true，则显示一个初始化页面，创建 issue 需要点击 init 按钮。
     })
     gitalk.render('gitalk-container')
     console.log("Gitalk 已加载，id: " + idString);
