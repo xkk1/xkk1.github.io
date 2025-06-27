@@ -1,3 +1,27 @@
+:root {
+  color-scheme: light;
+  --color-primary: rgb(2, 110, 0);
+  --color-primary-container: rgb(119, 255, 97);
+  --color-on-primary-container: rgb(0, 34, 0);
+  --color-secondary: rgb(84, 99, 77);
+  --color-secondary-container: rgb(215, 232, 205);
+  --color-on-secondary-container: rgb(18, 31, 14);
+  --color-background: rgb(252, 253, 246);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --color-primary: rgb(2, 230, 0);
+    --color-primary-container: rgb(1, 83, 0);
+    --color-on-primary-container: rgb(119, 255, 97);
+    --color-secondary: rgb(187, 203, 178);
+    --color-secondary-container: rgb(60, 75, 55);
+    --color-on-secondary-container: rgb(215, 232, 205);
+    --color-background: rgb(26, 28, 24);
+  }
+}
+
 html,
 body {
   margin: 0;
@@ -8,12 +32,37 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  background-color: #eafed0;
+  background-color: var(--color-background);
+}
+
+.xkk_h1 {
+  margin: 0;
+  padding: 1.5rem 0;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.xkk_p {
+  margin: 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.xkk_p a {
+  color: var(--color-primary);
 }
 
 .xkk_header {
   margin: 0;
   padding: 0 1rem;
+}
+
+.xkk_header .xkk_h1 {
+  padding-top: 0.5rem;
+}
+
+.xkk_header a {
+  color: var(--color-secondary);
 }
 
 .xkk_main {
@@ -23,21 +72,34 @@ body {
   max-width: 64rem;
 }
 
+.xkk_main .xkk_p {
+  border-radius: 0.5rem;
+}
+
+.xkk_main a {
+  color: var(--color-primary);
+}
+
+
 .xkk_footer {
-  text-align: center;
+  margin-top: 2rem;
   font-size: 1rem;
-  color: gray;
-  padding-top: 2rem;
+  text-align: center;
+  color: var(--color-on-secondary-container);
+  background-color: var(--color-secondary-container);
 }
 
-.xkk_h1 {
-  color: orange;
-  text-align: center;
-  font-size: 2rem;
+.xkk_footer .xkk_p {
+  margin: 0;
+  padding: 0.25rem;
+  border-radius: 0;
+  font-size: 1rem;
+  color: var(--color-secondary);
+  background-color: var(--color-secondary-container);
 }
 
-.xkk_p {
-  font-size: 1rem;
+.xkk_footer .xkk_p a {
+  color: var(--color-secondary);
 }
 
 .text-center {

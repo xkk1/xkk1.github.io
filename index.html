@@ -5,10 +5,9 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!--描述-->
   <meta name="description" content="小喾苦的网站" />
-  <!--关键词-->
   <meta name="keywords" content="小喾苦, 个人网站, 小喾苦的网站" />
+  <link rel="stylesheet" type="text/css" href="../main.css" />
   <title>小喾苦的网站</title>
 </head>
 
@@ -34,76 +33,38 @@
       <a href="https://xkk1.github.io/2021/08/25/blog.html" target="_blank">博客</a> | <a href="./about.html">关于</a>
     </p>
     <!-- 一言 -->
-    <div id="hitokoto">
-      <a href="#" id="hitokoto_link" target=_blank>
-        <p id="hitokoto_text" class="text-center"></p>
-        <p id="hitokoto_information" class="text-center"></p>
+    <div id="hitokoto" class="xkk_p" style="font-size: 1rem;">
+      <a href="#" id="hitokoto_link" class=" text-center" target=_blank>
+        <p id="hitokoto_text"></p>
+        <p id="hitokoto_information"></p>
       </a>
       <a href="javascript:;" onclick="set_hitokoto()">换一换</a>
     </div>
-    <br />
-    <p class="text-center">
+  </main>
+  <footer class="xkk_footer">
+    <p class="xkk_p text-center" style="font-size: 1rem;">
       <span id="busuanzi_container_page_pv">本文总阅读量<span id="busuanzi_value_page_pv">?</span>次</span>、
       <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv">?</span>次</span>、
       <span id="busuanzi_container_site_uv">本站总访客数<span id="busuanzi_value_site_uv">?</span>人</span>
       <br \>
       本站已在风雨中度过：<span id="sitetime">?年?天?小时?分钟?秒（正在加载...）</span>
     </p>
-  </main>
-  <footer class="xkk_footer">
-    <a href="https://xkk1.github.io/" target="_blank">GitHub</a> |
-    <a href="https://xkk1.gitlab.io/" target="_blank">GitLab</a> |
-    <a href="https://xkk1.pages.dev/" target="_blank">Cloudflare</a> |
-    <a href="https://xkk1.pages.jihulab.net/" target="_blank">JihuLab</a>
+    <p class="xkk_p text-center">
+      <a href="https://xkk1.github.io/" target="_blank">GitHub</a> |
+      <a href="https://xkk1.gitlab.io/" target="_blank">GitLab</a> |
+      <a href="https://xkk1.pages.dev/" target="_blank">Cloudflare</a> |
+      <a href="https://xkk1.pages.jihulab.net/" target="_blank">JihuLab</a>
+    </p>
   </footer>
 
   <style type="text/css">
-    html,
-    body {
-      padding: 0;
-      margin: 0;
-      min-height: 100vh;
-    }
-
-    body {
-      display: flex;
-      flex-direction: column;
-      background-color: #eafed0;
-    }
-
-    .xkk_header {
-      margin: 0;
-      padding: 0 1rem;
-    }
-
-    .xkk_main {
-      flex: 1;
-      margin: 0 auto;
-      padding: 0 1rem;
-      max-width: 64rem;
-    }
-
-    .xkk_footer {
-      text-align: center;
-      font-size: 1rem;
-      color: gray;
-      padding-top: 2rem;
-    }
-
-    .xkk_h1 {
-      margin-bottom: 0;
-      color: orange;
-      text-align: center;
+    .xkk_header .xkk_h1 {
+      padding: 2rem;
       font-size: 2.5rem;
     }
 
     .xkk_p {
-      text-align: center;
       font-size: 1.25rem;
-    }
-
-    .text-center {
-      text-align: center;
     }
 
     #hitokoto {
@@ -112,8 +73,8 @@
     }
 
     #hitokoto_link {
+      color: inherit;
       text-decoration: none;
-      color: black;
     }
   </style>
   <script>
@@ -126,7 +87,7 @@
           document.getElementById("hitokoto_text").textContent = data.hitokoto;
           if (!data.from_who) {data.from_who = "";}
           document.getElementById("hitokoto_information").textContent = `—— ${data.from_who}「${data.from}」`;
-          document.getElementById("hitokoto").style.display = "inline";
+          document.getElementById("hitokoto").style.display = "block";
         })
       .catch(console.error)
     }
