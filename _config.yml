@@ -2,7 +2,7 @@ author: 小喾苦
 title: 小喾苦的网站
 description: 欢迎来到小喾苦的个人网站
 theme: jekyll-theme-cayman
-repository: https://github.com/xkk1/xkk1.github.io
+repository: xkk1/xkk1.github.io
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme
