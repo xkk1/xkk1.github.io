@@ -129,9 +129,6 @@ const OAuth_apps = {
 
 document.addEventListener('DOMContentLoaded', (event) => {
   let idString = window.location.pathname; // 初始化 idString
-  if (idString.endsWith("/index.html")) {
-    idString = idString.substring(0, idString.length - 10);
-  }
   if (idString === "/md/") {
     let markdownURL = getQueryVariable("md");
     if (markdownURL) {
@@ -158,6 +155,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
         idString = "/" + idString;
       }
     }
+  }
+  if (idString.endsWith("/index.html")) {
+    idString = idString.substring(0, idString.length - 10);
   }
   // 长度大于 50 ，使用 sha1
   if (idString.length > 50) {
