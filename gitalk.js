@@ -117,7 +117,7 @@ const OAuth_apps = {
     clientID: 'Ov23ligzk47G9PdhaCkT',
     clientSecret: '97f196d35e959ec0dc6825d63ffeb9efa40089d3',
   },
-  "xkk1.netlify.app": { // Netlify Projects
+  "xkk1.netlify.app": { // Netlify
     clientID: 'Ov23lifZ5U3l3WB3o7DQ',
     clientSecret: '0baf815e5c805aa34654afb72189468cc8054bac',
   },
@@ -127,16 +127,16 @@ const OAuth_apps = {
   },
 };
 
-document.addEventListener('DOMContentLoaded', (event) => {
+function loadGitalk() {
   let idString = decodeURI(window.location.pathname); // 初始化 idString
   // 如果是 markdown 页面，则获取 URL 中的 md 参数，构建相应的 html 页面路径
   if (idString === "/md/") {
     let markdownURL = decodeURI(getQueryVariable("md"));
     if (markdownURL) {
       idString = markdownURL;
-      console.log("markdownURL: " + markdownURL);
+      console.info("markdownURL: " + markdownURL);
       if (idString.startsWith("https://") || idString.startsWith("http://") || idString.startsWith("//") || idString.startsWith("www.")) {
-        console.log("外来链接，不加载 Gitalk");
+        console.info("外来链接，不加载 Gitalk");
         return;
       }
       // 将 markdown 扩展名 ".md" 转换为 HTML 扩展名 ".html"
@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
   if (!idString.endsWith(".html") && !idString.endsWith("/")) {
     idString += ".html";
   }
-  console.log("idString: " + idString);
+  console.info("idString: " + idString);
   // 长度大于 50 ，使用 sha1
   if (idString.length > 50) {
     idString = sha1(idString);
@@ -193,6 +193,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
       createIssueManually: true, //如果当前页面没有相应的 isssue 且登录的用户属于 admin，则会自动创建 issue。如果设置为 true，则显示一个初始化页面，创建 issue 需要点击 init 按钮。
     })
     gitalk.render('gitalk-container')
-    console.log("加载 Gitalk，id: " + idString);
+    console.info("加载 Gitalk，id: " + idString);
   });
-});
+}
