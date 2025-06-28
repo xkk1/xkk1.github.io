@@ -1,6 +1,6 @@
 # <span id="begin">软件收藏</span>
 
-### [返回主页](https://xkk1.github.io/) [返回其他](https://xkk1.github.io/other/)
+### [返回主页](/) [返回其他](../other/)
 
 ---
 
