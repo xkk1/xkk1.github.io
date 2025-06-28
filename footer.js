@@ -1,10 +1,11 @@
 function getWebsitesHTML() {
   const websites = {
+    "主站": "https://xkk1.dpdns.org/",
     "GitHub Pages": "https://xkk1.github.io/",
     "GitLab Pages": "https://xkk1.gitlab.io/",
     "Cloudflare Pages": "https://xkk1.pages.dev/",
+    "Netlify": "https://xkk1.netlify.app/",
     "Vercel": "https://xkk1.vercel.app/",
-    // "Netlify": "https://xkk1.netlify.app/",
     "JihuLab Pages": "https://xkk1.pages.jihulab.net/"
   }
   // 创建站点链接 HTML
@@ -19,12 +20,9 @@ function getWebsitesHTML() {
 // 不蒜子 - 极简网页计数器
 function getBusuanziHTML() {
   return `
-<span id="busuanzi_container" style="display: none;">
   <span id="busuanzi_container_page_pv">本文总阅读量<span id="busuanzi_value_page_pv">?</span>次</span>、
   <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv">?</span>次</span>、
   <span id="busuanzi_container_site_uv">本站总访客数<span id="busuanzi_value_site_uv">?</span>人</span>
-  <br />
-</span>
 `.trim();
 }
 
@@ -42,15 +40,26 @@ function initFooterElement() {
   }
   
   // 创建 Footer DOM
-  let footerElement = document.createElement('footer');
-  footerElement.className = 'xkk_footer main';
-  document.body.appendChild(footerElement);
+  let footerElement = document.querySelector('footer');
+  if (!footerElement) {
+    footerElement = document.createElement('footer');
+    footerElement.className = 'xkk_footer main';
+    document.body.appendChild(footerElement);
+  }
 
   // 创建 Footer 内容
-  let footerPElement = document.createElement('p');
-  footerPElement.className = 'xkk_p';
-  footerPElement.innerHTML = getBusuanziHTML() + getWebsitesHTML();
-  footerElement.appendChild(footerPElement);
+  // 站点
+  let websitesPElement = document.createElement('p');
+  websitesPElement.className = 'xkk_p';
+  websitesPElement.innerHTML = getWebsitesHTML();
+  footerElement.appendChild(websitesPElement);
+  // 不蒜子
+  let busuanziPElement = document.createElement('p');
+  busuanziPElement.id = 'busuanzi_container'
+  busuanziPElement.className = 'xkk_p';
+  busuanziPElement.style.display = 'none';
+  busuanziPElement.innerHTML = getBusuanziHTML();
+  footerElement.appendChild(busuanziPElement);
 }
 
 // 动态加载 js
@@ -63,7 +72,7 @@ function loadScript(url, callback) {
 
 function loadBusuanzi() {
   loadScript('//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js', function() {
-    document.getElementById('busuanzi_container').style.display = 'inline';
+    document.getElementById('busuanzi_container').style.display = 'block';
     console.info('已加载：不蒜子 - 极简网页计数器');
   })
 }

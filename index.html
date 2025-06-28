@@ -9,6 +9,7 @@
   <meta name="keywords" content="小喾苦, 个人网站, 小喾苦的网站" />
   <link rel="stylesheet" type="text/css" href="../main.css" />
   <title>小喾苦的网站</title>
+  <script src="./footer.js"></script>
 </head>
 
 <body>
@@ -42,20 +43,10 @@
     </div>
   </main>
   <footer class="xkk_footer">
-    <p class="xkk_p text-center" style="font-size: 1rem;">
-      <span id="busuanzi_container_page_pv">本文总阅读量<span id="busuanzi_value_page_pv">?</span>次</span>、
-      <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv">?</span>次</span>、
-      <span id="busuanzi_container_site_uv">本站总访客数<span id="busuanzi_value_site_uv">?</span>人</span>
-      <br \>
+    <p class="xkk_p">
       本站已在风雨中度过：<span id="sitetime">?年?天?小时?分钟?秒（正在加载...）</span>
     </p>
-    <p class="xkk_p text-center" style="font-size: 1rem;">
-      <a href="https://xkk1.github.io/" target="_blank">GitHub Pages</a> |
-      <a href="https://xkk1.gitlab.io/" target="_blank">GitLab Pages</a> |
-      <a href="https://xkk1.pages.dev/" target="_blank">Cloudflare Pages</a> |
-      <a href="https://xkk1.netlify.app/" target="_blank">Netlify</a> |
-      <a href="https://xkk1.pages.jihulab.net/" target="_blank">JihuLab Pages</a>
-      <br />
+    <p class="xkk_p">
       <a href="https://github.com/xkk1/xkk1.github.io" target="_blank">GitHub</a> |
       <a href="https://gitlab.com/xkk1/xkk1.gitlab.io" target="_blank">GitLab</a> |
       <a href="https://jihulab.com/xkk1/xkk1.pages.jihulab.net" target="_blank">JihuLab（极狐）</a> |
@@ -72,6 +63,11 @@
 
     .xkk_p {
       font-size: 1.25rem;
+    }
+
+    .xkk_footer .xkk_p {
+      text-align: center;
+      font-size: 1rem;
     }
 
     #hitokoto {
@@ -134,7 +130,6 @@
     }
     siteTime();
   </script>
-  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </body>
 
 </html>

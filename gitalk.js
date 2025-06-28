@@ -101,6 +101,10 @@ function sha1(s) {
 
 // https://github.com/settings/applications/new
 const OAuth_apps = {
+  "xkk1.dpdns.org" : { // xkk1.dpdns.org
+    clientID: 'Ov23liGZr2y62UVzIEDe',
+    clientSecret: 'f6035460d01847aa62c92cf4e42f8b8cb9d6d919',
+  },
   "127.0.0.1:5500": { // VSCode Live Server
     clientID: 'Ov23liCbdpmb3h3u0Pn1',
     clientSecret: '33034260d6bc8e66682ca93983415463d37d3178',
@@ -120,6 +124,10 @@ const OAuth_apps = {
   "xkk1.netlify.app": { // Netlify
     clientID: 'Ov23lifZ5U3l3WB3o7DQ',
     clientSecret: '0baf815e5c805aa34654afb72189468cc8054bac',
+  },
+  "xkk1.vercel.app": { // Vercel
+    clientID: 'Ov23li43ipbTan1BMWVe',
+    clientSecret: 'a3f1a5f4f12adb87fd5871a8ff5ee9b7a9efc470',
   },
   "xkk1.pages.jihulab.net": { // JihuLab Pages
     clientID: 'Ov23li6knFpEfeI1biL2',
