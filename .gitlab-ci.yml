@@ -56,6 +56,9 @@ pages:
     - cp -r ./* .public
     - rm -rf public
     - mv .public public
+    # 提供压缩的 assets
+    - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\|md\)$' -exec gzip -f -k {} \;
+    - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\|md\)$' -exec brotli -f -k {} \;
   artifacts:
     paths:
       - public
