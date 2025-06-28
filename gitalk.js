@@ -101,7 +101,27 @@ function sha1(s) {
 
 // https://github.com/settings/applications/new
 const OAuth_apps = {
-  "xkk1.dpdns.org" : { // xkk1.dpdns.org
+  "120107.xyz" : { // https://120107.xyz/
+    clientID: 'Ov23li2XL98s8NYVR9Dv',
+    clientSecret: 'aab3a8b596fc99cf33f719bacae067e404f1ce30',
+  },
+  "www.120107.xyz" : { // https://www.120107.xyz/
+    clientID: 'Ov23liSUDaFga29WQNFV',
+    clientSecret: '68091c204d37b077f7bbdf3a3d06ea2742237ec2',
+  },
+  "vercel.120107.xyz" : { // https://vercel.120107.xyz/
+    clientID: 'Ov23lizcRyp5CRalDVxw',
+    clientSecret: '1c02634e52e7d267c91d9732b17b5fbfeb50966f',
+  },
+  "netlify.120107.xyz" : { // https://netlify.120107.xyz/
+    clientID: 'Ov23liv6Xgsc7xttrCXy',
+    clientSecret: '23de74027e1254e516ec864113df02e551133e8b',
+  },
+  "gitlab.120107.xyz" : { // https://gitlab.120107.xyz/
+    clientID: 'Ov23lifRdppPf44yjtfm',
+    clientSecret: 'e0bffdde159c5826042d7e9306354578c93b58d6',
+  },
+  "xkk1.dpdns.org" : { // https://xkk1.dpdns.org/
     clientID: 'Ov23liGZr2y62UVzIEDe',
     clientSecret: 'f6035460d01847aa62c92cf4e42f8b8cb9d6d919',
   },

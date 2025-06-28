@@ -1,6 +1,11 @@
 function getWebsitesHTML() {
   const websites = {
-    "主站": "https://xkk1.dpdns.org/",
+    "主站": "https://120107.xyz/",
+    "副站": "https://xkk1.dpdns.org/",
+    "线路1": "https://www.120107.xyz/",
+    "线路2": "https://vercel.120107.xyz/",
+    "线路3": "https://netlify.120107.xyz/",
+    "线路4": "https://gitlab.120107.xyz/",
     "GitHub Pages": "https://xkk1.github.io/",
     "GitLab Pages": "https://xkk1.gitlab.io/",
     "Cloudflare Pages": "https://xkk1.pages.dev/",

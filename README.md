@@ -1,7 +1,11 @@
 # 小喾苦的网站
 
-https://xkk1.dpdns.org/  
-GitHub Pages: https://xkk1.github.io/  
+主站: https://120107.xyz/ 或 https://xkk1.dpdns.org/  
+线路1: https://www.120107.xyz/  
+线路2: https://vercel.120107.xyz/  
+线路3: https://netlify.120107.xyz/  
+线路4: https://gitlab.120107.xyz/  
+GitHub Pages: https://xkk1.github.io/ （或 https://github.120107.xyz/ 重定向）  
 GitLab Pages: https://xkk1.gitlab.io/  
 Cloudflare Pages: https://xkk1.pages.dev/  
 Netlify: https://xkk1.netlify.app/  
