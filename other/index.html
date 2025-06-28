@@ -62,7 +62,7 @@ document.getElementById("adult").href = "https://xkk1.github.io/R"+"18/";
 document.getElementById("adult-set").href = "https://xkk1.github.io/R"+"18/set.html";
 var verification = false;
 function toopen() {
-    if(window.btoa(encodeURI(document.getElementById("password").value)).replace(/[A-Z]|=/g,"").replace("x","kk").replace("zz","x")=="xkk"){
+    if(window.btoa(encodeURIComponent(document.getElementById("password").value)).replace(/[A-Z]|=/g,"").replace("x","kk").replace("zz","x")=="xkk"){
         document.getElementById("secret_information").style.display = "";
         document.getElementById("secret").style.display = "none";
         verification = true;

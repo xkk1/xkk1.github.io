@@ -70,7 +70,7 @@
             document.getElementById('message').textContent = `找到 Markdown 版本，即将跳转到: ${markdownPath}`;
             // 延迟1秒后跳转，让用户看到提示
             setTimeout(function() {
-                window.location.href = "/md/?md=" + encodeURI(markdownPath);
+                window.location.href = "/md/?md=" + encodeURIComponent(markdownPath);
             }, 1000);
         } else {
             // 文件不存在

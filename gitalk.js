@@ -5,7 +5,7 @@ function getQueryVariable(variable) {
   for (var i = 0; i < vars.length; i++) {
     var pair = vars[i].split("=");
     if (pair[0] == variable) {
-      return decodeURI(pair[1]);
+      return decodeURIComponent(pair[1]);
     }
   }
   return null;
@@ -156,10 +156,10 @@ const OAuth_apps = {
 };
 
 function loadGitalk() {
-  let idString = decodeURI(window.location.pathname); // 初始化 idString
+  let idString = decodeURIComponent(window.location.pathname); // 初始化 idString
   // 如果是 markdown 页面，则获取 URL 中的 md 参数，构建相应的 html 页面路径
   if (idString === "/md/") {
-    let markdownURL = decodeURI(getQueryVariable("md"));
+    let markdownURL = getQueryVariable("md");
     if (markdownURL) {
       idString = markdownURL;
       console.info("markdownURL: " + markdownURL);
