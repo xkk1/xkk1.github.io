@@ -86,6 +86,7 @@ function loadGiscus(idString) {
   idString = idString || decodeURIComponent(window.location.pathname); // 初始化 idString
   // 调用函数加载 giscus 脚本
   giscusOptions.dataAttrs["data-term"] = idString;
+  console.info("giscus data-term: " + idString);
   loadScriptGiscus('https://giscus.app/client.js', giscusOptions, () => {
     console.info('giscus 脚本加载完成，可初始化交互');
   });

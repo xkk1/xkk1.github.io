@@ -157,9 +157,9 @@ const OAuth_apps = {
 
 function loadGitalk(idString) {
   idString = idString || decodeURIComponent(window.location.pathname); // 初始化 idString
-  console.info("Gitalk idString: " + idString);
   // 长度大于 50 ，使用 sha1
   if (idString.length > 50) {
+    console.info("Gitalk idString: " + idString);
     idString = sha1(idString);
   }
   // 动态加载 Gitalk

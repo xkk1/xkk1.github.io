@@ -97,6 +97,7 @@ function getBusuanziHTML() {
   if (!idString.endsWith(".html") && !idString.endsWith("/")) {
     idString += ".html";
   }
+  console.info("idString: " + idString);
   // 暴露到全局的唯一命名空间
   window.footerJs = {
     currentScriptSrc,
