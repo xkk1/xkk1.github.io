@@ -155,46 +155,9 @@ const OAuth_apps = {
   },
 };
 
-function loadGitalk() {
-  let idString = decodeURIComponent(window.location.pathname); // 初始化 idString
-  // 如果是 markdown 页面，则获取 URL 中的 md 参数，构建相应的 html 页面路径
-  if (idString === "/md/") {
-    let markdownURL = getQueryVariable("md");
-    if (markdownURL) {
-      idString = markdownURL;
-      console.info("markdownURL: " + markdownURL);
-      if (idString.startsWith("https://") || idString.startsWith("http://") || idString.startsWith("//") || idString.startsWith("www.")) {
-        console.info("外来链接，不加载 Gitalk");
-        return;
-      }
-      // 将 markdown 扩展名 ".md" 转换为 HTML 扩展名 ".html"
-      if (idString.endsWith(".md")) {
-        idString = idString.substring(0, idString.length - 2);
-        idString += "html";
-      }
-      // 循环去除 idString 前的相对路径 "../" ，结束时在前面加上 "/"
-      let isRelative = idString.startsWith("../");
-      while (idString.startsWith("../")) {
-        idString = idString.substring(3);
-      }
-      if (isRelative) {
-        idString = "/" + idString;
-      } else if (idString.startsWith(".")) {
-        idString = idString.substring(1);
-      } else if (!idString.startsWith("/")) {
-        idString = "/" + idString;
-      }
-    }
-  }
-  // 以 "/index.html" 结尾，则去除 "index.html"
-  if (idString.endsWith("/index.html")) {
-    idString = idString.substring(0, idString.length - 10);
-  }
-  // 不以 ".html" 结尾，则加上 ".html"
-  if (!idString.endsWith(".html") && !idString.endsWith("/")) {
-    idString += ".html";
-  }
-  console.info("idString: " + idString);
+function loadGitalk(idString) {
+  idString = idString || decodeURIComponent(window.location.pathname); // 初始化 idString
+  console.info("Gitalk idString: " + idString);
   // 长度大于 50 ，使用 sha1
   if (idString.length > 50) {
     idString = sha1(idString);

@@ -1,6 +1,6 @@
 # 网站收藏
 
-### <span id="begin">[返回主页](/) [返回其他](../other/)</span>
+### <span id="begin">[返回主页](../) [返回其他](../other/)</span>
 
 ---
 
