@@ -68,7 +68,7 @@ body {
 .xkk_main {
   flex: 1;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 0.5rem;
   box-sizing: border-box; /* 关键：让 width 包含 padding */
   width: 100%;
   max-width: 64rem;
