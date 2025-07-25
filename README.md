@@ -5,7 +5,8 @@
 线路2: https://vercel.120107.xyz/  
 线路3: https://netlify.120107.xyz/  
 线路4: https://gitlab.120107.xyz/  
-GitHub Pages: https://xkk1.github.io/ （或 https://github.120107.xyz/ 重定向）  
+Tencent EdgeOne Pages: https://edgeone.120107.xyz/  
+GitHub Pages: https://xkk1.github.io/  
 GitLab Pages: https://xkk1.gitlab.io/  
 Cloudflare Pages: https://xkk1.pages.dev/  
 Netlify: https://xkk1.netlify.app/  

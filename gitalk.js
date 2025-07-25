@@ -121,6 +121,10 @@ const OAuth_apps = {
     clientID: 'Ov23lifRdppPf44yjtfm',
     clientSecret: 'e0bffdde159c5826042d7e9306354578c93b58d6',
   },
+  "edgeone.120107.xyz" : { // https://edgeone.120107.xyz/ Tencent EdgeOne Pages
+    clientID: 'Ov23liLOb382nTlWWIhl',
+    clientSecret: '4bab640c9106f32da12b138fb906d47d7e5feeab',
+  },
   "xkk1.dpdns.org" : { // https://xkk1.dpdns.org/
     clientID: 'Ov23liGZr2y62UVzIEDe',
     clientSecret: 'f6035460d01847aa62c92cf4e42f8b8cb9d6d919',
