@@ -12,7 +12,6 @@ function getWebsitesHTML() {
     "Cloudflare Pages": "https://xkk1.pages.dev/",
     "Netlify": "https://xkk1.netlify.app/",
     "Vercel": "https://xkk1.vercel.app/",
-    "JihuLab Pages": "https://xkk1.pages.jihulab.net/"
   }
   // 创建站点链接 HTML
   let siteLinks = Object.entries(websites).map(([websiteName, websiteUrl]) => {
