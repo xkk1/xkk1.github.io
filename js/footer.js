@@ -34,7 +34,7 @@ function getBusuanziHTML() {
 // 获取当前 JS 的完整 URL
 (function () {
   // 步骤 1：获取当前 JS 的完整 URL
-  const currentScriptSrc = document.currentScript.src;
+  const currentScriptSrc = import.meta.url;
   // 步骤 2：解析 URL 并提取目录部分
   function getBasePath(scriptUrl) {
     const url = new URL(scriptUrl);
@@ -48,8 +48,8 @@ function getBusuanziHTML() {
       return `${url.origin}/`;
     }
 
-    // 截取目录部分（包含末尾的斜杠）
-    const dirPath = pathname.substring(0, lastSlashIndex + 1);
+    // 截取目录部分（包含末尾的斜杠）,不包含 js/
+    const dirPath = pathname.substring(0, lastSlashIndex + 1 - 3);
 
     // 组合协议、主机、端口和目录
     return `${url.origin}${dirPath}`;
@@ -62,7 +62,8 @@ function getBusuanziHTML() {
   ))
   // 如果是 markdown 页面，则获取 URL 中的 md 参数，构建相应的 html 页面路径
   if (idString === "/md/") {
-    let markdownURL = getQueryVariable("md");
+    const currentURLParams = new URLSearchParams(window.location.search);
+    let markdownURL = currentURLParams.get("md");
     if (markdownURL) {
       idString = markdownURL;
       console.info("markdownURL: " + markdownURL);
@@ -122,37 +123,61 @@ function loadBusuanzi() {
   })
 }
 
-function loadXkkGitalk() {
-  // 唯一命名空间（避免全局污染）
-  const NAMESPACE = 'xkkGitalk';
-  // 检查全局标记位是否已存在
-  if (window[NAMESPACE]?.loaded) {
-    console.log('Gitalk 已加载，跳过重复执行');
-    return;
-  }
-  // 初始化命名空间对象，标记以及加载过 Gitalk
-  window[NAMESPACE] = { loaded: true };
-  loadScript(footerJs.basePath + "gitalk.js", function () {
-    loadGitalk(footerJs.idString);
+const loadXkkGitalk = (function () {
+  let loaded = false;
+  return function () {
+    if (loaded) {
+      console.log('Gitalk 已加载，跳过重复执行');
+      return;
+    }
+    loaded = true;
     console.info('正在加载：Gitalk - GitHub Issues 评论系统');
-  });
-}
+    import("./gitalk.js")
+      .then((module) => {
+        module.default(footerJs.idString);
+      })
+      .catch((err) => {
+        console.error('Gitalk 加载失败', err);
+        loaded = false;
+      });
+  };
+})();
 
-function loadXkkGiscus() {
-  // 唯一命名空间（避免全局污染）
-  const NAMESPACE = 'xkkGiscus';
-  // 检查全局标记位是否已存在
-  if (window[NAMESPACE]?.loaded) {
-    console.log('giscus 已加载，跳过重复执行');
-    return;
-  }
-  // 初始化命名空间对象标记以及加载过 giscus
-  window[NAMESPACE] = { loaded: true };
-  loadScript(footerJs.basePath + "giscus.js", function () {
-    loadGiscus(footerJs.idString);
+const loadXkkGiscus = (function () {
+  let loaded = false;
+  return function () {
+    if (loaded) {
+      console.log('giscus 已加载，跳过重复执行');
+      return;
+    }
+    loaded = true;
     console.info('正在加载：giscus - GitHub Discussions 评论系统');
-  });
-}
+    import("./giscus.js")
+      .then((module) => {
+        module.default(footerJs.idString);
+      })
+      .catch((err) => {
+        console.error('Gitalk 加载失败', err);
+        loaded = false;
+      });
+  };
+})();
+
+// function loadXkkGiscus2() {
+//   // 唯一命名空间（避免全局污染）
+//   const NAMESPACE = 'xkkGiscus';
+//   // 检查全局标记位是否已存在
+//   if (window[NAMESPACE]?.loaded) {
+//     console.log('giscus 已加载，跳过重复执行');
+//     return;
+//   }
+//   // 初始化命名空间对象标记以及加载过 giscus
+//   window[NAMESPACE] = { loaded: true };
+//   loadScript(footerJs.basePath + "giscus.js", function () {
+//     loadGiscus(footerJs.idString);
+//     console.info('正在加载：giscus - GitHub Discussions 评论系统');
+//   });
+// }
 
 // 初始化 footer Element
 function initFooterElement() {
@@ -233,7 +258,5 @@ function initFooterElement() {
   footerElement.appendChild(busuanziPElement);
 }
 
-document.addEventListener('DOMContentLoaded', (event) => {
-  initFooterElement();
-  loadBusuanzi();
-});
+initFooterElement();
+loadBusuanzi();

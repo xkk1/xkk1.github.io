@@ -82,7 +82,7 @@ let giscusOptions = {
   crossorigin: 'anonymous'
 };
 
-function loadGiscus(idString) {
+export default function loadGiscus(idString) {
   idString = idString || decodeURIComponent(window.location.pathname); // 初始化 idString
   // 调用函数加载 giscus 脚本
   giscusOptions.dataAttrs["data-term"] = idString;

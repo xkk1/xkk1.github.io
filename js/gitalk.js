@@ -159,7 +159,7 @@ const OAuth_apps = {
   },
 };
 
-function loadGitalk(idString) {
+export default function loadGitalk(idString) {
   idString = idString || decodeURIComponent(window.location.pathname); // 初始化 idString
   // 长度大于 50 ，使用 sha1
   if (idString.length > 50) {
