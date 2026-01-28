@@ -167,8 +167,8 @@ function loadGitalk(idString) {
     idString = sha1(idString);
   }
   // 动态加载 Gitalk
-  loadCSS('https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css');
-  loadScript('https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', function () {
+  loadCSS('https://unpkg.com/gitalk/dist/gitalk.css');
+  loadScript('https://unpkg.com/gitalk/dist/gitalk.min.js', function () {
     // OAuth app
     let OAuth_app = OAuth_apps[window.location.host];
     if (!OAuth_app) {
