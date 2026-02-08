@@ -54,6 +54,9 @@ image: node:22.14.0
 
 create-pages:
   stage: build
+  before_script:
+    # 安装 brotli 命令行工具
+    - apt-get update && apt-get install -y brotli
   script:
     # Specify the steps involved to build your app here
     - npm install
