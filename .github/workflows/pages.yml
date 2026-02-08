@@ -21,8 +21,9 @@ jobs:
         with:
           node-version: '24'
 
-      - name: build
+      - name: install & build
         run: |
+          npm install
           npm run build
 
       - name: Upload static files as artifact
