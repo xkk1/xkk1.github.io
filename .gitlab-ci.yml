@@ -49,18 +49,20 @@
 #     - echo "Application successfully deployed."
 
 # GitLab Pages
-pages:
-  stage: deploy
+# The Docker image that will be used to build your app
+image: node:22.14.0
+
+create-pages:
+  stage: build
   script:
-    - mkdir .public
-    - cp -r ./* .public
-    - rm -rf public
-    - mv .public public
+    # Specify the steps involved to build your app here
+    - npm install
+    - npm run build
     # 提供压缩的 assets
-    - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\|md\)$' -exec gzip -f -k {} \;
-    - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\|md\)$' -exec brotli -f -k {} \;
-  artifacts:
-    paths:
-      - public
+    - find dist -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\|md\)$' -exec gzip -f -k {} \;
+    - find dist -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\|md\)$' -exec brotli -f -k {} \;
+  pages:
+    publish: dist  # this path is automatically appended to artifacts:paths
+  # Trigger rules
   rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
