@@ -181,6 +181,11 @@ const loadXkkGiscus = (function () {
 
 // 初始化评论区
 function initCommentSection() {
+  const path = window.location.pathname;
+  if (path === '/' || path === '/index.html') {
+    // 首页，不加载评论区
+    return;
+  }
   // 评论区
   let commentSectionElement = document.querySelector('#comment-section');
   if (!commentSectionElement) {
