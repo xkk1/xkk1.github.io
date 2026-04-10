@@ -179,8 +179,8 @@ const loadXkkGiscus = (function () {
 //   });
 // }
 
-// 初始化 footer Element
-function initFooterElement() {
+// 初始化评论区
+function initCommentSection() {
   // 评论区
   let commentSectionElement = document.querySelector('#comment-section');
   if (!commentSectionElement) {
@@ -233,8 +233,10 @@ function initFooterElement() {
       giscusContainer.style.display = 'block';
     }
   });
+}
 
-
+// 初始化 footer Element
+function initFooterElement() {
   // 创建 Footer DOM
   let footerElement = document.querySelector('footer');
   if (!footerElement) {
@@ -258,5 +260,10 @@ function initFooterElement() {
   footerElement.appendChild(busuanziPElement);
 }
 
+// 初始化
+// Footer
 initFooterElement();
+// 评论区
+initCommentSection();
+// 加载不蒜子
 loadBusuanzi();
