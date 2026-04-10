@@ -260,9 +260,38 @@ function initFooterElement() {
   footerElement.appendChild(busuanziPElement);
 }
 
+// 插入备案信息
+function insertBeian() {
+  const htmlContent = `
+<a href="https://beian.miit.gov.cn/" target="_blank">鲁ICP备2026016228号</a>
+  `.trim();
+  // 创建备案信息 DOM
+  let beianPElement = document.createElement('p');
+  beianPElement.className = 'xkk_p';
+  beianPElement.innerHTML = htmlContent;
+  // 获取 Footer DOM
+  let footerElement = document.querySelector('footer');
+  // 插入备案信息
+  if (footerElement) {
+    footerElement.appendChild(beianPElement);
+  } else {
+    document.body.appendChild(beianPElement);
+  }
+}
+
+// 创建备案信息
+function initBeian() {
+  const hostname = window.location.hostname;
+  if (/^([a-z0-9-]+\.)?xkke\.cn$/.test(hostname)) {
+    insertBeian();
+  }
+}
+
 // 初始化
 // Footer
 initFooterElement();
+// 备案信息
+initBeian();
 // 评论区
 initCommentSection();
 // 加载不蒜子
