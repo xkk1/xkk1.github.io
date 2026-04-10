@@ -1,5 +1,6 @@
 function getWebsitesHTML() {
   const websites = {
+    "主站": "https://www.xkke.cn/",
     "线路1": "https://www.120107.xyz/",
     "线路2": "https://vercel.120107.xyz/",
     "线路3": "https://netlify.120107.xyz/",

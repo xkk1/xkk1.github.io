@@ -101,9 +101,9 @@ function sha1(s) {
 
 // https://github.com/settings/applications/new
 const OAuth_apps = {
-  "120107.xyz" : { // https://120107.xyz/
-    clientID: 'Ov23li2XL98s8NYVR9Dv',
-    clientSecret: 'aab3a8b596fc99cf33f719bacae067e404f1ce30',
+  "www.xkke.cn" : { // https://www.xkke.cn/
+    clientID: 'Ov23liB6JqxHPqogZ2iq',
+    clientSecret: '83c86bcd794b973db827866e05ad889a9438c679',
   },
   "www.120107.xyz" : { // https://www.120107.xyz/
     clientID: 'Ov23liSUDaFga29WQNFV',
